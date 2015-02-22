@@ -23,7 +23,7 @@ NormMax <- function(N = 10000, DIST = rnorm(10000,0,1)) {
  	
  	# Plots the 1-D scatter plot of the M_i
  	title_1 <- "1-D scatter plot of the maxima"
- 	xlabel_1 <- "M_i's"
+ 	xlabel_1 <- expression(M[i])
  	stripchart(ListMax, xlab = xlabel_1, main = title_1)
  	
  	# Opens a new graphic window
@@ -42,11 +42,26 @@ NormMax <- function(N = 10000, DIST = rnorm(10000,0,1)) {
  	# Plot the 1-D scatter plot of the M_i and the M_i against the
  	# i together in a grid.
  	par(mfrow = c(1,2))
+ 	
  	stripchart(ListMax, xlab = xlabel_1, main = title_1)
     plot(ListMax, xlab = xlabel_2, ylab = ylabel_2, main =
- 			title_2)
- 	points(1:N,sqrt(log(1:N)),col="cyan")
- 	text(N/2,sqrt(log(N/2)), "sqrt(log(n))", pos = 1, col = "cyan")
-
+ 			title_2, pch = 4)
+ 	points(1:N,sqrt(log(1:N)),col="cyan", pch = 3)
+ 	legend(x="bottomright",y=NULL,c("Maxima",
+ 		expression("sqrt(log(n))")), col = c("black","cyan"),
+ 		bty="o", pch = c(4,3))
+ 		
+ 	# Exports the plots to a JPEG file
+ 	pdf(file = "graphIntroTask.pdf", width = 10, height = 8)
+	par(mfrow = c(1,2))
+ 	stripchart(ListMax, xlab = xlabel_1, main = title_1)
+    plot(ListMax, xlab = xlabel_2, ylab = ylabel_2, main =
+ 			title_2, pch = 4)
+ 	points(1:N,sqrt(log(1:N)),col="cyan", pch = 3)
+ 	legend(x="bottomright",y=NULL,c("Maxima",
+ 		expression("sqrt(log(n))")), col = c("black","cyan"),
+ 		bty="o", pch = c(4,3))
+ 	dev.off()
+ 	
  	return(ListMax)
  }
