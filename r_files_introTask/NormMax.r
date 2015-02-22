@@ -51,7 +51,7 @@ NormMax <- function(N = 10000, DIST = rnorm(10000,0,1)) {
  		expression("sqrt(log(n))")), col = c("black","cyan"),
  		bty="o", pch = c(4,3))
  		
- 	# Exports the plots to a JPEG file
+ 	# Exports the plots to a PDF file
  	pdf(file = "graphIntroTask.pdf", width = 10, height = 8)
 	par(mfrow = c(1,2))
  	stripchart(ListMax, xlab = xlabel_1, main = title_1)
