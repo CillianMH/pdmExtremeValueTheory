@@ -21,6 +21,11 @@ Carrefour <- read.csv("Carrefour.csv", header = FALSE)
 LVMH <- read.csv("LVMH.csv", header = FALSE)
 Sanofi <- read.csv("Sanofi.csv", header = FALSE)
 Total <- read.csv("Total.csv", header = FALSE)
+Weekly_BNP <- read.csv("WeeklyBNP.csv", header = FALSE)
+Weekly_Carrefour <- read.csv("WeeklyCarrefour.csv", header = FALSE)
+Weekly_LVMH <- read.csv("WeeklyLVMH.csv", header = FALSE)
+Weekly_Sanofi <- read.csv("WeeklySanofi.csv", header = FALSE)
+Weekly_Total <- read.csv("WeeklyTotal.csv", header = FALSE)
 
 # Remark : the csv uses the metastock data format 
 #          7 columns : - Ticker (identifier of the stock
@@ -42,9 +47,40 @@ Carrefour_max <- ExtractMaxima(rev(Carrefour[[CHOICE]]))
 LVMH_max <- ExtractMaxima(rev(LVMH[[CHOICE]]))
 Sanofi_max <- ExtractMaxima(rev(Sanofi[[CHOICE]]))
 Total_max <- ExtractMaxima(rev(Total[[CHOICE]]))
+Weekly_BNP_max <- ExtractMaxima(Weekly_BNP[[CHOICE]])
+Weekly_Carrefour_max <- ExtractMaxima(Weekly_Carrefour[[CHOICE]])
+Weekly_LVMH_max <- ExtractMaxima(Weekly_LVMH[[CHOICE]])
+Weekly_Sanofi_max <- ExtractMaxima(Weekly_Sanofi[[CHOICE]])
+Weekly_Total_max <- ExtractMaxima(Weekly_Total[[CHOICE]])
 
 # Plotting the successive maxima
-plot(BNP_max, pch = 1)
-#points(1:length(Carrefour_max), Carrefour_max, col="red", pch = 1)
-#points(1:length(LVMH_max), LVMH_max, col="cyan", pch = 1)
 
+# BNP monthly - weekly ; Jan 2001 - Jan 2015
+quartz()
+par(mfrow = c(1,2))
+plot(BNP_max, pch = 1, col = "black")
+plot(Weekly_BNP_max, pch = 1, col = "black")
+
+# Carrefour monthly - weekly ; Jan 2001 - Jan 2015
+quartz()
+par(mfrow = c(1,2))
+plot(Carrefour_max, pch = 1, col = "blue")
+plot(Weekly_Carrefour_max, pch = 1, col = "blue")
+
+# LVMH monthly - weekly ; Jan 2001 - Jan 2015
+quartz()
+par(mfrow = c(1,2))
+plot(LVMH_max, pch = 1, col = "red")
+plot(Weekly_LVMH_max, pch = 1, col = "red")
+
+# Sanofi monthly - weekly ; Jan 2001 - Jan 2015
+quartz()
+par(mfrow = c(1,2))
+plot(Sanofi_max, pch = 1, col = "green")
+plot(Weekly_Sanofi_max, pch = 1, col = "green")
+
+# Carrefour monthly - weekly ; Jan 2001 - Jan 2015
+quartz()
+par(mfrow = c(1,2))
+plot(Carrefour_max, pch = 1, col = "magenta")
+plot(Weekly_Carrefour_max, pch = 1, col = "magenta")
