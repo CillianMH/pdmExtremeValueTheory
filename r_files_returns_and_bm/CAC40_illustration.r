@@ -64,5 +64,6 @@ quartz()
 par(mfrow = c(1,2))
 plot(exp(logReturnsStock), pch = 1, col = "blue", type = 'l', xlab = x_label, ylab = y_label4, main = title2)
 plot(1+returnsStock, pch = 1, col = "magenta", type = 'l', xlab = x_label, ylab = y_label5, main = title3)
-
+cat("Residual :\n")
+print(sum(abs(1+returnsStock-exp(logReturnsStock))))
 
