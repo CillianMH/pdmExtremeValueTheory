@@ -44,5 +44,5 @@ xlabel <- paste("Time t in", expression(h^-1),"time units", sep= " ")
 ylabel <- expression(B[t]^(n))
 
 plot(BM_vect,xlab = xlabel, ylab = ylabel, main = title, type ='l')
-
+abline(h = 0, col = "red")
 
