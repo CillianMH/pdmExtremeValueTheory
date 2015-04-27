@@ -27,14 +27,10 @@ h <- as.numeric(readline("h :\n"))
 # Number of increments
 Nb_incr <- ceiling(t/h)
 
-# n must be very large to get a good approximation
-n <- 1000
 
 # Generating the Brownian Motion
-BM_vect <- rep(0,Nb_incr)
-for (i in 2:Nb_incr) {
-	BM_vect[i] <- brownianMotion(t,n)
-}
+BM_vect <- brownianMotion(t,h)
+
 
 # Plot the Brownian Motion
 quartz() 

@@ -30,7 +30,7 @@ n <- 1000
 # Generating the Brownian Motion
 BM_vect <- rep(0,N)
 for (i in 1:N) {
-	BM_vect[i] <- brownianMotion(t,n)
+	BM_vect[i] <- (brownianMotion(t,1/n))[floor(n*t)]
 }
 
 # Plot the Brownian Motion

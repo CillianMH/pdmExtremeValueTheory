@@ -1,0 +1,4 @@
+Construction du mouvement brownien à partir de la marche aléatoire
+standard -> s'appuye sur le TCL pour la convergence ; construction juste
+en théorie mais convergence très lente.
+Meilleure facon de faire -> construction à partir de gaussiennes direct

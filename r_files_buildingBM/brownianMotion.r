@@ -4,11 +4,11 @@
 # Killian Martin--Horgassan
 
 # Arguments :
-# - n : an integer, will be very large to get a limit behaviour
 # - t : a nonnegative real number, as we want to check the distribution
 #       of B^(n)(t) = brokenLine(nt)/sqrt(n)
+# - h : increment size
 
-brownianMotion = function(n,t) {
+brownianMotion = function(t,h) {
 	
-	return(brokenLine(n*t)/sqrt(n))
+	return(brokenLine((1/h)*t)/sqrt(1/h))
 }

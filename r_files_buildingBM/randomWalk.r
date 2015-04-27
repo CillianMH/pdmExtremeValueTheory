@@ -1,4 +1,7 @@
 # Random Walk for Brownian Motion
+# S_0 = 0
+# For all n >= 1, S_n = Epsilons_1 + ... Epsilons_n
+# ie S_n = S_(n-1) + Epsilons_n
 # 23-04-2015
 # Killian Martin--Horgassan
 

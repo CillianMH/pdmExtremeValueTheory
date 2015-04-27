@@ -8,8 +8,8 @@ generalBM = function(mu, sigma,h) {
 	# Number of time steps
 	t <- ceiling(1/h)
 	
-	# Generating a t-uplet Gaussian vector
-	vect <- rnorm(t, mu, sigma)
+	# Generating a t-uplet Gaussian vector and taking the sum
+	vect <- cumsum(rnorm(t, mu*h, sigma*h))
 	
 	return(vect)
 }

@@ -62,7 +62,7 @@ for (i in 1:Nbtries) {
 
 hist(incr, main = "Density plot", freq = FALSE, col = "lightgreen")
 curve(dnorm(x, mean = mean(incr), sd = sd(incr)), add = TRUE, col = "darkblue", lwd = 4)
-curve(dnorm(x, mean = 0, sd = sigma*sqrt(b-a)), add = TRUE, col = "red", lwd = 4)
+curve(dnorm(x, mean = mu, sd = sigma*sqrt(b-a)), add = TRUE, col = "red", lwd = 4)
 
 print(mean(incr))
 print(sd(incr))
