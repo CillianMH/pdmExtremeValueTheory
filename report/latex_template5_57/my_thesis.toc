@@ -1,0 +1,26 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.1}
+\contentsline {chapter}{Preface}{iii}{chapter*.2}
+\contentsline {chapter}{Abstract (English/Fran\IeC {\c c}ais/Deutsch)}{v}{chapter*.3}
+\select@language {french}
+\select@language {english}
+\contentsline {chapter}{List of figures}{xi}{section*.6}
+\contentsline {chapter}{List of tables}{xiii}{section*.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}A few words to set the scene}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Formalising the settings}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Investigating results on the limiting distribution}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Playing with the (original) sequence of maxima}{3}{section.2.1}
+\contentsline {paragraph}{}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Sample following a Normal distribution}{3}{subsection.2.1.1}
+\contentsline {paragraph}{Computing the quantiles}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Sample following a Cauchy distribution}{5}{subsection.2.1.2}
+\contentsline {paragraph}{Computing the quantiles}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Sample following an Exponential Distribution}{7}{subsection.2.1.3}
+\contentsline {paragraph}{Computing the quantiles}{7}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Why does this work ?}{8}{subsection.2.1.4}
+\contentsline {chapter}{\numberline {3}Looking into real-world data}{9}{chapter.3}
+\contentsline {chapter}{Introduction}{9}{chapter.3}
+\contentsline {chapter}{\numberline {A}An appendix}{11}{appendix.A}
+\contentsline {chapter}{Bibliography}{13}{appendix*.21}
