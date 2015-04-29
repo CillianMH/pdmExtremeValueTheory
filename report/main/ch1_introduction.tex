@@ -1,0 +1,31 @@
+\chapter{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+ \section{A few words to set the scene}
+In real life, it is not uncommon to have at one's disposal data about a phenomenon occurring through time. It may be as simple as daily rainfall data in a cit for the past two years, or it could be the weekly opening prices of a stock for the past decade. \\[4 pt]
+Most of the time, people would like to use the data at their disposal to make predictions to answer questions, from the prosaic ones such as 'Will it rain tomorrow ?' to more consequential ones such as 'Will I make a profit if I cling to my shares today and sell them only tomorrow ?'. Of course, those are only vaguely worded questions : it is impossible to answer them satisfactorily without knowing the context, the objectives etc. behind them. \\[4 pt]
+Yet, what these questions have in common is that they focus on the normal 'behaviour' that is to be expected in the future. Depending on the specific issue that is considered, the 'average behaviour' may not be the most interesting thing. For instance, suppose that a government wants to build a network of dams\footnote{As was done in The Netherlands beginning in the fifties}. The dams are meant to protect the country from future floods for the next one hundred years, therefore the question that needs to be answered is one of 'worst case event' : "Over the next century, how severe may be the worst flood ?". \\[4 pt]
+Extreme events are the kind of events we will be interested in this master thesis project. Although Extreme Value Theory has applications in many fields\footnote{including climate science, seismology, insurance etc.}, we will here apply it more specifically to financial data.
+
+\section{Formalising the settings}
+Let $(X_n)_{n \ge 0}$ be a sequence of independent identically distributed random variables with common cumulative distribution function $F_X$. The sequence of maxima is defined by $M_0$=$X_0$ and $\forall n \ge 1$, $M_n$=$\max_{0 \le i \le n}(X_i)$. We would like to determine the limiting distribution of the sequence $(M_n)_{n \ge 0}$.\footnote{If we can determine the limiting distribution of the maxima from the data, then we will have a means to make predictions on the occurrence of future extreme events.} This is a matter that will keep us busy quite a long time but the first thing to do is to re-formulate it. \\ [4 pt]
+Indeed, let us do a quick and simple computation :\\
+\begin{equation}
+\begin{aligned}
+	F_n(t) &= \Pr(\{M_n \le t\}) \\
+              &= \Pr(\{\max_{0 \le i \le n}(X_i) \le t\}) \\
+              &= \Pr(\{X_1 \le t\} \cap \cdots \cap \{X_n \le t\}) \\
+              &= (F_X(t))^n
+\end{aligned}
+\end{equation}
+Here we see that not much information will be drawn from this result by taking the limit n$\rightarrow +\infty$. The limiting distribution will be degenerate. Indeed, let us consider the upper end-point of $F_X$\footnote{that is the smallest z such that $F_X(z)$ be equal to one. For the Normal distribution, z will be +$\infty$, by contrast for a continuous Uniform Distribution $U([a,b])$ it will be b. }, $z^{+}$. Then,
+\begin{equation}
+\begin{aligned}
+\forall z < z^{+} \lim_{z\to\infty} F_n(z) &= 0 \\
+\forall z \ge z^{+} \lim_{z\to\infty} F_n(z) &= 1 \\
+\end{aligned}
+\end{equation}
+\\[4 pt]
+It turns out we cannot use the limiting distribution directly. A common approach\footnote{adopted by the mathematicians that laid the grounds for EVT} is to consider a sequence of the maxima, centred and normalised.\\[4 pt] 
+We will thus consider in all what follows the sequence defined by $(M^{*}_n)_{n \ge 0}$ = $(\frac{M_n - b_n}{a_n})_{n \ge 0}$ where $(a_n)_{n \ge 0}$ and $(b_n)_{n \ge 0}$ are a sequence of real numbers and positive real numbers respectively. Finding a result on whether such a sequence admits a limiting distributions, and the conditions under which the result holds, will be one of our goals.
+
+

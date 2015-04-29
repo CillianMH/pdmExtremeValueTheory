@@ -1,0 +1,10 @@
+WeeklyBNP.csv
+3.219647e-15
+WeeklyCarrefour.csv
+1.44329e-15
+WeeklyLVMH.csv
+4.746203e-15
+WeeklySanofi.csv
+1.554312e-15
+WeeklyTotal.csv
+3.858025e-15
