@@ -156,8 +156,19 @@ The idea behind this is as follows, that the maxima will get closer to the upper
 \newline
 Those three families can be combined into a single family of models, the Generalized Extreme Value Distribution. \\
 G(z) = $\exp(-(1 + \xi(\frac{z - \mu}{\sigma}))^{-\frac{1}{\xi}})$\footnote{However, the domain of the distribution depends on the parameters $\mu$, $\sigma$, $\xi$ : \{ z / $1 + \xi\frac{z-\mu}{\sigma} > 0$\}, with $\mu$, $\xi$ in $\mathbb{R}$ and $\sigma > 0$}
-\subsection{Making it ap pear in our context}
-\paragraph{Fréchet distribution}
+\subsection{Making it appear in our context}
+\paragraph{Fréchet distribution} 
+Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Let us remember from the previous section the form of the $\frac{1}{n}$-quantile $q_n = \frac{1}{\lambda}\log(n)$. Let us evaluate $F_{M_n}$ in $q_\frac{1}{n}-t$ : \\
+\begin{equation}
+\begin{alignat*}{2}
+F_{M_n}(q_\frac{1}{n}-t) &= (1 - \exp(-\lambda(q_\frac{1}{n}-t)))^n\\ 
+&= (1 - \exp(\lambda t)\exp(-\lambda q_\frac{1}{n}))^n\\ 
+&= (1 - \frac{\exp(\lambda t)}{n})^n \\
+&\longrightarrow_{n \rightarrow +\infty} \exp(-\exp(\lambda t))
+\end{alignat*}
+\end{equation}
+
+
 \paragraph{Gumbel distribution}
 \paragraph{Weibull distribution}
 

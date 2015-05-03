@@ -25,10 +25,10 @@
 \contentsline {section}{\numberline {2.2}Making appear extreme value distributions}{9}{section.2.2}
 \contentsline {paragraph}{The Extreme Value Theorem}{9}{section.2.2}
 \contentsline {paragraph}{Extreme Value distribution}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Making it ap pear in our context}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Making it appear in our context}{9}{subsection.2.2.1}
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{9}{subsection.2.2.1}
-\contentsline {paragraph}{Gumbel distribution}{9}{subsection.2.2.1}
-\contentsline {paragraph}{Weibull distribution}{10}{subsection.2.2.1}
+\contentsline {paragraph}{Gumbel distribution}{10}{equation.2.2.6}
+\contentsline {paragraph}{Weibull distribution}{10}{equation.2.2.6}
 \contentsline {chapter}{\numberline {3}Looking into real-world data}{11}{chapter.3}
 \contentsline {chapter}{Looking into real-world data}{11}{chapter.3}
 \contentsline {section}{\numberline {3.1}Five real-world stocks and their evolution over 15 years}{11}{section.3.1}
