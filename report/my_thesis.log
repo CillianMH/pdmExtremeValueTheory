@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  29 APR 2015 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  3 MAY 2015 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,6 +361,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip52
+\fb@frw=\dimen116
+\fb@frh=\dimen117
+\FrameRule=\dimen118
+\FrameSep=\dimen119
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 Now handling font encoding FML ...
@@ -663,8 +671,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count104
 ))
-\Gin@req@height=\dimen116
-\Gin@req@width=\dimen117
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -692,49 +700,49 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen118
-\captionmargin@=\dimen119
-\captionwidth=\dimen120
-\caption@tempdima=\dimen121
-\caption@indent=\dimen122
-\caption@parindent=\dimen123
-\caption@hangindent=\dimen124
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
 )
 \c@ContinuedFloat=\count105
 )
 \c@KVtest=\count106
-\sf@farskip=\skip52
-\sf@captopadj=\dimen125
-\sf@capskip=\skip53
-\sf@nearskip=\skip54
+\sf@farskip=\skip53
+\sf@captopadj=\dimen129
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
 \c@subfigure=\count107
 \c@subfigure@save=\count108
 \c@lofdepth=\count109
 \c@subtable=\count110
 \c@subtable@save=\count111
 \c@lotdepth=\count112
-\sf@top=\skip55
-\sf@bottom=\skip56
+\sf@top=\skip56
+\sf@bottom=\skip57
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen126
-\lightrulewidth=\dimen127
-\cmidrulewidth=\dimen128
-\belowrulesep=\dimen129
-\belowbottomsep=\dimen130
-\aboverulesep=\dimen131
-\abovetopsep=\dimen132
-\cmidrulesep=\dimen133
-\cmidrulekern=\dimen134
-\defaultaddspace=\dimen135
+\heavyrulewidth=\dimen130
+\lightrulewidth=\dimen131
+\cmidrulewidth=\dimen132
+\belowrulesep=\dimen133
+\belowbottomsep=\dimen134
+\aboverulesep=\dimen135
+\abovetopsep=\dimen136
+\cmidrulesep=\dimen137
+\cmidrulekern=\dimen138
+\defaultaddspace=\dimen139
 \@cmidla=\count113
 \@cmidlb=\count114
-\@aboverulesep=\dimen136
-\@belowrulesep=\dimen137
+\@aboverulesep=\dimen140
+\@belowrulesep=\dimen141
 \@thisruleclass=\count115
 \@lastruleclass=\count116
-\@thisrulewidth=\dimen138
+\@thisrulewidth=\dimen142
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
@@ -745,7 +753,7 @@ Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks22
 \MT@count=\count118
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen139
+\MT@outer@kern=\dimen143
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count119
 
@@ -754,7 +762,7 @@ File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip57
+\MT@outer@space=\skip58
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -775,14 +783,14 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count120
 \calc@Bcount=\count121
-\calc@Adimen=\dimen140
-\calc@Bdimen=\dimen141
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count122
-\calc@Cskip=\skip60
+\calc@Cskip=\skip61
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
@@ -803,29 +811,29 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box29
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip61
-\f@ncyO@elh=\skip62
-\f@ncyO@erh=\skip63
-\f@ncyO@olh=\skip64
-\f@ncyO@orh=\skip65
-\f@ncyO@elf=\skip66
-\f@ncyO@erf=\skip67
-\f@ncyO@olf=\skip68
-\f@ncyO@orf=\skip69
+\fancy@headwidth=\skip62
+\f@ncyO@elh=\skip63
+\f@ncyO@erh=\skip64
+\f@ncyO@olh=\skip65
+\f@ncyO@orh=\skip66
+\f@ncyO@elf=\skip67
+\f@ncyO@erf=\skip68
+\f@ncyO@olf=\skip69
+\f@ncyO@orf=\skip70
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count124
 \lst@gtempboxa=\box30
 \lst@token=\toks24
 \lst@length=\count125
-\lst@currlwidth=\dimen142
+\lst@currlwidth=\dimen146
 \lst@column=\count126
 \lst@pos=\count127
-\lst@lostspace=\dimen143
-\lst@width=\dimen144
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
 \lst@newlines=\count128
 \lst@lineno=\count129
-\lst@maxwidth=\dimen145
+\lst@maxwidth=\dimen149
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
@@ -924,7 +932,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen146
+\@linkdim=\dimen150
 \Hy@linkcounter=\count132
 \Hy@pagecounter=\count133
 
@@ -947,10 +955,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count135
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen147
+\XeTeXLinkMargin=\dimen151
 \Fld@menulength=\count136
-\Field@Width=\dimen148
-\Fld@charsize=\dimen149
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -977,9 +985,9 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip71
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 89.
+Package hyperref Info: Option `colorlinks' set `true' on input line 91.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -987,8 +995,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen150
-\pgfutil@tempdimb=\dimen151
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -1013,14 +1021,14 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 ode.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen152
-\pgf@y=\dimen153
-\pgf@xa=\dimen154
-\pgf@ya=\dimen155
-\pgf@xb=\dimen156
-\pgf@yb=\dimen157
-\pgf@xc=\dimen158
-\pgf@yc=\dimen159
+\pgf@x=\dimen156
+\pgf@y=\dimen157
+\pgf@xa=\dimen158
+\pgf@ya=\dimen159
+\pgf@xb=\dimen160
+\pgf@yb=\dimen161
+\pgf@xc=\dimen162
+\pgf@yc=\dimen163
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count142
@@ -1060,7 +1068,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen160
+\pgfmath@dimen=\dimen164
 \pgfmath@count=\count148
 \pgfmath@box=\box33
 \pgfmath@toks=\toks32
@@ -1091,32 +1099,32 @@ erarithmetics.code.tex)))
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen161
-\pgf@picmaxx=\dimen162
-\pgf@picminy=\dimen163
-\pgf@picmaxy=\dimen164
-\pgf@pathminx=\dimen165
-\pgf@pathmaxx=\dimen166
-\pgf@pathminy=\dimen167
-\pgf@pathmaxy=\dimen168
-\pgf@xx=\dimen169
-\pgf@xy=\dimen170
-\pgf@yx=\dimen171
-\pgf@yy=\dimen172
-\pgf@zx=\dimen173
-\pgf@zy=\dimen174
+\pgf@picminx=\dimen165
+\pgf@picmaxx=\dimen166
+\pgf@picminy=\dimen167
+\pgf@picmaxy=\dimen168
+\pgf@pathminx=\dimen169
+\pgf@pathmaxx=\dimen170
+\pgf@pathminy=\dimen171
+\pgf@pathmaxy=\dimen172
+\pgf@xx=\dimen173
+\pgf@xy=\dimen174
+\pgf@yx=\dimen175
+\pgf@yy=\dimen176
+\pgf@zx=\dimen177
+\pgf@zy=\dimen178
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen175
-\pgf@path@lasty=\dimen176
+\pgf@path@lastx=\dimen179
+\pgf@path@lasty=\dimen180
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen177
-\pgf@shorten@start@additional=\dimen178
+\pgf@shorten@end@additional=\dimen181
+\pgf@shorten@start@additional=\dimen182
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -1129,14 +1137,14 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen179
+\pgflinewidth=\dimen183
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen180
-\pgf@pt@y=\dimen181
-\pgf@pt@temp=\dimen182
+\pgf@pt@x=\dimen184
+\pgf@pt@y=\dimen185
+\pgf@pt@temp=\dimen186
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1153,12 +1161,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen183
+\pgfarrowsep=\dimen187
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen184
+\pgf@max=\dimen188
 \pgf@sys@shading@range@num=\count151
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
@@ -1194,8 +1202,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen185
-\pgf@nodesepend=\dimen186
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1210,8 +1218,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen187
-\pgffor@skip=\dimen188
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
@@ -1223,14 +1231,14 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count152
-\pgfplotmarksize=\dimen189
+\pgfplotmarksize=\dimen193
 )
-\tikz@lastx=\dimen190
-\tikz@lasty=\dimen191
-\tikz@lastxsaved=\dimen192
-\tikz@lastysaved=\dimen193
-\tikzleveldistance=\dimen194
-\tikzsiblingdistance=\dimen195
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
 \tikz@figbox=\box39
 \tikz@figbox@bg=\box40
 \tikz@tempbox=\box41
@@ -1256,14 +1264,14 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box43
-\beforetitleunit=\skip71
-\aftertitleunit=\skip72
-\ttl@plus=\dimen196
-\ttl@minus=\dimen197
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen200
+\ttl@minus=\dimen201
 \ttl@toksa=\toks37
-\titlewidth=\dimen198
-\titlewidthlast=\dimen199
-\titlewidthfirst=\dimen200
+\titlewidth=\dimen202
+\titlewidthlast=\dimen203
+\titlewidthfirst=\dimen204
 )
 \c@myparts=\count161
 )
@@ -1330,13 +1338,13 @@ LaTeX Info: Redefining \up on input line 18.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count162
-\scratchdimen=\dimen201
+\scratchdimen=\dimen205
 \scratchbox=\box44
 \nofMPsegments=\count163
 \nofMParguments=\count164
 \everyMPshowfont=\toks38
 \MPscratchCnt=\count165
-\MPscratchDim=\dimen202
+\MPscratchDim=\dimen206
 \MPnumerator=\count166
 \makeMPintoPDFobject=\count167
 \everyMPtoPDFconversion=\toks39
@@ -1424,7 +1432,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 13.
 
-<images/epfl.pdf, id=93, 574.94798pt x 275.429pt>
+<images/epfl.pdf, id=101, 574.94798pt x 275.429pt>
 File: images/epfl.pdf Graphic file (type pdf)
  <use images/epfl.pdf>
 Package pdftex.def Info: images/epfl.pdf used on input line 14.
@@ -1706,7 +1714,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=277, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=287, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1722,7 +1730,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=278, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=288, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1738,7 +1746,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=279, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=289, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -1749,7 +1757,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=280, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=290, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -1801,7 +1809,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=293, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=303, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1817,7 +1825,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=294, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=304, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1833,7 +1841,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=295, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=305, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -1912,7 +1920,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=301, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=311, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1928,7 +1936,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 119--120
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=302, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=312, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1945,7 +1953,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 125--126
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=303, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=313, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -1997,18 +2005,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1
-/cauchyFitting.jpeg>]) [8 </Users/kimartin/Desktop/PDM_thesis_report/latex_temp
-late5_57/main/R_Files_1/exponentialScatterMaxima.jpeg> </Users/kimartin/Desktop
-/PDM_thesis_report/latex_template5_57/main/R_Files_1/exponentialMaximaAgainstSt
-eps.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_
-Files_1/exponentialFitting.jpeg>]
+/cauchyFitting.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+1/exponentialScatterMaxima.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/lat
+ex_template5_57/main/R_Files_1/exponentialMaximaAgainstSteps.jpeg> </Users/kima
+rtin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/exponentialFit
+ting.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [9] [10]
 \openout2 = `main/ch1_true.aux'.
 
  (./main/ch1_true.tex
 Chapter 3.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=316, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=339, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2024,7 +2053,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=317, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=340, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2040,7 +2069,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=318, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=341, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2056,7 +2085,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=319, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=342, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2072,7 +2101,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=320, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=343, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2089,7 +2118,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9
+[11
 
 
 
@@ -2097,7 +2126,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=327, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=350, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2113,7 +2142,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 53--54
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=328, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=351, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2129,7 +2158,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 60--61
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=329, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=352, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2145,7 +2174,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 69--70
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=330, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=353, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2161,7 +2190,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 76--77
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=331, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=354, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2184,13 +2213,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+ [12 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_
 57/main/R_Files_3/WeeklySanofi.jpeg> </Users/kimartin/Desktop/PDM_thesis_report
-/latex_template5_57/main/R_Files_3/WeeklyTotal.jpeg>] [11 </Users/kimartin/Desk
+/latex_template5_57/main/R_Files_3/WeeklyTotal.jpeg>] [13 </Users/kimartin/Desk
 top/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg
 > </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/
-WeeklyCarrefour_1+Rt_eRt.jpeg>]) [12 </Users/kimartin/Desktop/PDM_thesis_report
+WeeklyCarrefour_1+Rt_eRt.jpeg>]) [14 </Users/kimartin/Desktop/PDM_thesis_report
 /latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg> </Users/kimartin/D
 esktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklySanofi_1+Rt_eR
 t.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Fi
@@ -2199,17 +2228,17 @@ les_3/WeeklyTotal_1+Rt_eRt.jpeg>]
 
  (./tail/appendix.tex
 Appendix A.
-) [13
+) [15
 
 
 
-] [14
+] [16
 
 
 ]
 \openout2 = `tail/biblio.aux'.
 
- (./tail/biblio.tex (./my_thesis.bbl)) [15
+ (./tail/biblio.tex (./my_thesis.bbl)) [17
 
 
 
@@ -2223,34 +2252,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 08FFA394EBA929B1D67A7D6835AF480F;1521.
+(rerunfilecheck)             Checksum: AEA85B39CB50BF4300A0118F030C14C0;1695.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 23665 strings out of 493117
- 427366 string characters out of 6135433
- 630881 words of memory out of 5000000
- 26286 multiletter control sequences out of 15000+600000
- 121078 words of font info for 228 fonts, out of 8000000 for 9000
+ 23753 strings out of 493117
+ 428437 string characters out of 6135433
+ 632323 words of memory out of 5000000
+ 26334 multiletter control sequences out of 15000+600000
+ 123385 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,15n,77p,712b,1318s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (33 pages, 1001726 bytes).
+live/2014/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/cm-super/sfss2074.pfb>
+Output written on my_thesis.pdf (35 pages, 1010457 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 37670 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 37686 words of extra memory for PDF output out of 42996 (max. 10000000)
 

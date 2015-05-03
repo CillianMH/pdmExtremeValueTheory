@@ -135,4 +135,30 @@ Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Th
 \end{figure}
 \newpage
 \subsection{Why does this work ?}
+\paragraph{(The underlying idea)}
+Why have we made a link between the $\frac{1}{n}$-quantiles of the common distribution of the $X_i$ and the sequence of the $M_n$ ? Actually, the $\frac{1}{n}$-quantiles are a good proxy for the $M_n$. \newline
+The idea behind this is as follows, that the maxima will get closer to the upper end-point of the distribution of the $X_i$, $F_{X_i}$. That is also the case for the $\frac{1}{n}$-quantiles of $F_{X_i}$. Of course, it is only an intuition ! In the next section, we will show that it turns out to be valid (and in what precise sense it does so).
+\paragraph{A more rigorous approach}
+\section{Making appear extreme value distributions}
+\paragraph{The Extreme Value Theorem} The following result is fundamental in the field of Extreme Value Theory\footnote{it is the analogue in terms of extremes of the Central Limit Theorem in classical probability theory.}, it will be found in any textbook under the name of Fisher-Tippett theorem or Extreme Value theorem. \\ [4 pt]
+\begin{framed}
+	Let $(X_n)_{n \ge 1}$ be a sequence of independent identically distributed random variables and $(M_n)_{n \ge 1}$ be the sequence of the maxima as previously defined. If there exist a sequence of nonnegative real numbers $(a_n)_{n \ge 1}$ and a sequence of real numbers $(b_n)_{n \ge 1}$ such that $(\frac{M_n - b_n}{a_n})_{n \ge 1}$ converges in distribution to a non-degenerate distribution function F, then F belongs to the Extreme Value distribution family.
+\end{framed}
+\paragraph{Extreme Value distribution} The Extreme Value distribution sub-divides into three families of distribution :
+\begin{itemize}
+	\item the Fréchet distribution family, \textbf{Fréchet(a,b,$\alpha$)} \\
+	G(z) = $\exp(-(\frac{z-b}{a})^{-\alpha})\mathbb{1}(\{z > b\})$, a > 0, b $\in \mathbb{R}$, $\alpha$ > 0.
+	\item the Gumbel distribution family, \textbf{Gumbel(a,b)} \\ 
+	G(z) = $\exp(-\exp(-(\frac{z-b}{a})))$, $-\infty < z < +\infty$, a > 0, b $\in \mathbb{R}$.
+	\item the Weibull distribution family, \textbf{Weibull(a,b,$\alpha$)} \\
+	G(z) = $\exp(-(-\frac{z-b}{a})^{-\alpha})\mathbb{1}(\{z > b\}) + \mathbb{1}(\{z \le b\})$, a > 0, b $\in \mathbb{R}$, $\alpha$ > 0.
+\end{itemize}
+\newline
+Those three families can be combined into a single family of models, the Generalized Extreme Value Distribution. \\
+G(z) = $\exp(-(1 + \xi(\frac{z - \mu}{\sigma}))^{-\frac{1}{\xi}})$\footnote{However, the domain of the distribution depends on the parameters $\mu$, $\sigma$, $\xi$ : \{ z / $1 + \xi\frac{z-\mu}{\sigma} > 0$\}, with $\mu$, $\xi$ in $\mathbb{R}$ and $\sigma > 0$}
+\subsection{Making it ap pear in our context}
+\paragraph{Fréchet distribution}
+\paragraph{Gumbel distribution}
+\paragraph{Weibull distribution}
+
 
