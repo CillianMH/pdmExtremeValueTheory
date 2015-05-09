@@ -6,3 +6,5 @@ The project features an introduction to EVT (as it is a very vast field, six mon
 * *Modelling extremal events for Insurance and Finance*, Embrechts, Kluppelberg, Mikosch
 * *An Introduction to Statistical Modelling of Extreme Values*, Stuart Coles, Springer
 * *Introduction to Scientific Programming and Simulation Using R*, Owen Jones, Robert Maillardet, Andrew Robinson, CRC Press
+* 
+### My opinion on the sources
