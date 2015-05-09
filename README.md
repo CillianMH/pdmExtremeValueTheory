@@ -8,3 +8,4 @@ The project features an introduction to EVT (as it is a very vast field, six mon
 * *Introduction to Scientific Programming and Simulation Using R*, Owen Jones, Robert Maillardet, Andrew Robinson, CRC Press
 
 #### My opinion on the sources
+First and foremost, all those books are good books (I will focus on the books dealing with EVT, the book on R programming is a very fine one, with a nice hands-on approach). However, they are probably not meant for the same uses and the same users.
