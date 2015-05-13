@@ -88,7 +88,85 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 \paragraph{}
 
 \newpage
-\section{A détour around Brownian Motion}
+\section{A détour around Stochastic Calculus}
+\subsection{The Black-Scholes Stochastic Differential Equation}
+\paragraph{Presentation}
+It is customary to model the evolution of stock prices by a stochastic process $(S_t)_{t \ge 0}$ satisfying the Black-Scholes stochastic differential equation, which reads as follows : 
+\begin{equation}
+dS_t = \mu S_t dt + \sigma S_t dB_t
+\end{equation}
+where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$. Let us observe that the stochastic differential equation above is the Black-Scholes SDE with time independent coefficients : both the drift $\mu \in \mathbb{R}$ and the volatility $\sigma > 0$ are constant.\footnote{In the next subsection, we will deal with the Black-Scholes SDE with time dependent coefficients.} An initial condition must be specified : $S_0 = s_0 > 0$.
+\paragraph{Resolution - existence of a solution to the Black-Scholes SDE}
+Let us consider the following generic stochastic differential equation : \\
+$\left\{
+\begin{array}{l}
+dX_t = f(X_t) dt + g(X_t) dB_t\\
+X_0 = x_0
+\end{array}
+\right.$ \\ where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $x_0 \in \mathbb{R}$, $f,g : \mathbb{R} \longrightarrow \mathbb{R}$ are Lipschitz functions. Then, by a theorem from Stochastic Calculus\footnote{readers wanting to get ahold of an excellent course on Stochastic Calculus are advised to refer to Dr. Lév\^{e}que's course. It can be found at \url{http://ipg.epfl.ch/~leveque/}}, we know that there exists a unique process that is continuous and adapted to the filtration $({\cal{F}}_t)_{t \ge 0}$. \\
+Here, f and g are respectively the functions $x \longrightarrow \mu x$ and $x \longrightarrow \sigma t$. These functions are Lipschitz functions, therefore we know the SDE admits a solution. And fortunately, in the case of the Black-Scholes equation, the solution can be made explicit\footnote{This is not always the case : solving SDEs in general is not that simple, and finding an explicit solution is not guaranteed in the general case, even though we know one exists.}).
+\paragraph{Resolution - step 1}
+Let us set $S_t = \phi_t Z_t$ where $\phi_t$ is the (deterministic) solution to the ordinary differential equation :
+\\
+$\left\{
+\begin{array}{l}
+d\phi_t = \mu \phi_t dt\\
+\phi_0 = 1
+\end{array}
+\right.$ \\ Solving this ODE is elementary and yields the solution $\phi_t = \exp(\mu t)$. Now, let us differentiate $X_t$ under its form as a product  $S_t = \phi_t Z_t$. \\
+\begin{equation}
+\begin{alignat*}{2}
+d(S_t) &= d(\phi_t Z_t)\\ 
+&= \phi_t dZ_t + Z_t d\phi_t + d<\phi,Z>_t\\ 
+&= \phi_t dZ_t + \mu \phi_t Z_t dt\\
+&= \phi_t dZ_t + \mu S_t dt\\
+\end{alignat*}
+\end{equation} where the infinitesimal quadratic covariation between $\phi$ and $Z$ is zero as $\phi$ has bounded variations. If we compare the last right-hand term of the series of equations just above to the original Black-Scholes SDE, we see that $\sigma S_t dB_t = \phi_t dZ_t$. Hence, $dZ_t = \sigma Z_t dB_t$. Here, we must be very careful as this differential equation does not integrate as it would in the settings of 'usual' calculus, in particular, integrating it to $\log(Z_t) - \log(Z_0) = \sigma (B_t - B_0)$ is \underline{totally wrong !}
+\paragraph{Resolution - step 2}
+Now, let us set $Y_t = \log(Z_t)$. Using Ito-Doeblin's formula, we get : \\
+$d(\log(Z_t)) = \frac{1}{Z_t} dZ_t + \frac{1}{2} (\frac{-1}{Z^2_{t}})d<Z>_t$ ($\star$)\\
+\underline{$\rightarrow$ How to compute $d<Z>_t$ ?}
+\begin{equation}
+\begin{alignat*}{2}
+S_t &= \phi_t Z_t\\ 
+\implies Z_t &= \frac{S_t}{\phi_t}\\ 
+\implies dZ_t &= \frac{1}{\phi_t} dS_t + S_t d(\frac{1}{\phi_t}) + d<\frac{1}{\phi},S>_t\\
+&= \frac{1}{\phi_t} dS_t - \frac{S_t}{\phi_t^2} d(\phi_t) \\
+&= \frac{1}{\phi_t} dS_t - \frac{\mu S_t}{\phi_t} dt \\
+&= \frac{1}{\phi_t} (\mu S_t dt + \sigma S_t dB_t) - \frac{\mu S_t}{\phi_t} dt \\
+&= \frac{\sigma S_t}{\phi_t} dB_t 
+\end{alignat*}
+\end{equation} where the infinitesimal quadratic covariation between $\frac{1}{\phi}$ and $Z$ is zero as $\frac{1}{\phi}$ has bounded variations, in the third equality from the top.\newline
+Hence, using the Isometry formula, we have that :
+\begin{alignat*}{2}
+<Z>_t &= \int_0^t \! \frac{\sigma^2 S_s^2}{\phi_s^2} \, \mathrm{d}s. \\ 
+ &= \int_0^t \! \sigma^2 Z_s^2 \, \mathrm{d}s. \\ 
+\implies d<Z>_t &= \sigma^2 Z_t^2 dt
+\end{alignat*}
+\end{equation}
+Back to ($\star$), we now have :
+\begin{equation}
+\begin{alignat*}{2}
+d(\log(Z_t)) &= \frac{1}{Z_t} dZ_t + \frac{1}{2} (\frac{-1}{Z^2_{t}}) \sigma^2 Z^2_{t} dt \\
+\iff \frac{1}{Z_t} dZ_t &= d(\log(Z_t)) + \frac{\sigma^2}{2} dt 
+\end{alignat*}
+\end{equation} 
+\paragraph{Resolution - step 3}
+Combining the previous equation with $dZ_t = \sigma Z_t dB_t$, we get : \newline
+\begin{equation}
+\begin{alignat*}{2}
+\sigma dB_t &= d(log(Z_t)) + \frac{\sigma^2}{2} dt \\
+\implies \log(Z_t) -\log(Z_0) &= -\frac{\sigma^2}{2} (t - 0) + \sigma (B_t - B_0) \\
+\implies \log(Z_t) -\log(\frac{S_0}{\phi_0}) &= -\frac{\sigma^2}{2} t + \sigma B_t \\
+\implies \log(Z_t) &= \log(s_0) -\frac{\sigma^2}{2} t + \sigma B_t \\
+\implies Z_t &= s_0 \exp(-\frac{\sigma^2}{2} t + \sigma B_t )
+\end{alignat*}
+\end{equation} \newline Finally, by remembering that $S_t = \phi_t Z_t = \exp(\mu t) Z_t$, we get :\newline
+$\forall t \ge 0, S_t = s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma B_t)$
+\newline The stochastic process $(S_t)_{t \ge 0}$, made explicit above, that is solution to the Black-Scholes equation is generally called Geometric Brownian Motion in the literature.
+
+	
+
 \section{Back to the data}
 
 
