@@ -20,6 +20,7 @@
 \BOOKMARK [1][-]{section.3.1}{Five real-world stocks and their evolution over 15 years}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.2}{A d\351tour around Stochastic Calculus}{chapter.3}% 21
 \BOOKMARK [2][-]{subsection.3.2.1}{The Black-Scholes Stochastic Differential Equation}{section.3.2}% 22
-\BOOKMARK [1][-]{section.3.3}{Back to the data}{chapter.3}% 23
-\BOOKMARK [0][-]{appendix.A}{An appendix}{}% 24
-\BOOKMARK [0][-]{appendix*.25}{Bibliography}{}% 25
+\BOOKMARK [2][-]{subsection.3.2.2}{Black-Scholes SDE with time-dependent coefficients }{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Back to the data}{chapter.3}% 24
+\BOOKMARK [0][-]{appendix.A}{An appendix}{}% 25
+\BOOKMARK [0][-]{appendix*.25}{Bibliography}{}% 26

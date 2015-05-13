@@ -41,6 +41,10 @@
 \contentsline {paragraph}{Resolution - step 1}{15}{equation.3.2.1}
 \contentsline {paragraph}{Resolution - step 2}{16}{equation.3.2.2}
 \contentsline {paragraph}{Resolution - step 3}{17}{equation.3.2.4}
-\contentsline {section}{\numberline {3.3}Back to the data}{17}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.2}Black-Scholes SDE with time-dependent coefficients }{17}{subsection.3.2.2}
+\contentsline {paragraph}{Presentation}{17}{subsection.3.2.2}
+\contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{17}{subsection.3.2.2}
+\contentsline {paragraph}{Resolution}{17}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Back to the data}{18}{section.3.3}
 \contentsline {chapter}{\numberline {A}An appendix}{19}{appendix.A}
 \contentsline {chapter}{Bibliography}{21}{appendix*.25}

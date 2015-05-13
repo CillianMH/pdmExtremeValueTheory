@@ -139,11 +139,11 @@ S_t &= \phi_t Z_t\\
 \end{equation} where the infinitesimal quadratic covariation between $\frac{1}{\phi}$ and $Z$ is zero as $\frac{1}{\phi}$ has bounded variations, in the third equality from the top.\newline
 Hence, using the Isometry formula, we have that :
 \begin{alignat*}{2}
-<Z>_t &= \int_0^t \! \frac{\sigma^2 S_s^2}{\phi_s^2} \, \mathrm{d}s. \\ 
- &= \int_0^t \! \sigma^2 Z_s^2 \, \mathrm{d}s. \\ 
+<Z>_t &= \int_0^t \! \frac{\sigma^2 S_s^2}{\phi_s^2} \, \mathrm{d}s \\ 
+ &= \int_0^t \! \sigma^2 Z_s^2 \, \mathrm{d}s \\ 
 \implies d<Z>_t &= \sigma^2 Z_t^2 dt
 \end{alignat*}
-\end{equation}
+\end{equation} \newline
 Back to ($\star$), we now have :
 \begin{equation}
 \begin{alignat*}{2}
@@ -164,8 +164,36 @@ Combining the previous equation with $dZ_t = \sigma Z_t dB_t$, we get : \newline
 \end{equation} \newline Finally, by remembering that $S_t = \phi_t Z_t = \exp(\mu t) Z_t$, we get :\newline
 $\forall t \ge 0, S_t = s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma B_t)$
 \newline The stochastic process $(S_t)_{t \ge 0}$, made explicit above, that is solution to the Black-Scholes equation is generally called Geometric Brownian Motion in the literature.
-
-	
+\subsection{Black-Scholes SDE with time-dependent coefficients }
+\paragraph{Presentation} In the simple Black-Scholes SDE, the drift $\mu$ and the volatility $\sigma$ were time-independent constants. Let us now consider a more general version of the Black-Scholes SDE : \newline
+$\left\{
+\begin{array}{l}
+dS_t = \mu(t) S_t dt + \sigma(t) S_t dB_t\\
+S_0 = s_0 > 0
+\end{array}
+\right.$ \newline where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $\mu, \sigma$ two continuous functions such that there exists $K_1 > 0$, $K_2 > 0$, such that $\forall t \ge 0$, $\lvert \mu(t) \rvert \le K_1$, $K_2 \le \lvert \sigma(t) \rvert \le K_1$.
+\paragraph{Resolution - existence of a solution to the generalized Black-Scholes SDE}
+Let us consider the following generic stochastic differential equation : \\
+$\left\{
+\begin{array}{l}
+dX_t = f(t,X_t) dt + g(t,X_t) dB_t\\
+X_0 = x_0
+\end{array}
+\right.$ \\ where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $x_0 \in \mathbb{R}$, $f,g : \mathbb{R}_{+} \times \mathbb{R} \longrightarrow \mathbb{R}$ are jointly continuous in $(t,x)$ and Lipschitz in x. Then, by a theorem from Stochastic Calculus, we know that there exists a unique solution $(X_t)_{t \ge 0}$ to the SDE. in the case of the generalized Black-Scholes SDE, the conditions are met and we can thus conclude that it admits a unique solution. The solution can be made explicit here too, fortunately !
+\paragraph{Resolution}
+Let us set $Y_t = \log(S_t)$, we then have $dY_t = \frac{1}{S_t}dS_t -\frac{1}{2} \frac{1}{S_t^2} d<S>_t$. If we remember that $dS_t = \mu(t) S_t dt + \sigma(t) S_t dB_t$ and apply the Isometry formula, we get that $d<S>_t = \sigma(t)^2 X_t^2 dt$. We thus get : \newline
+\begin{equation}
+\begin{alignat*}{2}
+\sigma dY_t &= \frac{1}{S_t} dS_t - \frac{1}{2} \frac{1}{S_t^2} d<S>_t \\
+&=  \frac{1}{S_t} dS_t - \frac{1}{2} \sigma(t)^2 dt \\
+&=  \frac{1}{S_t} (\mu(t) S_t dt + \sigma(t) S_t dB_t)- \frac{1}{2} \sigma(t)^2 dt \\
+ &= (\mu(t) - \frac{1}{2} \sigma(t)^2) dt + \sigma(t) dBt \\
+\implies Y_t &= y_0 + \int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s \\
+\implies Y_t &= \log(s_0) + \int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s \\
+\implies S_t &= s_0 \exp(\int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s)  \\
+\end{alignat*}
+\end{equation}\newline
+Let us observe that the solution found in the case of the generalized Black-Scholes SDE is coherent with the solution found for the simple Black-Scholes SDE\footnote{Just set functions $\mu$ and $\sigma$ equal to constants $\mu$ and $\sigma$ and we are back with the Geometric Brownian Motion previously found. }.
 
 \section{Back to the data}
 
