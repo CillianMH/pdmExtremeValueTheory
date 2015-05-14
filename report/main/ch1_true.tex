@@ -91,16 +91,16 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 \section{A détour around Stochastic Calculus}
 \subsection{The Black-Scholes Stochastic Differential Equation}
 \paragraph{Presentation}
-It is customary to model the evolution of stock prices by a stochastic process $(S_t)_{t \ge 0}$ satisfying the Black-Scholes stochastic differential equation, which reads as follows : 
+It is customary to model the evolution of stock prices by a stochastic process $(S_t)_{t \ge 0}$ satisfying the Black-Scholes stochastic differential equation, which rea\mathrm{d}s as follows : 
 \begin{equation}
-dS_t = \mu S_t dt + \sigma S_t dB_t
+\mathrm{d}S_t = \mu S_t \mathrm{d}t + \sigma S_t \mathrm{d}B_t
 \end{equation}
 where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$. Let us observe that the stochastic differential equation above is the Black-Scholes SDE with time independent coefficients : both the drift $\mu \in \mathbb{R}$ and the volatility $\sigma > 0$ are constant.\footnote{In the next subsection, we will deal with the Black-Scholes SDE with time dependent coefficients.} An initial condition must be specified : $S_0 = s_0 > 0$.
 \paragraph{Resolution - existence of a solution to the Black-Scholes SDE}
 Let us consider the following generic stochastic differential equation : \\
 $\left\{
 \begin{array}{l}
-dX_t = f(X_t) dt + g(X_t) dB_t\\
+\mathrm{d}X_t = f(X_t) \mathrm{d}t + g(X_t) \mathrm{d}B_t\\
 X_0 = x_0
 \end{array}
 \right.$ \\ where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $x_0 \in \mathbb{R}$, $f,g : \mathbb{R} \longrightarrow \mathbb{R}$ are Lipschitz functions. Then, by a theorem from Stochastic Calculus\footnote{readers wanting to get ahold of an excellent course on Stochastic Calculus are advised to refer to Dr. Lév\^{e}que's course. It can be found at \url{http://ipg.epfl.ch/~leveque/}}, we know that there exists a unique process that is continuous and adapted to the filtration $({\cal{F}}_t)_{t \ge 0}$. \\
@@ -110,52 +110,52 @@ Let us set $S_t = \phi_t Z_t$ where $\phi_t$ is the (deterministic) solution to 
 \\
 $\left\{
 \begin{array}{l}
-d\phi_t = \mu \phi_t dt\\
+\mathrm{d}\phi_t = \mu \phi_t \mathrm{d}t\\
 \phi_0 = 1
 \end{array}
-\right.$ \\ Solving this ODE is elementary and yields the solution $\phi_t = \exp(\mu t)$. Now, let us differentiate $X_t$ under its form as a product  $S_t = \phi_t Z_t$. \\
+\right.$ \\ Solving this ODE is elementary and yiel\mathrm{d}s the solution $\phi_t = \exp(\mu t)$. Now, let us differentiate $X_t$ under its form as a product  $S_t = \phi_t Z_t$. \\
 \begin{equation}
 \begin{alignat*}{2}
-d(S_t) &= d(\phi_t Z_t)\\ 
-&= \phi_t dZ_t + Z_t d\phi_t + d<\phi,Z>_t\\ 
-&= \phi_t dZ_t + \mu \phi_t Z_t dt\\
-&= \phi_t dZ_t + \mu S_t dt\\
+\mathrm{d}(S_t) &= \mathrm{d}(\phi_t Z_t)\\ 
+&= \phi_t \mathrm{d}Z_t + Z_t \mathrm{d}\phi_t + \mathrm{d}<\phi,Z>_t\\ 
+&= \phi_t \mathrm{d}Z_t + \mu \phi_t Z_t \mathrm{d}t\\
+&= \phi_t \mathrm{d}Z_t + \mu S_t \mathrm{d}t\\
 \end{alignat*}
-\end{equation} where the infinitesimal quadratic covariation between $\phi$ and $Z$ is zero as $\phi$ has bounded variations. If we compare the last right-hand term of the series of equations just above to the original Black-Scholes SDE, we see that $\sigma S_t dB_t = \phi_t dZ_t$. Hence, $dZ_t = \sigma Z_t dB_t$. Here, we must be very careful as this differential equation does not integrate as it would in the settings of 'usual' calculus, in particular, integrating it to $\log(Z_t) - \log(Z_0) = \sigma (B_t - B_0)$ is \underline{totally wrong !}
+\end{equation} where the infinitesimal quadratic covariation between $\phi$ and $Z$ is zero as $\phi$ has bounded variations. If we compare the last right-hand term of the series of equations just above to the original Black-Scholes SDE, we see that $\sigma S_t \mathrm{d}B_t = \phi_t \mathrm{d}Z_t$. Hence, $\mathrm{d}Z_t = \sigma Z_t \mathrm{d}B_t$. Here, we must be very careful as this differential equation does not integrate as it would in the settings of 'usual' calculus, in particular, integrating it to $\log(Z_t) - \log(Z_0) = \sigma (B_t - B_0)$ is \underline{totally wrong !}
 \paragraph{Resolution - step 2}
 Now, let us set $Y_t = \log(Z_t)$. Using Ito-Doeblin's formula, we get : \\
-$d(\log(Z_t)) = \frac{1}{Z_t} dZ_t + \frac{1}{2} (\frac{-1}{Z^2_{t}})d<Z>_t$ ($\star$)\\
-\underline{$\rightarrow$ How to compute $d<Z>_t$ ?}
+$d(\log(Z_t)) = \frac{1}{Z_t} \mathrm{d}Z_t + \frac{1}{2} (\frac{-1}{Z^2_{t}})\mathrm{d}<Z>_t$ ($\star$)\\
+\underline{$\rightarrow$ How to compute $\mathrm{d}<Z>_t$ ?}
 \begin{equation}
 \begin{alignat*}{2}
 S_t &= \phi_t Z_t\\ 
 \implies Z_t &= \frac{S_t}{\phi_t}\\ 
-\implies dZ_t &= \frac{1}{\phi_t} dS_t + S_t d(\frac{1}{\phi_t}) + d<\frac{1}{\phi},S>_t\\
-&= \frac{1}{\phi_t} dS_t - \frac{S_t}{\phi_t^2} d(\phi_t) \\
-&= \frac{1}{\phi_t} dS_t - \frac{\mu S_t}{\phi_t} dt \\
-&= \frac{1}{\phi_t} (\mu S_t dt + \sigma S_t dB_t) - \frac{\mu S_t}{\phi_t} dt \\
-&= \frac{\sigma S_t}{\phi_t} dB_t 
+\implies \mathrm{d}Z_t &= \frac{1}{\phi_t} \mathrm{d}S_t + S_t d(\frac{1}{\phi_t}) + \mathrm{d}<\frac{1}{\phi},S>_t\\
+&= \frac{1}{\phi_t} \mathrm{d}S_t - \frac{S_t}{\phi_t^2} d(\phi_t) \\
+&= \frac{1}{\phi_t} \mathrm{d}S_t - \frac{\mu S_t}{\phi_t} \mathrm{d}t \\
+&= \frac{1}{\phi_t} (\mu S_t \mathrm{d}t + \sigma S_t \mathrm{d}B_t) - \frac{\mu S_t}{\phi_t} \mathrm{d}t \\
+&= \frac{\sigma S_t}{\phi_t} \mathrm{d}B_t 
 \end{alignat*}
 \end{equation} where the infinitesimal quadratic covariation between $\frac{1}{\phi}$ and $Z$ is zero as $\frac{1}{\phi}$ has bounded variations, in the third equality from the top.\newline
 Hence, using the Isometry formula, we have that :
 \begin{alignat*}{2}
 <Z>_t &= \int_0^t \! \frac{\sigma^2 S_s^2}{\phi_s^2} \, \mathrm{d}s \\ 
  &= \int_0^t \! \sigma^2 Z_s^2 \, \mathrm{d}s \\ 
-\implies d<Z>_t &= \sigma^2 Z_t^2 dt
+\implies \mathrm{d}<Z>_t &= \sigma^2 Z_t^2 \mathrm{d}t
 \end{alignat*}
 \end{equation} \newline
 Back to ($\star$), we now have :
 \begin{equation}
 \begin{alignat*}{2}
-d(\log(Z_t)) &= \frac{1}{Z_t} dZ_t + \frac{1}{2} (\frac{-1}{Z^2_{t}}) \sigma^2 Z^2_{t} dt \\
-\iff \frac{1}{Z_t} dZ_t &= d(\log(Z_t)) + \frac{\sigma^2}{2} dt 
+\mathrm{d}(\log(Z_t)) &= \frac{1}{Z_t} \mathrm{d}Z_t + \frac{1}{2} (\frac{-1}{Z^2_{t}}) \sigma^2 Z^2_{t} \mathrm{d}t \\
+\iff \frac{1}{Z_t} \mathrm{d}Z_t &= d(\log(Z_t)) + \frac{\sigma^2}{2} \mathrm{d}t 
 \end{alignat*}
 \end{equation} 
 \paragraph{Resolution - step 3}
-Combining the previous equation with $dZ_t = \sigma Z_t dB_t$, we get : \newline
+Combining the previous equation with $\mathrm{d}Z_t = \sigma Z_t \mathrm{d}B_t$, we get : \newline
 \begin{equation}
 \begin{alignat*}{2}
-\sigma dB_t &= d(log(Z_t)) + \frac{\sigma^2}{2} dt \\
+\sigma \mathrm{d}B_t &= \mathrm{d}(log(Z_t)) + \frac{\sigma^2}{2} \mathrm{d}t \\
 \implies \log(Z_t) -\log(Z_0) &= -\frac{\sigma^2}{2} (t - 0) + \sigma (B_t - B_0) \\
 \implies \log(Z_t) -\log(\frac{S_0}{\phi_0}) &= -\frac{\sigma^2}{2} t + \sigma B_t \\
 \implies \log(Z_t) &= \log(s_0) -\frac{\sigma^2}{2} t + \sigma B_t \\
@@ -168,7 +168,7 @@ $\forall t \ge 0, S_t = s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma B_t)$
 \paragraph{Presentation} In the simple Black-Scholes SDE, the drift $\mu$ and the volatility $\sigma$ were time-independent constants. Let us now consider a more general version of the Black-Scholes SDE : \newline
 $\left\{
 \begin{array}{l}
-dS_t = \mu(t) S_t dt + \sigma(t) S_t dB_t\\
+\mathrm{d}S_t = \mu(t) S_t \mathrm{d}t + \sigma(t) S_t \mathrm{d}B_t\\
 S_0 = s_0 > 0
 \end{array}
 \right.$ \newline where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $\mu, \sigma$ two continuous functions such that there exists $K_1 > 0$, $K_2 > 0$, such that $\forall t \ge 0$, $\lvert \mu(t) \rvert \le K_1$, $K_2 \le \lvert \sigma(t) \rvert \le K_1$.
@@ -176,18 +176,18 @@ S_0 = s_0 > 0
 Let us consider the following generic stochastic differential equation : \\
 $\left\{
 \begin{array}{l}
-dX_t = f(t,X_t) dt + g(t,X_t) dB_t\\
+\mathrm{d}X_t = f(t,X_t) \mathrm{d}t + g(t,X_t) \mathrm{d}B_t\\
 X_0 = x_0
 \end{array}
 \right.$ \\ where $(B_t)_{t \ge 0}$ is a standard Brownian Motion with respect to a filtration $({\cal{F}}_t)_{t \ge 0}$, $x_0 \in \mathbb{R}$, $f,g : \mathbb{R}_{+} \times \mathbb{R} \longrightarrow \mathbb{R}$ are jointly continuous in $(t,x)$ and Lipschitz in x. Then, by a theorem from Stochastic Calculus, we know that there exists a unique solution $(X_t)_{t \ge 0}$ to the SDE. in the case of the generalized Black-Scholes SDE, the conditions are met and we can thus conclude that it admits a unique solution. The solution can be made explicit here too, fortunately !
 \paragraph{Resolution}
-Let us set $Y_t = \log(S_t)$, we then have $dY_t = \frac{1}{S_t}dS_t -\frac{1}{2} \frac{1}{S_t^2} d<S>_t$. If we remember that $dS_t = \mu(t) S_t dt + \sigma(t) S_t dB_t$ and apply the Isometry formula, we get that $d<S>_t = \sigma(t)^2 X_t^2 dt$. We thus get : \newline
+Let us set $Y_t = \log(S_t)$, we then have $\mathrm{d}Y_t = \frac{1}{S_t}\mathrm{d}S_t -\frac{1}{2} \frac{1}{S_t^2} \mathrm{d}<S>_t$. If we remember that $\mathrm{d}S_t = \mu(t) S_t \mathrm{d}t + \sigma(t) S_t \mathrm{d}B_t$ and apply the Isometry formula, we get that $\mathrm{d}<S>_t = \sigma(t)^2 X_t^2 \mathrm{d}t$. We thus get : \newline
 \begin{equation}
 \begin{alignat*}{2}
-\sigma dY_t &= \frac{1}{S_t} dS_t - \frac{1}{2} \frac{1}{S_t^2} d<S>_t \\
-&=  \frac{1}{S_t} dS_t - \frac{1}{2} \sigma(t)^2 dt \\
-&=  \frac{1}{S_t} (\mu(t) S_t dt + \sigma(t) S_t dB_t)- \frac{1}{2} \sigma(t)^2 dt \\
- &= (\mu(t) - \frac{1}{2} \sigma(t)^2) dt + \sigma(t) dBt \\
+\sigma \mathrm{d}Y_t &= \frac{1}{S_t} \mathrm{d}S_t - \frac{1}{2} \frac{1}{S_t^2} \mathrm{d}<S>_t \\
+&=  \frac{1}{S_t} \mathrm{d}S_t - \frac{1}{2} \sigma(t)^2 \mathrm{d}t \\
+&=  \frac{1}{S_t} (\mu(t) S_t \mathrm{d}t + \sigma(t) S_t \mathrm{d}B_t)- \frac{1}{2} \sigma(t)^2 \mathrm{d}t \\
+ &= (\mu(t) - \frac{1}{2} \sigma(t)^2) \mathrm{d}t + \sigma(t) dBt \\
 \implies Y_t &= y_0 + \int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s \\
 \implies Y_t &= \log(s_0) + \int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s \\
 \implies S_t &= s_0 \exp(\int_0^t \! (\mu(s) - \frac{1}{2} \sigma(s)^2) \, \mathrm{d}s + \int_0^t \! \sigma(s) \, \mathrm{d}B_s)  \\

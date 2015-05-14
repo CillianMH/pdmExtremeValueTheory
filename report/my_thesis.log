@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  13 MAY 2015 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2220,6 +2220,19 @@ _3/WeeklyLVMH.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_
 top/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg
 > </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/
 WeeklyCarrefour_1+Rt_eRt.jpeg>]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ...differential equation, which rea\mathrm{d}
+                                                  s as follows :
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
@@ -2227,6 +2240,19 @@ _3/WeeklyLVMH_1+Rt_eRt.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_t
 emplate5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg> </Users/kimartin/Desktop
 /PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg>
 ]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...ng this ODE is elementary and yiel\mathrm
+                                                  {d}s the solution $\phi_t ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2454,7 +2480,7 @@ st/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/public/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (39 pages, 1029891 bytes).
+Output written on my_thesis.pdf (39 pages, 1029771 bytes).
 PDF statistics:
  496 PDF objects out of 1000 (max. 8388607)
  415 compressed objects within 5 object streams
