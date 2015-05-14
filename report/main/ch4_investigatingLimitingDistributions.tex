@@ -27,7 +27,7 @@ When $n$ grows large, the $\frac{1}{n}$-quantile grows very large so it is valid
 &\iff & \log(q_\frac{1}{n}) + \log(\exp(-\frac{q_\frac{1}{n}^2}{2})) + \log(\sqrt{2 \pi}) &= \log(n)\\
 \end{alignat*}
 \end{equation}
-This equation cannot be solved analytically, we will resolve it iteratively. Th starting point is $\log(n) = \frac{t_0^2}{2}$, which gives us $t_0 = \sqrt{(2 \log(n))}$. If we then run the Newton-Raphson algorithm, we see that the corrections to $t_0$ from the next iterations are small enough that we can keep $t_0$ as solution.\footnote{See the fourth of the figures below}.
+This equation cannot be solved analytically, we will resolve it iteratively. The starting point is $\log(n) = \frac{t_0^2}{2}$, which gives us $t_0 = \sqrt{(2 \log(n))}$. If we then run the Newton-Raphson algorithm, we see that the corrections to $t_0$ from the next iterations are small enough that we can keep $t_0$ as solution.\footnote{See the fourth of the figures below}.
 \begin{figure}[h!]
 	\centering
 	\caption{Below, a realisation of the sequence of maxima for i.i.d. standard unit Gaussian RVs}\label{fig:toyingLimitGaussian}
@@ -137,39 +137,86 @@ Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Th
 \subsection{Why does this work ?}
 \paragraph{(The underlying idea)}
 Why have we made a link between the $\frac{1}{n}$-quantiles of the common distribution of the $X_i$ and the sequence of the $M_n$ ? Actually, the $\frac{1}{n}$-quantiles are a good proxy for the $M_n$. \newline
-The idea behind this is as follows, that the maxima will get closer to the upper end-point of the distribution of the $X_i$, $F_{X_i}$. That is also the case for the $\frac{1}{n}$-quantiles of $F_{X_i}$. Of course, it is only an intuition ! In the next section, we will show that it turns out to be valid (and in what precise sense it does so).
-\paragraph{A more rigorous approach}
-\section{Making appear extreme value distributions}
-\paragraph{The Extreme Value Theorem} The following result is fundamental in the field of Extreme Value Theory\footnote{it is the analogue in terms of extremes of the Central Limit Theorem in classical probability theory.}, it will be found in any textbook under the name of Fisher-Tippett theorem or Extreme Value theorem. \\ [4 pt]
-\begin{framed}
-	Let $(X_n)_{n \ge 1}$ be a sequence of independent identically distributed random variables and $(M_n)_{n \ge 1}$ be the sequence of the maxima as previously defined. If there exist a sequence of nonnegative real numbers $(a_n)_{n \ge 1}$ and a sequence of real numbers $(b_n)_{n \ge 1}$ such that $(\frac{M_n - b_n}{a_n})_{n \ge 1}$ converges in distribution to a non-degenerate distribution function F, then F belongs to the Extreme Value distribution family.
-\end{framed}
-\paragraph{Extreme Value distribution} The Extreme Value distribution sub-divides into three families of distribution :
-\begin{itemize}
-	\item the Fréchet distribution family, \textbf{Fréchet(a,b,$\alpha$)} \\
-	G(z) = $\exp(-(\frac{z-b}{a})^{-\alpha})\mathbb{1}(\{z > b\})$, a > 0, b $\in \mathbb{R}$, $\alpha$ > 0.
-	\item the Gumbel distribution family, \textbf{Gumbel(a,b)} \\ 
-	G(z) = $\exp(-\exp(-(\frac{z-b}{a})))$, $-\infty < z < +\infty$, a > 0, b $\in \mathbb{R}$.
-	\item the Weibull distribution family, \textbf{Weibull(a,b,$\alpha$)} \\
-	G(z) = $\exp(-(-\frac{z-b}{a})^{-\alpha})\mathbb{1}(\{z > b\}) + \mathbb{1}(\{z \le b\})$, a > 0, b $\in \mathbb{R}$, $\alpha$ > 0.
-\end{itemize}
-\newline
-Those three families can be combined into a single family of models, the Generalized Extreme Value Distribution. \\
-G(z) = $\exp(-(1 + \xi(\frac{z - \mu}{\sigma}))^{-\frac{1}{\xi}})$\footnote{However, the domain of the distribution depends on the parameters $\mu$, $\sigma$, $\xi$ : \{ z / $1 + \xi\frac{z-\mu}{\sigma} > 0$\}, with $\mu$, $\xi$ in $\mathbb{R}$ and $\sigma > 0$}
-\subsection{Making it appear in our context}
-\paragraph{Fréchet distribution} 
-Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Let us remember from the previous section the form of the $\frac{1}{n}$-quantile $q_n = \frac{1}{\lambda}\log(n)$. Let us evaluate $F_{M_n}$ in $q_\frac{1}{n}-t$ : \\
+The idea behind this is as follows, that the maxima will get closer to the upper end-point of the distribution of the $X_i$, $F_{X_i}$. That is also the case for the $\frac{1}{n}$-quantiles of $F_{X_i}$. Of course, it is only an intuition !
+\section{What are the limiting distributions in theses cases ?}
+\paragraph{Gumbel limiting distribution}
+Let us assume that a random variable $X$ follows a $Cauchy(0,1)$ distribution, $x^+ = + \infty$. The limiting distribution can only be either a Gumbel or a Fréchet-type distribution.
 \begin{equation}
 \begin{alignat*}{2}
-F_{M_n}(q_\frac{1}{n}-t) &= (1 - \exp(-\lambda(q_\frac{1}{n}-t)))^n\\ 
-&= (1 - \exp(\lambda t)\exp(-\lambda q_\frac{1}{n}))^n\\ 
-&= (1 - \frac{\exp(\lambda t)}{n})^n \\
-&\longrightarrow_{n \rightarrow +\infty} \exp(-\exp(\lambda t))
+f_X(x) = \frac{1}{\pi} \frac{1}{1 + x^2}
 \end{alignat*}
 \end{equation}
-
-
-\paragraph{Gumbel distribution}
+\begin{equation}
+\begin{alignat*}{2}
+F_X(x) = \frac{1}{\pi} \arctan(x) + \frac{1}{2}
+\end{alignat*}
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+r(x) &= \frac{f_X(x)}{1 - F_X(x)} \\
+&= \frac{\frac{1}{1 + x^2}}{\frac{\pi}{2} - \arctan(x)} \\
+&= \frac{\frac{1}{1 + x^2}}{\frac{\pi}{2} - (\frac{\pi}{2} - \arctan(\frac{1}{x}))}\\
+&= \frac{1}{(1 + x^2) \arctan(\frac{1}{x})}\\
+&= \frac{1}{(1 + x^2) (\frac{1}{x} + o(\frac{1}{x^2}))}\\
+&= \frac{1}{\frac{1 + x^2}{x} + o(1)}\\
+\implies x r(x) &= \frac{x^2}{x^2 + 1 + o(1)} \\
+\implies x r(x) &\xrightarrow[x \rightarrow + \infty]{} 1
+\end{alignat*}
+\end{equation}
+Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of a $Cauchy(0,1)$ sample is a Gumbel distribution.
+%\paragraph{Fréchet distribution} 
+%Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Let us remember from the previous section the form of the $\frac{1}{n}$-quantile $q_n = \frac{1}{\lambda}\log(n)$. Let us evaluate $F_{M_n}$ in $q_\frac{1}{n}-t$ : \\
+%\begin{equation}
+%\begin{alignat*}{2}
+%F_{M_n}(q_\frac{1}{n}-t) &= (1 - \exp(-\lambda(q_\frac{1}{n}-t)))^n\\ 
+%&= (1 - \exp(\lambda t)\exp(-\lambda q_\frac{1}{n}))^n\\ 
+%&= (1 - \frac{\exp(\lambda t)}{n})^n \\
+%&\longrightarrow_{n \rightarrow +\infty} \exp(-\exp(\lambda t)) \\
+%\end{alignat*}
+%\end{equation}
+\paragraph{Fréchet distribution}
+Let us assume that a random variable $X$ follows a $Exp(1)$ distribution, $x^+ = + \infty$. The limiting distribution here again can only be either a Gumbel or a Fréchet-type distribution.
+\begin{equation}
+\begin{alignat*}{2}
+f_X(x) = \lambda \exp(- \lambda x)
+\end{alignat*}
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+F_X(x) =  1 - \exp(- \lambda x)
+\end{alignat*}
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+r(x) &= \frac{f_X(x)}{1 - F_X(x)} \\
+&= \frac{\lambda \exp(- \lambda x)}{1 - (1 - \exp(- \lambda x))} \\
+&= \frac{\lambda \exp(- \lambda x)}{\exp(- \lambda x)} \\
+&= \lambda \\
+\implies \frac{\mathrm{d}r}{\mathrm{d}x}(x) &= 0
+\end{alignat*}
+\end{equation}
+Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of an $Exp(1)$ sample is a Fréchet distribution.
+\paragraph{Fréchet distribution - bis}
+Let us assume that a random variable $X$ follows a $\mathcal{N}(0,1)$ distribution, $x^+ = + \infty$. The limiting distribution here again can only be either a Gumbel or a Fréchet-type distribution. It turns out that in that case, the limiting distribution is a Fréchet-type distribution.\footnote{The computation is more involved in that case than with the $Exp(1)$ sample.}
 \paragraph{Weibull distribution}
-
-
+Cauchy, Normal and Exponential distributions all have an infinite upper end-point, thus we will never get a Weibull distribution as limiting distribution. Let us assume that a random variable $X$ follows a $Unif([0,1])$ distribution, $x^+ = 1 < + \infty$.
+\begin{equation}
+\begin{alignat*}{2}
+f_X(x) = 1
+\end{alignat*}
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+F_X(x) =  x
+\end{alignat*}
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+r(x) &= \frac{f_X(x)}{1 - F_X(x)} \\
+&= \frac{1}{1 - x} \\
+\implies (x^+ - x) r(x) &= (x^+ - x) \frac{1}{1 - x} \\
+\implies (1 - x) r(x) &= (1 - x) \frac{1}{1 - x} = 1 \\
+\implies (x^+ - x) r(x) &\xrightarrow[x \rightarrow x^+]{} 1 > 0
+\end{alignat*}
+\end{equation}
+Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of a $Unif([0,1])$ sample is a Weibull distribution.

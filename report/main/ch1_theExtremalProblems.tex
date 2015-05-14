@@ -154,7 +154,7 @@ Finally, to sum it up :
 \end{itemize}
 \section{The domain of attraction problem}
 \paragraph{Definition} The domain of attraction of an extreme value distribution family (i.e. Gumbel, Fréchet-type or Weibull-type) is the set of distribution functions $F_X$\footnote{$F_X$ being the distribution of the $X_i$ of the sample.} such that the sequence of standardized maxima $(M_n^*)_{n \ge 0}$ will converge in distribution to that extreme value distribution family.
-\paragraph{Remark} There are many approaches to characterize the domains of attraction of the extreme value distribution families. We have decided to use Von Mises' theorems to characterize them.
+\paragraph{Remark} There are many approaches to characterize the domains of attraction of the extreme value distribution families. We have decided to use Von Mises' theorems to characterize them. This is the historical approach, and a rather straightforward one, still by no means are alternative approaches uninteresting\footnote{In particular, conditions involving the behaviour of $F_X$ can be formulated.}.
 \paragraph{Hazard function} Let $X$ be a random variable with probability density function/mass function $f_X$ and distribution function $F_X$, then we define the hazard function $r$ as follows : \newline
 $r(x) = \frac{f_X(x)}{1 - F_X(x)}$.
 \paragraph{A few preliminary notations} $\Phi_\alpha$, $\Psi_\alpha$, $\Delta$ are respectively the symbols used to denote a Fréchet, a Weibull and a Gumbel distributions, with :
@@ -169,7 +169,8 @@ $r(x) = \frac{f_X(x)}{1 - F_X(x)}$.
 	\item If $x^+ < + \infty$ and $(x^+ - x) r(x) \xrightarrow[x \rightarrow x^+]{} \alpha > 0$, then $F_X \in \mathcal{D}(\Psi_\alpha)$.
 	\item If $r(x)$ is ultimately positive in the neighbourhood of $x^+$, is differentiable on that neighbourhood and is such that $\frac{\mathrm{d}r}{\mathrm{d}x}(x) \xrightarrow[x \rightarrow x^+]{} 0$, then $F_X \in \mathcal{D}(\Delta)$.
 \end{enumerate}
-
+\section{Conclusion}
+\paragraph{Fisher-Tippett-Gnedenko theorem} The \tetxbf{Fisher-Tippett-Gnedenko} theorem also known as the \textbf{extremal theorem} states that if the sequence of standardized maxima converges in distribution to a non-degenerate distribution, then this distribution belongs to one of the three aforementioned extreme value distribution families. The theorem thus provides an answer to the \textit{extremal limit problem}. Von Mises' theorem, encountered in the previous section, provides a complementary answer, the answer to the \textit{domain of attraction problem}.
 
 
 
