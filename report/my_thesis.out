@@ -9,21 +9,22 @@
 \BOOKMARK [0][-]{chapter.2}{The two extremal problems}{}% 9
 \BOOKMARK [1][-]{section.2.1}{The extremal limit problem}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.1.1}{Introduction}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.2}{Solving the problem}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{The domain of attraction problem}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Investigating results on the limiting distribution}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Playing with the \(original\) sequence of maxima}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.1.1}{Sample following a Normal distribution}{section.3.1}% 16
-\BOOKMARK [2][-]{subsection.3.1.2}{Sample following a Cauchy distribution}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.3}{Sample following an Exponential Distribution}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.4}{Why does this work ?}{section.3.1}% 19
-\BOOKMARK [1][-]{section.3.2}{Making appear extreme value distributions}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.2.1}{Making it appear in our context}{section.3.2}% 21
-\BOOKMARK [0][-]{chapter.4}{Looking into real-world data}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Five real-world stocks and their evolution over 15 years}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{A d\351tour around Stochastic Calculus}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{The Black-Scholes Stochastic Differential Equation}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.2}{Black-Scholes SDE with time-dependent coefficients }{section.4.2}% 26
-\BOOKMARK [1][-]{section.4.3}{Back to the data}{chapter.4}% 27
-\BOOKMARK [0][-]{appendix*.26}{Bibliography}{}% 28
-\BOOKMARK [0][-]{appendix*.27}{Recommendations on the use of the bibliography}{}% 29
+\BOOKMARK [2][-]{subsection.2.1.2}{Solving the problem - step 1}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.3}{Solving the problem - step 2 : expliciting the G in earnest}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{The domain of attraction problem}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Investigating results on the limiting distribution}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Playing with the \(original\) sequence of maxima}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Sample following a Normal distribution}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.2}{Sample following a Cauchy distribution}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.3}{Sample following an Exponential Distribution}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.4}{Why does this work ?}{section.3.1}% 20
+\BOOKMARK [1][-]{section.3.2}{Making appear extreme value distributions}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Making it appear in our context}{section.3.2}% 22
+\BOOKMARK [0][-]{chapter.4}{Looking into real-world data}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Five real-world stocks and their evolution over 15 years}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{A d\351tour around Stochastic Calculus}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{The Black-Scholes Stochastic Differential Equation}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.2}{Black-Scholes SDE with time-dependent coefficients }{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Back to the data}{chapter.4}% 28
+\BOOKMARK [0][-]{appendix*.26}{Bibliography}{}% 29
+\BOOKMARK [0][-]{appendix*.27}{Recommendations on the use of the bibliography}{}% 30

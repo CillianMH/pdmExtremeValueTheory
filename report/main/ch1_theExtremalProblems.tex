@@ -4,7 +4,7 @@
  \subsection{Introduction}
 \paragraph{Our approach} We are here interested in proving a result of convergence in distribution $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y$. Anyone who has dabbled in Probability knows that one of the classic ways to prove such a result is to use the definition and show that $\forall x$ in which $F_Y$ is continuous, $F_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} F_Y(x)$. Anyone who has dabbled in Statistics knows that in the context of discrete random variables $(Y_n)_{n \ge 0}$, Y it is easier to show the convergence of the probability mass functions i.e. that $\forall x, f_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} f_Y(x)$ and conclude by Scheffé's lemma that $(Y_n)_{n \ge 0}$ converges in distribution to Y. In the context of Extreme Value Theory, though, we will use a result based on the convergence of expectations. It is the \underline{Helly-Bray theorem} : \newline $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \mathrm{E}(g(Y))$.
 \paragraph{Remark} Our approach here is based upon the notes taken while reading "Chapter 2 : The Probabilistic side of extreme Value Theory" of \underline{Statistics of Extremes, Theory and Applications} by Beirlant \textit{et alii}. \textbf{We thus want to underline that the approach here is not our own, and that we are not engaging in plagiarism but giving account of the work done on our bibliographic sources.} 
-\subsection{Solving the problem}
+\subsection{Solving the problem - step 1}
 \paragraph{The answer to the extremal limit problem} It turns out that all possible non-degenerate limiting distributions i.e. all extreme values distribution make up a one-parameter family $G_\gamma(x) = \exp(-(1 + \gamma x)^{-\frac{1}{\gamma}})$, where the support of G is the set $\{ x : 1 + \gamma x > 0}$ and $\gamma in \mathbb{R}$ is the \textbf{E}xtreme \textbf{V}alue \textbf{I}nded or \textbf{EVI}. This is what we set out to show here.
 \paragraph{In the context of our problem} $Y_n = M_n^{*} = \frac{M_n - b_n}{a_n}$ and $Y = Y_\gamma$. $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \int_{-\infty}^{+\infty} \! g(v) \, \mathrm{d}G_\gamma(v) $. \newline
 \begin{equation}
@@ -90,6 +90,49 @@ To conclude,
 \implies h(u) = c h_\gamma(u)
 \end{alignat*}
 \end{equation}, for some constant $c$, with the auxiliary function $a$ regularly varying with index $\gamma$.
+\paragraph{Back to the search of an explicit form for the limiting laws} Let us assume that the condition $(\mathcal{C})$ holds, with $b_n = U(n)$ and $a_n = a(n)$.
+\begin{equation}
+\begin{alignat*}{2}
+\mathrm{E}(g(\frac{M_n - b_n}{a_n})) &= \int_0^n \! g(\frac{U(\frac{n}{v}) - b_n}{a_n}) (1 - \frac{v}{n})^{n - 1}\, \mathrm{d}v \\
+&= \int_0^n \! g(\frac{U(n \frac{1}{v}) - U(n)}{a(n)}) (1 - \frac{v}{n})^{n - 1}\, \mathrm{d}v \\
+&\xrightarrow[x \rightarrow + \infty]{} \int_0^{+ \infty} \! g(h_\gamma(\frac{1}{v})) \exp(- v)\, \mathrm{d}v
+\end{alignat*}
+\end{equation}The last integral must be equal to $\int_{- \infty}^{+ \infty} \! g(u) \, \mathrm{d}G_\gamma(u)$
+
+\subsection{Solving the problem - step 2 : expliciting the $G_\gamma$ in earnest}
+\paragraph{Case $\gamma = 0$} We make the following change of variables : $u = h_0(\frac{1}{v}) = \log(\frac{1}{v}) = - \log(v)$. \newline
+$u = \log(v) \iff v = \exp(-u)$, with $u \in \mathbb{R}$, $v \in ]0,+ \infty[$.
+\begin{equation}
+\begin{alignat*}{2}
+\mathrm{d}u &= - \frac{1}{v} \mathrm{d}v \\
+\implies \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &= \int_0^{+ \infty} \! g(u) \exp(- \exp(- u)) (- v)\, \mathrm{d}u \\
+\implies \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &= \int_0^{+ \infty} \! g(u) \exp(- \exp(- u)) (- \exp(- u))\, \mathrm{d}u \\
+\implies \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &= \int_{- \infty}^{+ \infty} \! g(u) ( - \exp(- u)\exp(- \exp(- u))) \, \mathrm{d}u \\
+\implies \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &= \int_{- \infty}^{+ \infty} \! g(u) \, \mathrm{d}(\exp(- \exp(- u))) \\
+\end{alignat*}
+\end{equation}
+Finally, \underline{$\gamma > 0 \implies G_\gamma(u) = \exp(- \exp(- u)) $}
+\paragraph{Case $\gamma \ne 0$} We make the following change of variables :
+\begin{equation}
+\begin{alignat*}{2}
+u &= h_\gamma(\frac{1}{v}) = \frac{(\frac{1}{v})^\gamma - 1}{\gamma}\\
+\iff (\frac{1}{v})^\gamma &= \gamma u + 1\\
+\iff \frac{1}{v} &= (\gamma u + 1)^{\frac{1}{\gamma}} \\
+\iff v &= (\gamma u + 1)^{- \frac{1}{\gamma}} \\ \\
+\mathrm{d}v &= - \frac{1}{\gamma} \gamma (\gamma u + 1)^{- \frac{1}{\gamma} - 1} mathrm{d}u \\
+\implies \mathrm{d}v &= - (\gamma u + 1)^{- \frac{\gamma + 1}{\gamma}} \mathrm{d}u
+\end{alignat*}
+\end{equation} $v$ varies from $0^+$ to $+ \infty$,
+\begin{itemize}
+	\item \underline{If $\gamma > 0$}, $u = \frac{(\frac{1}{v})^\gamma - 1}{\gamma}$, varying from $- \infty$ to $- \gamma^{-1}$.
+	\item \underline{If $\gamma < 0$}, $u = - \frac{v^{- \gamma} + 1}{- \gamma}$, varying from $- \gamma^{-1}$ to $- \infty$.
+\end{itemize}
+\begin{equation}
+\begin{alignat*}{2}
+ \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &=  \int_{+ \infty / - \gamma^{-1}}^{- \gamma^{-1} / - \infty} \! g(u) \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}}) (- (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}})\, \mathrm{d}u \\
+ &=  \int_{ - \gamma^{-1} / + \infty}^{- \infty / - \gamma^{-1}} \! g(u) (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}} \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})  \, \mathrm{d}u \\
+\end{alignat*}
+\end{equation}
 
 
 \section{The domain of attraction problem}
