@@ -43,22 +43,22 @@ We have chosen to study five stocks listed on the Paris Stock Exchange : BNP Par
 \end{figure}
 \newpage
 \paragraph{}
-Let $X_t$ be the price of a stock at time t, the gross return at time t + 1 is defined as the ratio $\frac{X_{t+1}}{X_t}$, the net return at time t + 1 is defined as the ratio $r_t = \frac{X_{t+1}-X_t}{X_t}$ and the log gross return at time t +1 is defined as the log of the gross return at time t + 1 i.e. $R_t = \log(\frac{X_{t+1}}{X_t})$. The latter two quantities are of particular interest in Finance. 
+Let $X_t$ be the price of a stock at time $t$, the gross return at time $t + 1$ is defined as the ratio $\frac{X_{t+1}}{X_t}$, the net return at time $t + 1$ is defined as the ratio $r_t = \frac{X_{t+1}-X_t}{X_t}$ and the log gross return at time $t +1$ is defined as the log of the gross return at time $t + 1$ i.e. $R_t = \log(\frac{X_{t+1}}{X_t})$. The latter two quantities are of particular interest in Finance. 
 \newline
-Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be rewritten as $X_{t+1} = \exp(R_{t+1})*X_t$. An approximation would be to take $X_{t+1} = (1 + R_{t+1})*X_t$ by taking the expansion of the exponential, cut at order 1. Below are the plots of the quantities $\exp(R_t)$ and 1 + $R_t$ for the five stocks previously considered. As we can see from the value of the residuals, this is in practice a very good approximation !
+Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be rewritten as $X_{t+1} = \exp(R_{t+1}) X_t$. An approximation would be to take $X_{t+1} = (1 + R_{t+1}) X_t$ by taking the expansion of the exponential, cut at order 1. Below are the plots of the quantities $\exp(R_t)$ and $1 + R_t$ for the five stocks previously considered. As we can see from the value of the residuals, this is in practice a very good approximation !
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for BNP Stock Price Data}
+		\caption{$\exp(R_t)$ and $1 + R_t$ for BNP Stock Price Data}
 		\label{fig:BNPCompApproxStock}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Carrefour Stock Price Data}
+		\caption{$\exp(R_t)$ and $1 + R_t$ for Carrefour Stock Price Data}
 		\label{fig:CarrefourCompApproxStock}
 	\end{minipage}
 \end{figure}
@@ -68,14 +68,14 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for LVMH Stock Price Data}
+		\caption{$\exp(R_t)$ and $1 + R_t$ for LVMH Stock Price Data}
 		\label{fig:LVMHCompApproxStock}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Sanofi Stock Price Data}
+		\caption{$\exp(R_t)$ and $1 + R_t$ for Sanofi Stock Price Data}
 		\label{fig:SanofiCompApproxStock}
 	\end{minipage}
 \end{figure}
@@ -85,7 +85,7 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Total Stock Price Data}
+		\caption{$\exp(R_t)$ and $1 + R_t$ for Total Stock Price Data}
 		\label{fig:TotalCompApproxStock}
 	\end{minipage}
 \end{figure}
@@ -93,7 +93,7 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 \begin{center}
 	\begin{tabular}[c]{ | p{3cm} || m{9cm} ||}
 		\hline
-		Stock & Cumulative residuals between $\exp(R_t)$ and 1 + $R_t$  \\ \hline
+		Stock & Cumulative residuals between $\exp(R_t)$ and $1 + R_t$  \\ \hline
 		BNP & 3.22E-15  \\ \hline
 		Carrefour & 1.44E-15  \\ \hline
 		LVMH & 4.75E-15  \\ \hline
