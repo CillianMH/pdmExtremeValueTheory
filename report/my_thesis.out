@@ -1,6 +1,6 @@
 \BOOKMARK [0][-]{chapter*.1}{Acknowledgements}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{Preface}{}% 2
-\BOOKMARK [0][-]{chapter*.3}{Abstract \(English/Fran\347ais/Deutsch\)}{}% 3
+\BOOKMARK [0][-]{chapter*.3}{Abstract \(English/Fran\347ais\)}{}% 3
 \BOOKMARK [0][-]{section*.6}{List of figures}{}% 4
 \BOOKMARK [0][-]{section*.8}{List of tables}{}% 5
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
@@ -16,11 +16,9 @@
 \BOOKMARK [1][-]{section.2.2}{Making appear extreme value distributions}{chapter.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.1}{Making it appear in our context}{section.2.2}% 17
 \BOOKMARK [0][-]{chapter.3}{Looking into real-world data}{}% 18
-\BOOKMARK [0][-]{chapter.3}{Looking into real-world data}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Five real-world stocks and their evolution over 15 years}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{A d\351tour around Stochastic Calculus}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.2.1}{The Black-Scholes Stochastic Differential Equation}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.2}{Black-Scholes SDE with time-dependent coefficients }{section.3.2}% 23
-\BOOKMARK [1][-]{section.3.3}{Back to the data}{chapter.3}% 24
-\BOOKMARK [0][-]{appendix.A}{An appendix}{}% 25
-\BOOKMARK [0][-]{appendix*.25}{Bibliography}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Five real-world stocks and their evolution over 15 years}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{A d\351tour around Stochastic Calculus}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.2.1}{The Black-Scholes Stochastic Differential Equation}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.2}{Black-Scholes SDE with time-dependent coefficients }{section.3.2}% 22
+\BOOKMARK [1][-]{section.3.3}{Back to the data}{chapter.3}% 23
+\BOOKMARK [0][-]{appendix*.24}{Bibliography}{}% 24
