@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,7 +1516,7 @@ l.25 \include{head/preface}
 ! Extra }, or forgotten $.
 <argument> ...o{tan}(\pi \frac {2-n}{2 n})\relax }
                                                   }\hyper@linkend 
-l.15 ...2-n}{2 n})\relax }}{13}{figure.caption.16}
+l.15 ...2-n}{2 n})\relax }}{15}{figure.caption.16}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1527,7 +1527,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <argument> ...{tan}(\pi \frac {2-n}{2 n})\relax }}
                                                   \hyper@linkend 
-l.15 ...2-n}{2 n})\relax }}{13}{figure.caption.16}
+l.15 ...2-n}{2 n})\relax }}{15}{figure.caption.16}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1538,7 +1538,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 ...2-n}{2 n})\relax }}{13}{figure.caption.16}
+l.15 ...2-n}{2 n})\relax }}{15}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1549,7 +1549,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.15 ...2-n}{2 n})\relax }}{13}{figure.caption.16}
+l.15 ...2-n}{2 n})\relax }}{15}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1560,7 +1560,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.15 ...2-n}{2 n})\relax }}{13}{figure.caption.16}
+l.15 ...2-n}{2 n})\relax }}{15}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1571,7 +1571,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten $.
 <argument> ...ow \qopname \relax o{log}(n)\relax }
                                                   }\hyper@linkend 
-l.19 ... o{log}(n)\relax }}{14}{figure.caption.19}
+l.19 ... o{log}(n)\relax }}{16}{figure.caption.19}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1582,7 +1582,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <argument> ...w \qopname \relax o{log}(n)\relax }}
                                                   \hyper@linkend 
-l.19 ... o{log}(n)\relax }}{14}{figure.caption.19}
+l.19 ... o{log}(n)\relax }}{16}{figure.caption.19}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1593,7 +1593,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19 ... o{log}(n)\relax }}{14}{figure.caption.19}
+l.19 ... o{log}(n)\relax }}{16}{figure.caption.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1604,7 +1604,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.19 ... o{log}(n)\relax }}{14}{figure.caption.19}
+l.19 ... o{log}(n)\relax }}{16}{figure.caption.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1615,7 +1615,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.19 ... o{log}(n)\relax }}{14}{figure.caption.19}
+l.19 ... o{log}(n)\relax }}{16}{figure.caption.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1969,10 +1969,14 @@ l.139 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[7]) [8]
+[7] [8]) [9]
 \openout2 = `main/ch4_investigatingLimitingDistributions.aux'.
 
- (./main/ch4_investigatingLimitingDistributions.tex
+ (./main/ch4_investigatingLimitingDistributions.tex [10
+
+
+
+]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1982,11 +1986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 Underfull \vbox (badness 1237) has occurred while \output is active []
 
- [9
-
-
-
-]
+ [11]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2002,7 +2002,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=371, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=384, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -2018,7 +2018,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=372, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=385, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -2034,7 +2034,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=373, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=386, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -2045,7 +2045,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=374, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=387, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -2074,7 +2074,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+[12 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 1/gaussianScatterMaxima.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_
 template5_57/main/R_Files_1/gaussianMaximaAgainstSteps.jpeg>]
 
@@ -2093,11 +2093,11 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+ [13 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templ
 ate5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=386, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=400, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -2113,7 +2113,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=387, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=401, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -2129,7 +2129,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=388, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=402, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -2177,7 +2177,7 @@ you left one out. Proceed, with fingers crossed.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+[14 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 1/cauchyScatterMaxima.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_te
 mplate5_57/main/R_Files_1/cauchyMaximaAgainstSteps.jpeg>]
 
@@ -2208,7 +2208,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=394, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=408, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -2224,7 +2224,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 119--120
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=395, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=409, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -2241,7 +2241,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 125--126
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=396, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=410, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -2292,11 +2292,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+[15 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 1/cauchyFitting.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+ [16 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/la
 tex_template5_57/main/R_Files_1/exponentialMaximaAgainstSteps.jpeg> </Users/kim
 artin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/exponentialFi
@@ -2331,14 +2331,14 @@ l.168 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[15]) [16]
+[17]) [18]
 \openout2 = `main/ch1_lookingIntoRealWorldData.aux'.
 
  (./main/ch1_lookingIntoRealWorldData.tex
 Chapter 4.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=422, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=436, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2354,7 +2354,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=423, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=437, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2370,7 +2370,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=424, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=438, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2386,7 +2386,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=425, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=439, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2402,7 +2402,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=426, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=440, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2419,7 +2419,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17
+[19
 
 
 
@@ -2427,7 +2427,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=433, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=448, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2443,7 +2443,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 53--54
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=434, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=449, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2459,7 +2459,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 60--61
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=435, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=450, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2475,7 +2475,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 70--71
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=436, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=451, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2491,7 +2491,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 77--78
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=437, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=452, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2535,7 +2535,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+[20 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 3/WeeklyLVMH.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_5
 7/main/R_Files_3/WeeklySanofi.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/
 latex_template5_57/main/R_Files_3/WeeklyTotal.jpeg>]
@@ -2557,7 +2557,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+ [21 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_te
 mplate5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg> </Users/kimartin/Deskt
 op/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg
@@ -2565,7 +2565,7 @@ op/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg
 WeeklySanofi_1+Rt_eRt.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+ [22 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg>]
 
 ! LaTeX Error: \mathrm allowed only in math mode.
@@ -2609,7 +2609,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 
 ! LaTeX Error: Bad math environment delimiter.
 
@@ -2694,7 +2694,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [24]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2708,14 +2708,14 @@ l.211 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[23]) [24]
+[25]) [26]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex) [25
+ (./tail/appendix.tex) [27
 
 
 
-] [26
+] [28
 
 
 ]
@@ -2731,7 +2731,7 @@ Overfull \hbox (15.08403pt too wide) in paragraph at lines 10--11
 []$[]$\T1/futs/m/n/10.95 (-20) , by Beir-lant, Goege-beur, Segers and Teugels
  []
 
-) [27
+) [29
 
 
 ]
@@ -2750,15 +2750,18 @@ Package rerunfilecheck Info: File `my_thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 23866 strings out of 493117
- 430103 string characters out of 6135433
- 638775 words of memory out of 5000000
- 26364 multiletter control sequences out of 15000+600000
- 132658 words of font info for 294 fonts, out of 8000000 for 9000
+ 23877 strings out of 493117
+ 430194 string characters out of 6135433
+ 638776 words of memory out of 5000000
+ 26365 multiletter control sequences out of 15000+600000
+ 132928 words of font info for 297 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,77p,1172b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2823,10 +2826,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (45 pages, 1068236 bytes).
+Output written on my_thesis.pdf (47 pages, 1072269 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 486 compressed objects within 5 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 499 compressed objects within 5 object streams
+ 146 named destinations out of 1000 (max. 500000)
  32614 words of extra memory for PDF output out of 35830 (max. 10000000)
 
