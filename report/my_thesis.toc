@@ -10,40 +10,52 @@
 \contentsline {chapter}{Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}A few words to set the scene}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Formalising the settings}{1}{section.1.2}
-\contentsline {chapter}{\numberline {2}Investigating results on the limiting distribution}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Playing with the (original) sequence of maxima}{3}{section.2.1}
-\contentsline {paragraph}{}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Sample following a Normal distribution}{3}{subsection.2.1.1}
-\contentsline {paragraph}{Computing the quantiles}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Sample following a Cauchy distribution}{5}{subsection.2.1.2}
-\contentsline {paragraph}{Computing the quantiles}{5}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Sample following an Exponential Distribution}{7}{subsection.2.1.3}
-\contentsline {paragraph}{Computing the quantiles}{7}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Why does this work ?}{8}{subsection.2.1.4}
-\contentsline {paragraph}{(The underlying idea)}{8}{subsection.2.1.4}
-\contentsline {paragraph}{A more rigorous approach}{9}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Making appear extreme value distributions}{9}{section.2.2}
-\contentsline {paragraph}{The Extreme Value Theorem}{9}{section.2.2}
-\contentsline {paragraph}{Extreme Value distribution}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Making it appear in our context}{9}{subsection.2.2.1}
-\contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{9}{subsection.2.2.1}
-\contentsline {paragraph}{Gumbel distribution}{10}{equation.2.2.6}
-\contentsline {paragraph}{Weibull distribution}{10}{equation.2.2.6}
-\contentsline {chapter}{\numberline {3}Looking into real-world data}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Five real-world stocks and their evolution over 15 years}{11}{section.3.1}
-\contentsline {paragraph}{}{12}{figure.caption.21}
-\contentsline {section}{\numberline {3.2}A d\IeC {\'e}tour around Stochastic Calculus}{14}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Black-Scholes Stochastic Differential Equation}{14}{subsection.3.2.1}
-\contentsline {paragraph}{Presentation}{14}{subsection.3.2.1}
-\contentsline {paragraph}{Resolution - existence of a solution to the Black-Scholes SDE}{14}{equation.3.2.1}
-\contentsline {paragraph}{Resolution - step 1}{15}{equation.3.2.1}
-\contentsline {paragraph}{Resolution - step 2}{15}{equation.3.2.2}
-\contentsline {paragraph}{Resolution - step 3}{17}{equation.3.2.4}
-\contentsline {subsection}{\numberline {3.2.2}Black-Scholes SDE with time-dependent coefficients }{17}{subsection.3.2.2}
-\contentsline {paragraph}{Presentation}{17}{subsection.3.2.2}
-\contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{17}{subsection.3.2.2}
-\contentsline {paragraph}{Resolution}{17}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Back to the data}{18}{section.3.3}
-\contentsline {chapter}{Bibliography}{19}{appendix*.25}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{21}{appendix*.26}
-\contentsline {paragraph}{\\[25 pt]}{21}{appendix*.26}
+\contentsline {paragraph}{The two fundamental problems of extreme value theory}{2}{equation.1.2.2}
+\contentsline {chapter}{\numberline {2}The two extremal problems}{3}{chapter.2}
+\contentsline {chapter}{The two extremal problems}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The extremal limit problem}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{3}{subsection.2.1.1}
+\contentsline {paragraph}{Our approach}{3}{subsection.2.1.1}
+\contentsline {paragraph}{Remark}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Solving the problem}{3}{subsection.2.1.2}
+\contentsline {paragraph}{The answer to the extremal limit problem}{3}{subsection.2.1.2}
+\contentsline {paragraph}{In the context of our problem}{4}{subsection.2.1.2}
+\contentsline {paragraph}{A preparatory phase}{5}{equation.2.1.2}
+\contentsline {section}{\numberline {2.2}The domain of attraction problem}{6}{section.2.2}
+\contentsline {chapter}{\numberline {3}Investigating results on the limiting distribution}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Playing with the (original) sequence of maxima}{7}{section.3.1}
+\contentsline {paragraph}{}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Sample following a Normal distribution}{7}{subsection.3.1.1}
+\contentsline {paragraph}{Computing the quantiles}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sample following a Cauchy distribution}{9}{subsection.3.1.2}
+\contentsline {paragraph}{Computing the quantiles}{9}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Sample following an Exponential Distribution}{11}{subsection.3.1.3}
+\contentsline {paragraph}{Computing the quantiles}{11}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Why does this work ?}{12}{subsection.3.1.4}
+\contentsline {paragraph}{(The underlying idea)}{12}{subsection.3.1.4}
+\contentsline {paragraph}{A more rigorous approach}{13}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Making appear extreme value distributions}{13}{section.3.2}
+\contentsline {paragraph}{The Extreme Value Theorem}{13}{section.3.2}
+\contentsline {paragraph}{Extreme Value distribution}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Making it appear in our context}{13}{subsection.3.2.1}
+\contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{13}{subsection.3.2.1}
+\contentsline {paragraph}{Gumbel distribution}{14}{equation.3.2.6}
+\contentsline {paragraph}{Weibull distribution}{14}{equation.3.2.6}
+\contentsline {chapter}{\numberline {4}Looking into real-world data}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Five real-world stocks and their evolution over 15 years}{15}{section.4.1}
+\contentsline {paragraph}{}{16}{figure.caption.21}
+\contentsline {section}{\numberline {4.2}A d\IeC {\'e}tour around Stochastic Calculus}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Black-Scholes Stochastic Differential Equation}{18}{subsection.4.2.1}
+\contentsline {paragraph}{Presentation}{18}{subsection.4.2.1}
+\contentsline {paragraph}{Resolution - existence of a solution to the Black-Scholes SDE}{19}{equation.4.2.1}
+\contentsline {paragraph}{Resolution - step 1}{19}{equation.4.2.1}
+\contentsline {paragraph}{Resolution - step 2}{19}{equation.4.2.2}
+\contentsline {paragraph}{Resolution - step 3}{21}{equation.4.2.4}
+\contentsline {subsection}{\numberline {4.2.2}Black-Scholes SDE with time-dependent coefficients }{21}{subsection.4.2.2}
+\contentsline {paragraph}{Presentation}{21}{subsection.4.2.2}
+\contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{21}{subsection.4.2.2}
+\contentsline {paragraph}{Resolution}{21}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
+\contentsline {chapter}{Bibliography}{23}{appendix*.26}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{25}{appendix*.27}
+\contentsline {paragraph}{\\[25 pt]}{25}{appendix*.27}
