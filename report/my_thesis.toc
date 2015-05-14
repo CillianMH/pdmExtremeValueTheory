@@ -7,12 +7,10 @@
 \contentsline {chapter}{List of figures}{xi}{section*.6}
 \contentsline {chapter}{List of tables}{xiii}{section*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}A few words to set the scene}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Formalising the settings}{1}{section.1.2}
 \contentsline {paragraph}{The two fundamental problems of extreme value theory}{2}{equation.1.2.2}
 \contentsline {chapter}{\numberline {2}The two extremal problems}{3}{chapter.2}
-\contentsline {chapter}{The two extremal problems}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}The extremal limit problem}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Introduction}{3}{subsection.2.1.1}
 \contentsline {paragraph}{Our approach}{3}{subsection.2.1.1}
