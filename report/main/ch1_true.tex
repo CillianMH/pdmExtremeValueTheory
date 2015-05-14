@@ -50,44 +50,58 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.4]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for BNP Stock Price Data, residual : 3.22E-15}
+		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg}
+		\caption{$\exp(R_t)$ and 1 + $R_t$ for BNP Stock Price Data}
 		\label{fig:BNPCompApproxStock}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.4]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Carrefour Stock Price Data, residual : 1.44E-15}
+		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg}
+		\caption{$\exp(R_t)$ and 1 + $R_t$ for Carrefour Stock Price Data}
 		\label{fig:CarrefourCompApproxStock}
 	\end{minipage}
 \end{figure}
+\\
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.4]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for LVMH Stock Price Data, residual : 4.75E-15}
+		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg}
+		\caption{$\exp(R_t)$ and 1 + $R_t$ for LVMH Stock Price Data}
 		\label{fig:LVMHCompApproxStock}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.4]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Sanofi Stock Price Data, residual : 1.55E-15}
+		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg}
+		\caption{$\exp(R_t)$ and 1 + $R_t$ for Sanofi Stock Price Data}
 		\label{fig:SanofiCompApproxStock}
 	\end{minipage}
-	~
+\end{figure}
+\\
+\begin{figure}[h!]
+	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.4]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg}
-		\caption{$\exp(R_t)$ and 1 + $R_t$ for Total Stock Price Data, residual : 3.86E-15}
+		\includegraphics[scale = 0.425]{/Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg}
+		\caption{$\exp(R_t)$ and 1 + $R_t$ for Total Stock Price Data}
 		\label{fig:TotalCompApproxStock}
 	\end{minipage}
 \end{figure}
-\paragraph{}
+\\
+\begin{center}
+	\begin{tabular}[c]{ | p{3cm} || m{9cm} ||}
+		\hline
+		Stock & Cumulative residuals between $\exp(R_t)$ and 1 + $R_t$  \\ \hline
+		BNP & 3.22E-15  \\ \hline
+		Carrefour & 1.44E-15  \\ \hline
+		LVMH & 4.75E-15  \\ \hline
+		Sanofi & 1.55E-15  \\ \hline
+		Total & 3.86E-15  \\ \hline
+	\end{tabular}
+\end{center}
 
-\newpage
 \section{A détour around Stochastic Calculus}
 \subsection{The Black-Scholes Stochastic Differential Equation}
 \paragraph{Presentation}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1701,7 +1701,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=288, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=289, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1717,7 +1717,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=289, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=290, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1733,7 +1733,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=290, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=291, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -1744,7 +1744,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=291, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=292, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -1796,7 +1796,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=303, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=304, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1812,7 +1812,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=304, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=305, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1828,7 +1828,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=305, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=306, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -1907,7 +1907,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=312, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=313, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1923,7 +1923,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 119--120
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=313, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=314, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1940,7 +1940,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 125--126
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=314, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=315, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -2037,7 +2037,7 @@ If that doesn't work, type  X <return>  to quit.
 Chapter 3.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=341, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=342, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2053,7 +2053,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=342, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=343, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2069,7 +2069,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=343, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=344, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2085,7 +2085,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=344, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=345, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2101,7 +2101,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=345, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=346, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2126,7 +2126,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=352, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=353, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2134,15 +2134,15 @@ _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 3/WeeklyBNP_1+Rt_eRt.jpeg>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg used on input line 53.
-(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
+(pdftex.def)             Requested size: 204.76596pt x 204.76596pt.
 
-Overfull \hbox (25.64456pt too wide) in paragraph at lines 53--54
+Overfull \hbox (37.69394pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=353, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=354, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2150,58 +2150,63 @@ _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 3/WeeklyCarrefour_1+Rt_eRt.jpeg>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg used on input line 60.
-(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
+(pdftex.def)             Requested size: 204.76596pt x 204.76596pt.
 
-Overfull \hbox (25.64456pt too wide) in paragraph at lines 60--61
+Overfull \hbox (37.69394pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=354, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=355, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
 <use /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 3/WeeklyLVMH_1+Rt_eRt.jpeg>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_thesis_report/latex_templa
-te5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg used on input line 69.
-(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
+te5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg used on input line 70.
+(pdftex.def)             Requested size: 204.76596pt x 204.76596pt.
 
-Overfull \hbox (25.64456pt too wide) in paragraph at lines 69--70
+Overfull \hbox (37.69394pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=355, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=356, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
 <use /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 3/WeeklySanofi_1+Rt_eRt.jpeg>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_thesis_report/latex_templa
-te5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg used on input line 76.
-(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
+te5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg used on input line 77.
+(pdftex.def)             Requested size: 204.76596pt x 204.76596pt.
 
-Overfull \hbox (25.64456pt too wide) in paragraph at lines 76--77
+Overfull \hbox (37.69394pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=356, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=357, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
 <use /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
 3/WeeklyTotal_1+Rt_eRt.jpeg>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_thesis_report/latex_templa
-te5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg used on input line 83.
-(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
+te5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg used on input line 87.
+(pdftex.def)             Requested size: 204.76596pt x 204.76596pt.
 
-Overfull \hbox (25.64456pt too wide) in paragraph at lines 83--84
+Overfull \hbox (37.69394pt too wide) in paragraph at lines 87--88
  [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--93
+
  []
 
 
@@ -2210,36 +2215,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[12 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+3/WeeklyLVMH.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_5
+7/main/R_Files_3/WeeklySanofi.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/
+latex_template5_57/main/R_Files_3/WeeklyTotal.jpeg>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [12 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
-_3/WeeklyLVMH.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_
-57/main/R_Files_3/WeeklySanofi.jpeg> </Users/kimartin/Desktop/PDM_thesis_report
-/latex_template5_57/main/R_Files_3/WeeklyTotal.jpeg>] [13 </Users/kimartin/Desk
-top/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyBNP_1+Rt_eRt.jpeg
-> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/
-WeeklyCarrefour_1+Rt_eRt.jpeg>]
 
-! LaTeX Error: \mathrm allowed only in math mode.
+! LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 ...differential equation, which rea\mathrm{d}
-                                                  s as follows :
+l.94 	\begin{tabular}[c]{ | p{3cm} || m{9cm} ||}
+                                                
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 	\begin{tabular}[c]{ | p{3cm} || m{9cm} ||}
+                                                
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
-_3/WeeklyLVMH_1+Rt_eRt.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_t
-emplate5_57/main/R_Files_3/WeeklySanofi_1+Rt_eRt.jpeg> </Users/kimartin/Desktop
-/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyTotal_1+Rt_eRt.jpeg>
-]
+ [13 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
+_3/WeeklyBNP_1+Rt_eRt.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_te
+mplate5_57/main/R_Files_3/WeeklyCarrefour_1+Rt_eRt.jpeg> </Users/kimartin/Deskt
+op/PDM_thesis_report/latex_template5_57/main/R_Files_3/WeeklyLVMH_1+Rt_eRt.jpeg
+> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/
+WeeklySanofi_1+Rt_eRt.jpeg>]
 
 ! LaTeX Error: \mathrm allowed only in math mode.
 
@@ -2247,7 +2262,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 ...ng this ODE is elementary and yiel\mathrm
+l.108 ...ifferential equation, which rea\mathrm{d}
+                                                  s as follows :
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[14 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
+3/WeeklyTotal_1+Rt_eRt.jpeg>]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 ...ng this ODE is elementary and yiel\mathrm
                                                   {d}s the solution $\phi_t ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2261,82 +2290,10 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \end{alignat*}
+l.137 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 4108) has occurred while \output is active []
-
- [15]
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \end{alignat*}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \end{equation}
-                     \newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra }, or forgotten $.
-\endmathdisplay@fleqn ...kip \@mathmargin \egroup 
-                                                  \ifnum \badness <\inf@bad ...
-l.146 \end{equation}
-                     \newline
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \end{equation}
-                     \newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.146 \end{equation}
-                     \newline
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.146 \end{equation}
-                     \newline
-Things are pretty mixed up, but I think the worst is over.
 
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
@@ -2352,6 +2309,65 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{equation}
+                     \newline
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+\endmathdisplay@fleqn ...kip \@mathmargin \egroup 
+                                                  \ifnum \badness <\inf@bad ...
+l.160 \end{equation}
+                     \newline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{equation}
+                     \newline
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 \end{equation}
+                     \newline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.160 \end{equation}
+                     \newline
+Things are pretty mixed up, but I think the worst is over.
+
+
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
@@ -2359,7 +2375,20 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \end{alignat*}
+l.166 \end{alignat*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2376,7 +2405,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 \end{alignat*}
+l.208 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2401,13 +2430,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 266D954411B8A5947F3FF95770382D61;1787.
+(rerunfilecheck)             Checksum: F3BEE24C136A455577308B61F11AE319;1787.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 23751 strings out of 493117
- 427955 string characters out of 6135433
- 636507 words of memory out of 5000000
+ 23752 strings out of 493117
+ 427972 string characters out of 6135433
+ 636402 words of memory out of 5000000
  26336 multiletter control sequences out of 15000+600000
  117217 words of font info for 257 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2471,10 +2500,10 @@ st/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/public/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (38 pages, 1028391 bytes).
+Output written on my_thesis.pdf (38 pages, 1028713 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 500000)
+ 479 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
  31542 words of extra memory for PDF output out of 35830 (max. 10000000)
 
