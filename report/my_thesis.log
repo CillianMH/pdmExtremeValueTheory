@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,9 +1513,9 @@ l.25 \include{head/preface}
 
 ] (./my_thesis.lof
 ! Extra }, or forgotten $.
-<argument> ... o{tan}(pi \frac {2-n}{2*n})\relax }
+<argument> ...o{tan}(\pi \frac {2-n}{2 n})\relax }
                                                   }\hyper@linkend 
-l.14 ...{2-n}{2*n})\relax }}{7}{figure.caption.16}
+l.14 ...{2-n}{2 n})\relax }}{7}{figure.caption.16}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1524,9 +1524,9 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-<argument> ...o{tan}(pi \frac {2-n}{2*n})\relax }}
+<argument> ...{tan}(\pi \frac {2-n}{2 n})\relax }}
                                                   \hyper@linkend 
-l.14 ...{2-n}{2*n})\relax }}{7}{figure.caption.16}
+l.14 ...{2-n}{2 n})\relax }}{7}{figure.caption.16}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1537,7 +1537,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.14 ...{2-n}{2*n})\relax }}{7}{figure.caption.16}
+l.14 ...{2-n}{2 n})\relax }}{7}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1548,7 +1548,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.14 ...{2-n}{2*n})\relax }}{7}{figure.caption.16}
+l.14 ...{2-n}{2 n})\relax }}{7}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1559,7 +1559,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.14 ...{2-n}{2*n})\relax }}{7}{figure.caption.16}
+l.14 ...{2-n}{2 n})\relax }}{7}{figure.caption.16}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1841,7 +1841,7 @@ te5_57/main/R_Files_1/cauchyFitting.jpeg used on input line 95.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 ...n $n \rightarrow \tan(pi \frac{2-n}{2*n})}
+l.96 ... $n \rightarrow \tan(\pi \frac{2-n}{2 n})}
                                                   $}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1849,7 +1849,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 ...n $n \rightarrow \tan(pi \frac{2-n}{2*n})}
+l.96 ... $n \rightarrow \tan(\pi \frac{2-n}{2 n})}
                                                   $}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1857,7 +1857,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.96 ...$n \rightarrow \tan(pi \frac{2-n}{2*n})}$}
+l.96 ...n \rightarrow \tan(\pi \frac{2-n}{2 n})}$}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2436,7 +2436,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 Here is how much of TeX's memory you used:
  23744 strings out of 493117
  427894 string characters out of 6135433
- 636405 words of memory out of 5000000
+ 636403 words of memory out of 5000000
  26336 multiletter control sequences out of 15000+600000
  116677 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2500,7 +2500,7 @@ st/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/public/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (38 pages, 1028804 bytes).
+Output written on my_thesis.pdf (38 pages, 1028777 bytes).
 PDF statistics:
  479 PDF objects out of 1000 (max. 8388607)
  400 compressed objects within 4 object streams

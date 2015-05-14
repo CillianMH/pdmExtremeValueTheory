@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Cauchy(0,1)} RVs\relax }}{6}{figure.caption.14}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{6}{figure.caption.15}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Maxima against the time steps\relax }}{6}{figure.caption.15}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{tan}(pi \frac {2-n}{2*n})\relax }}{7}{figure.caption.16}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{tan}(\pi \frac {2-n}{2 n})\relax }}{7}{figure.caption.16}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Exp(1)} RVs\relax }}{7}{figure.caption.17}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{8}{figure.caption.18}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Maxima against the time steps\relax }}{8}{figure.caption.18}
