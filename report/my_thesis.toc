@@ -45,3 +45,5 @@
 \contentsline {paragraph}{Resolution}{17}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Back to the data}{18}{section.3.3}
 \contentsline {chapter}{Bibliography}{19}{appendix*.25}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{21}{appendix*.26}
+\contentsline {paragraph}{\\[25 pt]}{21}{appendix*.26}
