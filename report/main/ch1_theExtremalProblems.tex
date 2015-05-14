@@ -130,10 +130,28 @@ u &= h_\gamma(\frac{1}{v}) = \frac{(\frac{1}{v})^\gamma - 1}{\gamma}\\
 \begin{equation}
 \begin{alignat*}{2}
  \int_0^{+ \infty} \! g(u) \exp(- v)\, \mathrm{d}v &=  \int_{+ \infty / - \gamma^{-1}}^{- \gamma^{-1} / - \infty} \! g(u) \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}}) (- (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}})\, \mathrm{d}u \\
- &=  \int_{ - \gamma^{-1} / + \infty}^{- \infty / - \gamma^{-1}} \! g(u) (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}} \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})  \, \mathrm{d}u \\
+ &=  \int_{ - \gamma^{-1} / - \infty}^{+ \infty / - \gamma^{-1}} \! g(u) (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}} \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})  \, \mathrm{d}u \\
 \end{alignat*}
 \end{equation}
-
+\begin{equation}
+\begin{alignat*}{2}
+\mathrm{d}(\exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})) &=  (1 + \gamma u)^{- \frac{\gamma + 1}{\gamma}} \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}}) \mathrm{d}u
+\end{alignat*}
+\end{equation}
+Finally, the last integral in $(2.15)$ is equal to,
+\begin{itemize}
+	\item \underline{If $\gamma > 0$},  $\int_{ - \gamma^{-1}}^{+ \infty} \! g(u) \, \mathrm{d}(\exp(- (1 + \gamma u)^{- \frac{1}{\gamma}}))$ 
+	\item \underline{If $\gamma < 0$},  $\int_{ - \infty}^{ - \gamma^{-1}} \! g(u) \, \mathrm{d}(\exp(- (1 + \gamma u)^{- \frac{1}{\gamma}}))$ 
+\end{itemize}
+Finally, to sum it up :
+\begin{itemize}
+	\item \underline{$\gamma = 0$ :} \textbf{Gumbel distribution} \newline
+	$G_\gamma(u) = \exp(- \exp(- u))$, $u \in \mathbb{R}$
+	\item \underline{$\gamma > 0$ :} \textbf{Fréchet distribution} \newline
+	$G_\gamma(u) = \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})$, $u \in ]- \gamma^{-1}, + \infty[$
+	\item \underline{$\gamma > 0$ :} \textbf{Weibull distribution} \newline
+	$G_\gamma(u) = \exp(- (1 + \gamma u)^{- \frac{1}{\gamma}})$, $u \in ]- \infty, - \gamma^{-1}[$
+\end{itemize}
 
 \section{The domain of attraction problem}
 
