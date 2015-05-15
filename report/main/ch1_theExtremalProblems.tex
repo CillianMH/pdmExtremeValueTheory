@@ -5,7 +5,7 @@
 \paragraph{Our approach} We are here interested in proving a result of convergence in distribution $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y$. Anyone who has dabbled in Probability knows that one of the classic ways to prove such a result is to use the definition and show that $\forall x$ in which $F_Y$ is continuous, $F_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} F_Y(x)$. Anyone who has dabbled in Statistics knows that in the context of discrete random variables $(Y_n)_{n \ge 0}$, Y it is easier to show the convergence of the probability mass functions i.e. that $\forall x, f_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} f_Y(x)$ and conclude by Scheffé's lemma that $(Y_n)_{n \ge 0}$ converges in distribution to Y. In the context of Extreme Value Theory, though, we will use a result based on the convergence of expectations. It is the \underline{Helly-Bray theorem} : \newline $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \mathrm{E}(g(Y))$.
 \paragraph{Remark} Our approach here is based upon the notes taken while reading "Chapter 2 : The Probabilistic side of extreme Value Theory" of \underline{Statistics of Extremes, Theory and Applications} by Beirlant \textit{et alii}. \textbf{We thus want to underline that the approach here is not our own, and that we are not engaging in plagiarism but giving account of the work done on our bibliographic sources.} 
 \subsection{Solving the problem - step 1}
-\paragraph{The answer to the extremal limit problem} It turns out that all possible non-degenerate limiting distributions i.e. all extreme values distribution make up a one-parameter family $G_\gamma(x) = \exp(-(1 + \gamma x)^{-\frac{1}{\gamma}})$, where the support of G is the set $\{ x : 1 + \gamma x > 0}$ and $\gamma in \mathbb{R}$ is the \textbf{E}xtreme \textbf{V}alue \textbf{I}nded or \textbf{EVI}. This is what we set out to show here.
+\paragraph{The answer to the extremal limit problem} It turns out that all possible non-degenerate limiting distributions i.e. all extreme values distribution make up a one-parameter family $G_\gamma(x) = \exp(-(1 + \gamma x)^{-\frac{1}{\gamma}})$, where the support of G is the set $\{ x : 1 + \gamma x > 0}$ and $\gamma \in \mathbb{R}$ is the \textbf{E}xtreme \textbf{V}alue \textbf{I}nded or \textbf{EVI}. This is what we set out to show here.
 \paragraph{In the context of our problem} $Y_n = M_n^{*} = \frac{M_n - b_n}{a_n}$ and $Y = Y_\gamma$. $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \int_{-\infty}^{+\infty} \! g(v) \, \mathrm{d}G_\gamma(v) $. \newline
 \begin{equation}
 \begin{alignat*}{2}
@@ -13,7 +13,7 @@
 \implies \mathrm{E}(g(\frac{M_n - b_n}{a_n})) &= n \int_{-\infty}^{+\infty} \! g(\frac{x - b_n}{a_n}) F_X(x)^{n - 1}\, \mathrm{d}F_X(x)  \\ 
 \end{alignat*}
 \end{equation} \newline
-$F_X : \mathbb{R} \rightarrow [0,1]$, then if $F_X$ is assumed to be continuous\footnote{An assumption that will be assumed to be satisfied in all what follows}, by the Intermediate Value Theorem there exists in particular a solution to the equation $F(x) = 1 - \frac{v}{n}$. This is equivalent to the equation $x = U(\frac{n}{v}) = Q(1 - \frac{v}{n})$ where $U$ is the tail quantile function of $F_X$ and $Q$ is the quantile function of $F_X$. \newline
+$F_X : \mathbb{R} \rightarrow [0,1]$, then if $F_X$ is assumed to be continuous\footnote{An assumption that will be satisfied in all what follows}, by the Intermediate Value Theorem there exists in particular a solution to the equation $F(x) = 1 - \frac{v}{n}$. This is equivalent to the equation $x = U(\frac{n}{v}) = Q(1 - \frac{v}{n})$ where $U$ is the tail quantile function of $F_X$ and $Q$ is the quantile function of $F_X$. \newline
 \begin{equation}
 \begin{alignat*}{2}
 F_X(x) &= Q(1 - \frac{v}{n})\\
@@ -21,7 +21,7 @@ F_X(x) &= Q(1 - \frac{v}{n})\\
 \implies n \int_{-\infty}^{+\infty} \! g(\frac{x - b_n}{a_n}) F_X(x)^{n - 1}\, \mathrm{d}F_X(x) &= n \int_n^0 \! g(\frac{U(\frac{n}{v}) - b_n}{a_n}) (1 - \frac{v}{n})^{n - 1} (-\frac{1}{n})\, \mathrm{d}v \\
 \implies \mathrm{E}(g(\frac{M_n - b_n}{a_n})) &= \int_0^n \! g(\frac{U(\frac{n}{v}) - b_n}{a_n}) (1 - \frac{v}{n})^{n - 1}\, \mathrm{d}v
 \end{alignat*}
-\end{equation}\newline where $x = U(\frac{n}{v}) = Q(1 - \frac{v}{n})$ goes from $-\infty$ to $+\infty$. Hence, \newline
+\end{equation}\newline where $x = U(\frac{n}{v}) = Q(1 - \frac{v}{n})$ goes from $-\infty$ to $+\infty$. Indeed, \newline
 \begin{itemize}
 	\item for $v = n$, $x = U(1) = Q(0) = -\infty$
 	\item for $v = 0^+$, $x = U(+\infty) = Q(1) = +\infty$
@@ -89,8 +89,8 @@ To conclude,
 \frac{U(x u) - U(x)}{a(x)} \xrightarrow[x \rightarrow + \infty]{} h(u)
 \implies h(u) = c h_\gamma(u)
 \end{alignat*}
-\end{equation}, for some constant $c$, with the auxiliary function $a$ regularly varying with index $\gamma$.
-\paragraph{Back to the search of an explicit form for the limiting laws} Let us assume that the condition $(\mathcal{C})$ holds, with $b_n = U(n)$ and $a_n = a(n)$.
+\end{equation} for some constant $c$, with the auxiliary function $a$ regularly varying with index $\gamma$.
+\paragraph{Back to the search of an explicit form for the limiting distributions} Let us assume that the condition $(\mathcal{C})$ holds, with $b_n = U(n)$ and $a_n = a(n)$.
 \begin{equation}
 \begin{alignat*}{2}
 \mathrm{E}(g(\frac{M_n - b_n}{a_n})) &= \int_0^n \! g(\frac{U(\frac{n}{v}) - b_n}{a_n}) (1 - \frac{v}{n})^{n - 1}\, \mathrm{d}v \\
@@ -154,7 +154,7 @@ Finally, to sum it up :
 \end{itemize}
 \section{The domain of attraction problem}
 \paragraph{Definition} The domain of attraction of an extreme value distribution family (i.e. Gumbel, Fréchet-type or Weibull-type) is the set of distribution functions $F_X$\footnote{$F_X$ being the distribution of the $X_i$ of the sample.} such that the sequence of standardized maxima $(M_n^*)_{n \ge 0}$ will converge in distribution to that extreme value distribution family.
-\paragraph{Remark} There are many approaches to characterize the domains of attraction of the extreme value distribution families. We have decided to use Von Mises' theorems to characterize them. This is the historical approach, and a rather straightforward one, still by no means are alternative approaches uninteresting\footnote{In particular, conditions involving the behaviour of $F_X$ can be formulated.}.
+\paragraph{Remark} There are many approaches to characterize the domains of attraction of the extreme value distribution families. We have decided to use Von Mises' theorem to characterize them. This is the historical approach, and a rather straightforward one, still by no means are alternative approaches uninteresting\footnote{In particular, conditions based on the sole behaviour of $F_X$ can be formulated.}.
 \paragraph{Hazard function} Let $X$ be a random variable with probability density function/mass function $f_X$ and distribution function $F_X$, then we define the hazard function $r$ as follows : \newline
 $r(x) = \frac{f_X(x)}{1 - F_X(x)}$.
 \paragraph{A few preliminary notations} $\Phi_\alpha$, $\Psi_\alpha$, $\Delta$ are respectively the symbols used to denote a Fréchet, a Weibull and a Gumbel distributions, with :
@@ -170,7 +170,7 @@ $r(x) = \frac{f_X(x)}{1 - F_X(x)}$.
 	\item If $r(x)$ is ultimately positive in the neighbourhood of $x^+$, is differentiable on that neighbourhood and is such that $\frac{\mathrm{d}r}{\mathrm{d}x}(x) \xrightarrow[x \rightarrow x^+]{} 0$, then $F_X \in \mathcal{D}(\Delta)$.
 \end{enumerate}
 \section{Conclusion}
-\paragraph{Fisher-Tippett-Gnedenko theorem} The \tetxbf{Fisher-Tippett-Gnedenko} theorem also known as the \textbf{extremal theorem} states that if the sequence of standardized maxima converges in distribution to a non-degenerate distribution, then this distribution belongs to one of the three aforementioned extreme value distribution families. The theorem thus provides an answer to the \textit{extremal limit problem}. Von Mises' theorem, encountered in the previous section, provides a complementary answer, the answer to the \textit{domain of attraction problem}.
+\paragraph{Fisher-Tippett-Gnedenko theorem} The \tetxbf{Fisher-Tippett-Gnedenko} theorem, also known as the \textbf{extremal theorem}, states that if the sequence of standardized maxima converges in distribution to a non-degenerate distribution, then this distribution belongs to one of the three aforementioned extreme value distribution families. The theorem thus provides an answer to the \textit{extremal limit problem}. Von Mises' theorem, encountered in the previous section, provides a complementary answer, that to the \textit{domain of attraction problem}.
 
 
 

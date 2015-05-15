@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 MAY 2015 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  15 MAY 2015 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1672,7 +1672,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10.95> not available
 Chapter 2.
 ! Extra }, or forgotten $.
 l.8 ...t of G is the set $\{ x : 1 + \gamma x > 0}
-                                                  $ and $\gamma in \mathbb{R...
+                                                  $ and $\gamma \in \mathbb{...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2856,10 +2856,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5543D42DE97C0A959CDA8BB9796BEE7E;2282.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
@@ -2939,7 +2935,7 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (49 pages, 1074107 bytes).
+Output written on my_thesis.pdf (49 pages, 1073986 bytes).
 PDF statistics:
  608 PDF objects out of 1000 (max. 8388607)
  515 compressed objects within 6 object streams
