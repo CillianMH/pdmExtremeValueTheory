@@ -47,8 +47,8 @@
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{17}{equation.3.2.8}
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution - bis}{18}{equation.3.2.11}
 \contentsline {paragraph}{Weibull distribution}{18}{equation.3.2.11}
-\contentsline {chapter}{\numberline {4}Looking into real-world data}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Five real-world stocks and their evolution over 15 years}{21}{section.4.1}
+\contentsline {chapter}{\numberline {4}Looking into financial data}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Five stocks and their evolution over 15 years}{21}{section.4.1}
 \contentsline {paragraph}{}{22}{figure.caption.21}
 \contentsline {section}{\numberline {4.2}A d\IeC {\'e}tour around Stochastic Calculus}{24}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}The Black-Scholes Stochastic Differential Equation}{24}{subsection.4.2.1}
@@ -62,6 +62,7 @@
 \contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{27}{subsection.4.2.2}
 \contentsline {paragraph}{Resolution}{27}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Back to the data}{28}{section.4.3}
-\contentsline {chapter}{Bibliography}{29}{appendix*.26}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{31}{appendix*.27}
-\contentsline {paragraph}{\\[25 pt]}{31}{appendix*.27}
+\contentsline {paragraph}{Fitting the data to the model}{28}{section.4.3}
+\contentsline {chapter}{Bibliography}{31}{appendix*.26}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{33}{appendix*.27}
+\contentsline {paragraph}{\\[25 pt]}{33}{appendix*.27}

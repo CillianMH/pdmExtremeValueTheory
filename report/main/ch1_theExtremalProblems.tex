@@ -2,7 +2,7 @@
 %\addcontentsline{toc}{chapter}{The two extremal problems}
  \section{The extremal limit problem}
  \subsection{Introduction}
-\paragraph{Our approach} We are here interested in proving a result of convergence in distribution $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y$. Anyone who has dabbled in Probability knows that one of the classic ways to prove such a result is to use the definition and show that $\forall x$ in which $F_Y$ is continuous, $F_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} F_Y(x)$. Anyone who has dabbled in Statistics knows that in the context of discrete random variables $(Y_n)_{n \ge 0}$, Y it is easier to show the convergence of the probability mass functions i.e. that $\forall x, f_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} f_Y(x)$ and conclude by Scheffé's lemma that $(Y_n)_{n \ge 0}$ converges in distribution to Y. In the context of Extreme Value Theory, though, we will use a result based on the convergence of expectations. It is the \underline{Helly-Bray theorem} : \newline $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \mathrm{E}(g(Y))$.
+\paragraph{Our approach} We are here interested in proving a result of convergence in distribution $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y$. Anyone who has dabbled in probability knows that one of the classic ways to prove such a result is to use the definition and show that $\forall x$ in which $F_Y$ is continuous, $F_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} F_Y(x)$. Anyone who has dabbled in statistics knows that in the context of discrete random variables $(Y_n)_{n \ge 0}$, Y it is easier to show the convergence of the probability mass functions i.e. that $\forall x, f_{Y_n}(x) \xrightarrow[n \rightarrow + \infty]{} f_Y(x)$ and conclude by Scheffé's lemma that $(Y_n)_{n \ge 0}$ converges in distribution to Y. In the context of Extreme Value Theory, though, we will use a result based on the convergence of expectations. It is the \underline{Helly-Bray theorem} : \newline $Y_n \xrightarrow[n \rightarrow + \infty]{d} Y \iff \forall g$ continuous, bounded and real-valued functions, $\mathrm{E}(g(Y_n)) \xrightarrow[n \rightarrow + \infty]{} \mathrm{E}(g(Y))$.
 \paragraph{Remark} Our approach here is based upon the notes taken while reading "Chapter 2 : The Probabilistic side of extreme Value Theory" of \underline{Statistics of Extremes, Theory and Applications} by Beirlant \textit{et alii}. \textbf{We thus want to underline that the approach here is not our own, and that we are not engaging in plagiarism but giving account of the work done on our bibliographic sources.} 
 \subsection{Solving the problem - step 1}
 \paragraph{The answer to the extremal limit problem} It turns out that all possible non-degenerate limiting distributions i.e. all extreme values distribution make up a one-parameter family $G_\gamma(x) = \exp(-(1 + \gamma x)^{-\frac{1}{\gamma}})$, where the support of G is the set $\{ x : 1 + \gamma x > 0}$ and $\gamma \in \mathbb{R}$ is the \textbf{E}xtreme \textbf{V}alue \textbf{I}nded or \textbf{EVI}. This is what we set out to show here.
@@ -49,7 +49,7 @@ F_X(x) &= Q(1 - \frac{v}{n})\\
 \frac{a(x u v}{a(x)} &= \frac{(x u)^\gamma}{x^\gamma} \frac{l(x u)}{l(x)} \\
 &= u^\gamma \frac{l(x u)}{l(x)}
 \end{alignat*}
-\end{equation} \newline For this quantity to converge to $u^\gamma$, $\frac{l(x u)}{l(x)}$ must converge to . $u$ being a positive, this is equivalent to the fact that $l$ must be a \textit{slowly varying} function. Hence, $a(x) = x^\gamma l(x)$ is a \textit{regularly varying} function with index of regular variation $\gamma$.\newline
+\end{equation} \newline For this quantity to converge to $u^\gamma$, $\frac{l(x u)}{l(x)}$ must converge to 1. $u$ being a positive number, this is equivalent to the fact that $l$ must be a \textit{slowly varying} function. Hence, $a(x) = x^\gamma l(x)$ is a \textit{regularly varying} function with index of regular variation $\gamma$.\newline
 \begin{equation}
 \begin{alignat*}{2}
 \frac{U(x u v) - U(x)}{a(x)} &= \frac{U(x u v) - U(x u)}{a(x u)} \frac{a(x u)}{a(x)} + \frac{U(x u) - U(x)}{a(x)} \\
@@ -119,7 +119,7 @@ u &= h_\gamma(\frac{1}{v}) = \frac{(\frac{1}{v})^\gamma - 1}{\gamma}\\
 \iff (\frac{1}{v})^\gamma &= \gamma u + 1\\
 \iff \frac{1}{v} &= (\gamma u + 1)^{\frac{1}{\gamma}} \\
 \iff v &= (\gamma u + 1)^{- \frac{1}{\gamma}} \\ \\
-\mathrm{d}v &= - \frac{1}{\gamma} \gamma (\gamma u + 1)^{- \frac{1}{\gamma} - 1} mathrm{d}u \\
+\mathrm{d}v &= - \frac{1}{\gamma} \gamma (\gamma u + 1)^{- \frac{1}{\gamma} - 1} \mathrm{d}u \\
 \implies \mathrm{d}v &= - (\gamma u + 1)^{- \frac{\gamma + 1}{\gamma}} \mathrm{d}u
 \end{alignat*}
 \end{equation} $v$ varies from $0^+$ to $+ \infty$,

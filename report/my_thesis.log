@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  15 MAY 2015 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  29 MAY 2015 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1993,10 +1993,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/futs/b/n/24.88 Investigating re-sults on the lim-it-ing
  []
 
-
-Underfull \vbox (badness 1237) has occurred while \output is active []
-
- [11]
+[11]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2817,14 +2814,61 @@ l.211 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[27]) [28]
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{alignat*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.229 ...e independent, $\frac{S_{t}}{S_{t - 1}} &
+                                                  = \exp(\mu -\frac{\sigma^2...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[28]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 \end{alignat*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+) [29]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex) [29
+ (./tail/appendix.tex [30
 
 
 
-] [30
+]) [31] [32
 
 
 ]
@@ -2840,7 +2884,7 @@ Overfull \hbox (15.08403pt too wide) in paragraph at lines 10--11
 []$[]$\T1/futs/m/n/10.95 (-20) , by Beir-lant, Goege-beur, Segers and Teugels
  []
 
-) [31
+) [33
 
 
 ]
@@ -2855,19 +2899,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5543D42DE97C0A959CDA8BB9796BEE7E;2282.
+(rerunfilecheck)             Checksum: 7B12D7812DADEC832241A593E751B8C5;2270.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 23885 strings out of 493117
- 430306 string characters out of 6135433
+ 23888 strings out of 493117
+ 430359 string characters out of 6135433
  638774 words of memory out of 5000000
- 26365 multiletter control sequences out of 15000+600000
- 132819 words of font info for 296 fonts, out of 8000000 for 9000
+ 26367 multiletter control sequences out of 15000+600000
+ 132723 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,77p,1172b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2935,10 +2985,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (49 pages, 1073986 bytes).
+Output written on my_thesis.pdf (51 pages, 1078093 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 156 named destinations out of 1000 (max. 500000)
- 32614 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 33126 words of extra memory for PDF output out of 35830 (max. 10000000)
 

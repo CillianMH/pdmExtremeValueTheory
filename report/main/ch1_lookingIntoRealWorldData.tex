@@ -1,6 +1,6 @@
-\chapter{Looking into real-world data}
+\chapter{Looking into financial data}
 %\addcontentsline{toc}{chapter}{Looking into real-world data}
-\section{Five real-world stocks and their evolution over 15 years}
+\section{Five stocks and their evolution over 15 years}
 We have chosen to study five stocks listed on the Paris Stock Exchange : BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.\footnote{We have chosen companies positioned on different domains, otherwise, information from different stock might more easily be redundant.} The evolution of the stock prices has been studied over the past 15 years, on a weekly basis. We first draw the data itself, then the net returns and the gross log returns on the stocks\footnote{Both quantities are widely used in Finance.}
 \begin{figure}[h!]
 	\centering
@@ -213,6 +213,28 @@ Let us set $Y_t = \log(S_t)$, we then have $\mathrm{d}Y_t = \frac{1}{S_t}\mathrm
 Let us observe that the solution found in the case of the generalized Black-Scholes SDE is coherent with the solution found for the simple Black-Scholes SDE\footnote{Just set functions $\mu$ and $\sigma$ equal to constants $\mu$ and $\sigma$ and we are back with the Geometric Brownian Motion previously found. }.
 
 \section{Back to the data}
+\paragraph{Fitting the data to the model} We are now going to assume the stock prices $S_t^{(i)}$\footnote{The notations are the following :\newline \begin{itemize}
+		\item $S_t^{(1)}$ for the BNP stock.
+		\item $S_t^{(2)}$ for the Carrefour stock.
+		\item $S_t^{(3)}$ for the LVMH stock.
+		\item $S_t^{(4)}$ for the Sanofi stock.
+		\item $S_t^{(5)}$ for the Total stock.
+	\end{itemize}} we have been studying follow the (simple) Black-Scholes model that is that their prices can be modeled by a geometric brownian motion. We will determine the corresponding $\mu_i$'s and $\sigma_i$'s. To do that, we will make explicit the gross return at time $t + 1$ : \newline
+\begin{equation}
+\begin{alignat*}{2}
+\frac{S_{t + 1}}{S_t} &= \frac{s_0 \exp((\mu -\frac{\sigma^2}{2}) (t + 1) + \sigma B_{t + 1}}{s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma B_t)} \\
+\implies \frac{S_{t + 1}}{S_t} &= \exp(\mu -\frac{\sigma^2}{2}) \exp(\sigma (B_{t + 1} - B_t))
+\end{alignat*}
+\end{equation}\newline	
+A first observation that we could make is that as $x \longrightarrow \exp(\sigma x)$ is a Borel-measurable function (because it is continuous) and the increments of the brownian motion are independent, $\frac{S_{t}}{S_{t - 1}} &= \exp(\mu -\frac{\sigma^2}{2}) \exp(\sigma (B_{t} - B_{t - 1}))$ and $S_t = s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma B_t) = s_0 \exp((\mu -\frac{\sigma^2}{2}) t + \sigma (B_t - B_0))$ are independent $\forall t \ge 0 $.\footnote{This is the formal justification behind the well-known fact that under the Black-Scholes model, the gross return at a time step is independent of the price of the stock at that date.} Let us now consider the log-gross returns $R_t = (\mu -\frac{\sigma^2}{2}) + (\sigma (B_{t} - B_{t - 1}))$. It is thus easy to see that $R_t$ has a gaussian distribution $\mathcal{N}((\mu -\frac{\sigma^2}{2}), \sigma^2)$. Therefore, to find the $\mu_i$'s and $\sigma_i$'s, we just have to compute the mean and the variance of the empirical log-gross returns which we respectively denote by $\mu_{EMP}$ and $\sigma_{EMP}^2$.
+\begin{equation}
+\begin{alignat*}{2}
+\begin{cases} \sigma^2 &= \sigma_{EMP}^2\\
+\mu &= \mu_{EMP} + \frac{\sigma_{EMP}^2}{2} \end{cases}
+\end{alignat*}
+\end{equation}\newline	
+
+
 
 
 
