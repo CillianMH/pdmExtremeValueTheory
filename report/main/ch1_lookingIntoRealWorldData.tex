@@ -45,7 +45,7 @@ We have chosen to study five stocks listed on the Paris Stock Exchange : BNP Par
 \paragraph{}
 Let $X_t$ be the price of a stock at time $t$, the gross return at time $t + 1$ is defined as the ratio $\frac{X_{t+1}}{X_t}$, the net return at time $t + 1$ is defined as the ratio $r_t = \frac{X_{t+1}-X_t}{X_t}$ and the log gross return at time $t +1$ is defined as the log of the gross return at time $t + 1$ i.e. $R_t = \log(\frac{X_{t+1}}{X_t})$. The latter two quantities are of particular interest in Finance. 
 \newline
-Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be rewritten as $X_{t+1} = \exp(R_{t+1}) X_t$. An approximation would be to take $X_{t+1} = (1 + R_{t+1}) X_t$ by taking the expansion of the exponential, cut at order 1. Below are the plots of the quantities $\exp(R_t)$ and $1 + R_t$ for the five stocks previously considered. As we can see from the value of the residuals, this is in practice a very good approximation !
+Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be rewritten as $X_{t+1} = \exp(R_{t+1}) X_t$. An approximation would be to take $X_{t+1} = (1 + R_{t+1}) X_t$ by taking the expansion of the exponential, cut at order 1. Below are the plots of the quantities $\exp(R_t)$ and $1 + R_t$ for the five stocks previously considered. As we can see from the value of the residuals (of order 1E-15\footnote{report to the appendix 'Additional figures' for the details.}), this is in practice a very good approximation !
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
@@ -90,20 +90,7 @@ Let us observe that the relationship between $R_t$, $X_t$ and $X_{t+1}$ can be r
 	\end{minipage}
 \end{figure}
 \\
-\begin{table}
-	\centering
-	\begin{tabular}[c]{ | p{3cm} || m{9cm} ||}
-		\hline
-		Stock & Cumulative residuals between $\exp(R_t)$ and $1 + R_t$  \\ \hline
-		BNP & 3.22E-15  \\ \hline
-		Carrefour & 1.44E-15  \\ \hline
-		LVMH & 4.75E-15  \\ \hline
-		Sanofi & 1.55E-15  \\ \hline
-		Total & 3.86E-15  \\ \hline
-	\end{tabular}
-	  \caption{Cumulative residuals between $\exp(R_t)$ and $1 + R_t$ for the BNP, Carrefour, LVMH, Sanofi, Total stocks}
-	  \label{tab:cumulativeResidualsStocks}
-\end{table}
+
 
 \section{A détour around Stochastic Calculus}
 \subsection{The Black-Scholes Stochastic Differential Equation}

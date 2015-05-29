@@ -3,28 +3,28 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. standard unit Gaussian RVs\relax }}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{4}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Maxima against the time steps\relax }}{4}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Maxima against the time steps and function $n \rightarrow \sqrt {2 \qopname \relax o{log}(n)}$\relax }}{5}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The correction becomes negligible compared to the starting term as n grows large\relax }}{5}{figure.caption.13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Cauchy(0,1)} RVs\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Maxima against the time steps\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{tan}(\pi \frac {2-n}{2 n})\relax }}{7}{figure.caption.16}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Exp(1)} RVs\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Maxima against the time steps\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{log}(n)\relax }}{8}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. standard unit Gaussian RVs\relax }}{12}{figure.caption.10}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{12}{figure.caption.11}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Maxima against the time steps\relax }}{12}{figure.caption.11}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Maxima against the time steps and function $n \rightarrow \sqrt {2 \qopname \relax o{log}(n)}$\relax }}{13}{figure.caption.12}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The correction becomes negligible compared to the starting term as n grows large\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Cauchy(0,1)} RVs\relax }}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{14}{figure.caption.15}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Maxima against the time steps\relax }}{14}{figure.caption.15}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{tan}(\pi \frac {2-n}{2 n})\relax }}{15}{figure.caption.16}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Below, a realisation of the sequence of maxima for i.i.d. \textit {Exp(1)} RVs\relax }}{15}{figure.caption.17}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Scatter Plot of the Maxima, n = 10000\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Maxima against the time steps\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Maxima against the time steps and function $n \rightarrow \qopname \relax o{log}(n)\relax }}{16}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 15 years of weekly BNP Stock Price Data\relax }}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 15 years of weekly Carrefour Stock Price Data\relax }}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 15 years of weekly LVMH Stock Price Data\relax }}{22}{figure.caption.21}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 15 years of weekly Sanofi Stock Price Data\relax }}{22}{figure.caption.21}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 15 years of weekly Total Stock Price Data\relax }}{22}{figure.caption.21}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for BNP Stock Price Data\relax }}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Carrefour Stock Price Data\relax }}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for LVMH Stock Price Data\relax }}{23}{figure.caption.23}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Sanofi Stock Price Data\relax }}{23}{figure.caption.23}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Total Stock Price Data\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 15 years of weekly BNP Stock Price Data\relax }}{15}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 15 years of weekly Carrefour Stock Price Data\relax }}{15}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 15 years of weekly LVMH Stock Price Data\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 15 years of weekly Sanofi Stock Price Data\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 15 years of weekly Total Stock Price Data\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for BNP Stock Price Data\relax }}{17}{figure.caption.22}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Carrefour Stock Price Data\relax }}{17}{figure.caption.22}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for LVMH Stock Price Data\relax }}{17}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Sanofi Stock Price Data\relax }}{17}{figure.caption.23}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Total Stock Price Data\relax }}{18}{figure.caption.24}

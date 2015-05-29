@@ -10,59 +10,58 @@
 \contentsline {section}{\numberline {1.1}A few words to set the scene}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Formalising the settings}{1}{section.1.2}
 \contentsline {paragraph}{The two fundamental problems of extreme value theory}{2}{equation.1.2.2}
-\contentsline {chapter}{\numberline {2}The two extremal problems}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}The extremal limit problem}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Introduction}{3}{subsection.2.1.1}
-\contentsline {paragraph}{Our approach}{3}{subsection.2.1.1}
-\contentsline {paragraph}{Remark}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Solving the problem - step 1}{3}{subsection.2.1.2}
-\contentsline {paragraph}{The answer to the extremal limit problem}{3}{subsection.2.1.2}
-\contentsline {paragraph}{In the context of our problem}{4}{subsection.2.1.2}
-\contentsline {paragraph}{A preparatory phase}{5}{equation.2.1.2}
-\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{6}{equation.2.1.11}
-\contentsline {subsection}{\numberline {2.1.3}Solving the problem - step 2 : expliciting the $G_\gamma $ in earnest}{7}{subsection.2.1.3}
-\contentsline {paragraph}{Case $\gamma = 0$}{7}{subsection.2.1.3}
-\contentsline {paragraph}{Case $\gamma \not =0$}{7}{equation.2.1.13}
-\contentsline {section}{\numberline {2.2}The domain of attraction problem}{8}{section.2.2}
-\contentsline {paragraph}{Definition}{8}{section.2.2}
-\contentsline {paragraph}{Remark}{8}{section.2.2}
-\contentsline {paragraph}{Hazard function}{8}{section.2.2}
-\contentsline {paragraph}{A few preliminary notations}{9}{section.2.2}
-\contentsline {paragraph}{Von Mises' theorem}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Conclusion}{9}{section.2.3}
-\contentsline {paragraph}{Fisher-Tippett-Gnedenko theorem}{9}{section.2.3}
-\contentsline {chapter}{\numberline {3}Investigating results on the limiting distribution}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Playing with the (original) sequence of maxima}{11}{section.3.1}
-\contentsline {paragraph}{}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Sample following a Normal distribution}{11}{subsection.3.1.1}
-\contentsline {paragraph}{Computing the quantiles}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sample following a Cauchy distribution}{13}{subsection.3.1.2}
-\contentsline {paragraph}{Computing the quantiles}{13}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Sample following an Exponential Distribution}{15}{subsection.3.1.3}
-\contentsline {paragraph}{Computing the quantiles}{15}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Why does this work ?}{16}{subsection.3.1.4}
-\contentsline {paragraph}{(The underlying idea)}{16}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}What are the limiting distributions in theses cases ?}{17}{section.3.2}
-\contentsline {paragraph}{Gumbel limiting distribution}{17}{section.3.2}
-\contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{17}{equation.3.2.8}
-\contentsline {paragraph}{Fr\IeC {\'e}chet distribution - bis}{18}{equation.3.2.11}
-\contentsline {paragraph}{Weibull distribution}{18}{equation.3.2.11}
-\contentsline {chapter}{\numberline {4}Looking into financial data}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Five stocks and their evolution over 15 years}{21}{section.4.1}
-\contentsline {paragraph}{}{22}{figure.caption.21}
-\contentsline {section}{\numberline {4.2}A d\IeC {\'e}tour around Stochastic Calculus}{24}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}The Black-Scholes Stochastic Differential Equation}{24}{subsection.4.2.1}
-\contentsline {paragraph}{Presentation}{24}{subsection.4.2.1}
-\contentsline {paragraph}{Resolution - existence of a solution to the Black-Scholes SDE}{25}{equation.4.2.1}
-\contentsline {paragraph}{Resolution - step 1}{25}{equation.4.2.1}
-\contentsline {paragraph}{Resolution - step 2}{25}{equation.4.2.2}
-\contentsline {paragraph}{Resolution - step 3}{27}{equation.4.2.4}
-\contentsline {subsection}{\numberline {4.2.2}Black-Scholes SDE with time-dependent coefficients }{27}{subsection.4.2.2}
-\contentsline {paragraph}{Presentation}{27}{subsection.4.2.2}
-\contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{27}{subsection.4.2.2}
-\contentsline {paragraph}{Resolution}{27}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Back to the data}{28}{section.4.3}
-\contentsline {paragraph}{Fitting the data to the model}{28}{section.4.3}
-\contentsline {chapter}{Bibliography}{31}{appendix*.26}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{33}{appendix*.27}
-\contentsline {paragraph}{\\[25 pt]}{33}{appendix*.27}
+\contentsline {chapter}{\numberline {2}Investigating results on the limiting distribution}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Playing with the (original) sequence of maxima}{3}{section.2.1}
+\contentsline {paragraph}{}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Sample following a Normal distribution}{3}{section.2.2}
+\contentsline {paragraph}{Computing the quantiles}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Sample following a Cauchy distribution}{5}{section.2.3}
+\contentsline {paragraph}{Computing the quantiles}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Sample following an Exponential Distribution}{7}{section.2.4}
+\contentsline {paragraph}{Computing the quantiles}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Why does this work ?}{8}{section.2.5}
+\contentsline {paragraph}{(The underlying idea)}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}What are the limiting distributions in theses cases ?\let \reserved@d =[\def \def \def \par }{9}{section.2.6}
+\contentsline {paragraph}{Gumbel limiting distribution}{9}{section.2.6}
+\contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{9}{equation.2.6.8}
+\contentsline {paragraph}{Fr\IeC {\'e}chet distribution - bis}{10}{equation.2.6.11}
+\contentsline {paragraph}{Weibull distribution}{10}{equation.2.6.11}
+\contentsline {chapter}{\numberline {3}The two extremal problems}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}The extremal limit problem}{13}{section.3.1}
+\contentsline {paragraph}{The answer to the extremal limit problem}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}The domain of attraction problem}{13}{section.3.2}
+\contentsline {paragraph}{Definition}{13}{section.3.2}
+\contentsline {paragraph}{Remark}{13}{section.3.2}
+\contentsline {paragraph}{Hazard function}{14}{section.3.2}
+\contentsline {paragraph}{A few preliminary notations}{14}{section.3.2}
+\contentsline {paragraph}{Von Mises' theorem}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Conclusion}{14}{section.3.3}
+\contentsline {paragraph}{Fisher-Tippett-Gnedenko theorem}{14}{section.3.3}
+\contentsline {chapter}{\numberline {4}Looking into financial data}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Five stocks and their evolution over 15 years}{15}{section.4.1}
+\contentsline {paragraph}{}{16}{figure.caption.21}
+\contentsline {section}{\numberline {4.2}A d\IeC {\'e}tour around Stochastic Calculus}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Black-Scholes Stochastic Differential Equation}{18}{subsection.4.2.1}
+\contentsline {paragraph}{Presentation}{18}{subsection.4.2.1}
+\contentsline {paragraph}{Resolution - existence of a solution to the Black-Scholes SDE}{18}{equation.4.2.1}
+\contentsline {paragraph}{Resolution - step 1}{19}{equation.4.2.1}
+\contentsline {paragraph}{Resolution - step 2}{19}{equation.4.2.2}
+\contentsline {paragraph}{Resolution - step 3}{20}{equation.4.2.4}
+\contentsline {subsection}{\numberline {4.2.2}Black-Scholes SDE with time-dependent coefficients }{20}{subsection.4.2.2}
+\contentsline {paragraph}{Presentation}{20}{subsection.4.2.2}
+\contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{21}{subsection.4.2.2}
+\contentsline {paragraph}{Resolution}{21}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
+\contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
+\contentsline {paragraph}{Our approach}{23}{appendix*.25}
+\contentsline {paragraph}{Remark}{23}{appendix*.25}
+\contentsline {paragraph}{The answer to the extremal limit problem}{23}{appendix*.25}
+\contentsline {paragraph}{In the context of our problem}{24}{appendix*.25}
+\contentsline {paragraph}{A preparatory phase}{25}{equation.Alph0.0.10}
+\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{26}{equation.Alph0.0.19}
+\contentsline {paragraph}{Case $\gamma = 0$}{27}{equation.Alph0.0.20}
+\contentsline {paragraph}{Case $\gamma \not =0$}{27}{equation.Alph0.0.21}
+\contentsline {paragraph}{Chapter 4 : Looking into financial data}{29}{appendix*.26}
+\contentsline {chapter}{Bibliography}{31}{appendix*.27}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{33}{appendix*.28}
+\contentsline {paragraph}{\\[25 pt]}{33}{appendix*.28}
