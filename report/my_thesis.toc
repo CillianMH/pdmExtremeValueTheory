@@ -53,15 +53,15 @@
 \contentsline {paragraph}{Resolution}{21}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
 \contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
-\contentsline {paragraph}{Our approach}{23}{appendix*.25}
-\contentsline {paragraph}{Remark}{23}{appendix*.25}
-\contentsline {paragraph}{The answer to the extremal limit problem}{23}{appendix*.25}
-\contentsline {paragraph}{In the context of our problem}{24}{appendix*.25}
-\contentsline {paragraph}{A preparatory phase}{25}{equation.Alph0.0.10}
-\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{26}{equation.Alph0.0.19}
-\contentsline {paragraph}{Case $\gamma = 0$}{27}{equation.Alph0.0.20}
-\contentsline {paragraph}{Case $\gamma \not =0$}{27}{equation.Alph0.0.21}
-\contentsline {paragraph}{Chapter 4 : Looking into financial data}{29}{appendix*.26}
-\contentsline {chapter}{Bibliography}{31}{appendix*.27}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{33}{appendix*.28}
-\contentsline {paragraph}{\\[25 pt]}{33}{appendix*.28}
+\contentsline {paragraph}{Our approach}{25}{appendix*.26}
+\contentsline {paragraph}{Remark}{25}{appendix*.26}
+\contentsline {paragraph}{The answer to the extremal limit problem}{25}{appendix*.26}
+\contentsline {paragraph}{In the context of our problem}{26}{appendix*.26}
+\contentsline {paragraph}{A preparatory phase}{27}{equation.Alph0.0.10}
+\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{28}{equation.Alph0.0.19}
+\contentsline {paragraph}{Case $\gamma = 0$}{29}{equation.Alph0.0.20}
+\contentsline {paragraph}{Case $\gamma \not =0$}{29}{equation.Alph0.0.21}
+\contentsline {paragraph}{Chapter 4 : Looking into financial data}{31}{appendix*.27}
+\contentsline {chapter}{Bibliography}{33}{appendix*.28}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{35}{appendix*.29}
+\contentsline {paragraph}{\\[25 pt]}{35}{appendix*.29}
