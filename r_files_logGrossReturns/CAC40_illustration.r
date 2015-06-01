@@ -48,7 +48,7 @@ title5 <- "Total Stock"
 color <- c("black", "blue", "green", "purple", "red")
 
 quartz()
-pdf(file = "logGrossReturns.pdf")
+jpeg(file = "logGrossReturns.jpeg", quality = 150)
 par(mfrow = c(3,2))
 plot(df$V1, pch = 1, col = "black", type = 'l', xlab = x_label, ylab = y_label, main = title1)
 plot(df$V2, pch = 1, col = "blue", type = 'l', xlab = x_label, ylab = y_label, main = title2)
