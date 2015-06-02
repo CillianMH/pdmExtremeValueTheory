@@ -224,12 +224,28 @@ A first observation that we could make is that as $x \longrightarrow \exp(\sigma
 \begin{figure}[h!]
 	\centering
 		\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/logGrossReturns.jpeg}
-		\caption{Log-gross returns on the stock, the $\mu_{EMP}$'s and the $\sigma_{EMP}^2$'s.}
+		\caption{Log-gross returns on the stock, the $\mu$'s and the $\sigma^2$'s.}
 		\label{fig:LogGrossReturns}
 \end{figure}
-Now that we have the $\mu_{EMP}$'s and the $\sigma_{EMP}^2$'s for the stocks, we will simulate geometric Brownian motions with these parameters, and compare the results to the original data.
-
-
+Now that we have the $\mu$'s and the $\sigma^2$'s for the stocks, we will simulate geometric Brownian motions with these parameters, and compare the results to the original data. Next page can be found :
+\begin{itemize}
+	\item \textbf{First} plotted the actual stock prices, each paired with the corresponding simulated geometric Brownian motion.
+	\item \textbf{Second} plotted the actual stock prices, each paired with an average of 100 corresponding simulated geometric Brownian motions.
+\end{itemize}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulated.png}
+	\caption{The actual stock prices and a simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndSimulatedGeomBMs}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulated-Averaged.png}
+	\caption{The actual stock prices and the averages of 100 simulations of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndManySimulatedGeomBMs}
+\end{figure}
+As we can see, the Black-Scholes model is not exactly a very satisfying approximation of the actual behaviour of the data. The approximation is even more than unsatisfying in the particular case of the Total stock, which varies widely and quickly over time from week 450 (or so) onwards !
 
 
 

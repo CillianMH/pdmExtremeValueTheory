@@ -28,4 +28,6 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for LVMH Stock Price Data\relax }}{17}{figure.caption.23}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Sanofi Stock Price Data\relax }}{17}{figure.caption.23}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Total Stock Price Data\relax }}{18}{figure.caption.24}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Log-gross returns on the stock, the $\mu _{EMP}$'s and the $\sigma _{EMP}^2$'s.\relax }}{23}{figure.caption.25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Log-gross returns on the stock, the $\mu $'s and the $\sigma ^2$'s.\relax }}{23}{figure.caption.25}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The actual stock prices and a simulation of the corresponding geometric Brownian motions.\relax }}{24}{figure.caption.26}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The actual stock prices and the averages of 100 simulations of the corresponding geometric Brownian motions.\relax }}{25}{figure.caption.27}

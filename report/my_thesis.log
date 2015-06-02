@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  1 JUN 2015 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  2 JUN 2015 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1778,7 +1778,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=310, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=317, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1794,7 +1794,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=311, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=318, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1810,7 +1810,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=312, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=319, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -1821,7 +1821,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=313, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=320, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -1873,7 +1873,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=326, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=332, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1889,7 +1889,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=327, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=333, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1905,7 +1905,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=328, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=334, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -1984,7 +1984,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=334, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=340, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -2000,7 +2000,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 119--120
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=335, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=341, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -2017,7 +2017,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 125--126
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=336, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=342, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -2418,7 +2418,7 @@ and I'll forget about whatever was undefined.
 Chapter 4.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=395, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=401, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2434,7 +2434,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=396, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=402, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2450,7 +2450,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=397, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=403, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2466,7 +2466,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=398, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=404, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2482,7 +2482,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=399, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=405, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2507,7 +2507,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=407, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=413, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2523,7 +2523,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 53--54
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=408, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=414, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2539,7 +2539,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 60--61
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=409, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=415, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2555,7 +2555,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 70--71
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=410, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=416, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2571,7 +2571,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 77--78
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=411, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=417, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2806,7 +2806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 [22]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/logGrossReturns.jpeg, id=464, 481.8pt x 481.8pt>
+Returns/logGrossReturns.jpeg, id=470, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/logGrossReturns.jpeg Graphic file (type jpg)
 
@@ -2820,11 +2820,46 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
-) [23 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_lo
-gGrossReturns/logGrossReturns.jpeg>]
+[23 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
+rossReturns/logGrossReturns.jpeg>]
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
+Returns/actualAndSimulated.png, id=475, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
+GrossReturns/actualAndSimulated.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
+rossReturns/actualAndSimulated.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_logGrossReturns/actualAndSimulated.png used on input line 237.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+
+Overfull \hbox (64.11235pt too wide) in paragraph at lines 237--238
+ [][] 
+ []
+
+[24 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
+rossReturns/actualAndSimulated.png>]
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
+Returns/actualAndSimulated-Averaged.png, id=482, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
+GrossReturns/actualAndSimulated-Averaged.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
+rossReturns/actualAndSimulated-Averaged.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_logGrossReturns/actualAndSimulated-Averaged.png used on input l
+ine 244.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+
+Overfull \hbox (64.11235pt too wide) in paragraph at lines 244--245
+ [][] 
+ []
+
+) [25 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_lo
+gGrossReturns/actualAndSimulated-Averaged.png>]
 \openout2 = `tail/appendixDerivations.aux'.
 
- (./tail/appendixDerivations.tex [24
+ (./tail/appendixDerivations.tex [26
 
 
 
@@ -2838,7 +2873,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[25]
+[27]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2898,7 +2933,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[26]
+[28]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2969,7 +3004,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[27]
+[29]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3051,7 +3086,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [30]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3091,7 +3126,7 @@ l.142 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[29]) [30]
+[31]) [32]
 \openout2 = `tail/additionalFigures.aux'.
 
  (./tail/additionalFigures.tex
@@ -3119,21 +3154,21 @@ l.6 	\begin{tabular}[]{ | p{3cm} || m{9cm} ||}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [31
+) [33
 
 
 
 
-] [32
+] [34
 
 
 ]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex) [33
+ (./tail/appendix.tex) [35
 
 
-] [34
+] [36
 
 
 ]
@@ -3149,7 +3184,7 @@ Overfull \hbox (15.08403pt too wide) in paragraph at lines 10--11
 []$[]$\T1/futs/m/n/10.95 (-20) , by Beir-lant, Goege-beur, Segers and Teugels
  []
 
-) [35
+) [37
 
 
 ]
@@ -3164,14 +3199,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DD942A2B4F38BFD9039FE8BEAF41B403;2153.
+(rerunfilecheck)             Checksum: 62A3972B305BF9B3B56360A5A58D2B73;2153.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 24017 strings out of 493117
- 433385 string characters out of 6135433
- 640104 words of memory out of 5000000
- 26445 multiletter control sequences out of 15000+600000
+ 24033 strings out of 493117
+ 434490 string characters out of 6135433
+ 640361 words of memory out of 5000000
+ 26455 multiletter control sequences out of 15000+600000
  142784 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,77p,1168b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3256,10 +3291,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (53 pages, 1140859 bytes).
+Output written on my_thesis.pdf (55 pages, 1222229 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 527 compressed objects within 6 object streams
- 166 named destinations out of 1000 (max. 500000)
- 39251 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 39261 words of extra memory for PDF output out of 42996 (max. 10000000)
 
