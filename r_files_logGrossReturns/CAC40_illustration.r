@@ -13,7 +13,6 @@ graphics.off()
 
 # Sourcing the auxiliary files
 source("logGrossReturns.r")
-source("meanAndVariance.r")
 source("loadStockData.r")
 source("meanAndVarianceDF.r")
 

@@ -6,6 +6,8 @@
 # log-gross returns (Black-Scholes model) from the empirical 
 # data on the 5 stocks
 
+source("meanAndVariance.r")
+
 meanAndVarianceDF <- function(df) {
 	stock1 <- meanAndVariance(df$V1)
     stock2 <- meanAndVariance(df$V2)
