@@ -64,7 +64,7 @@ for (j in 1:nb_sim)	 {
     
 	for (i in 1:M) {
 		coeff1 = (means[[1]])[i] - 0.5*(vars[[1]])[i]
-		geomBMs[i] <- geomBMs[i] + (df_plain[[i]])[1]*exp(coeff1*timeSteps + (vars[[1]])[i]*dis)
+		geomBMs[i] <- geomBMs[i] + (df_plain[[i]])[1]*exp(coeff1*timeSteps + sqrt((vars[[1]])[i])*dis)
 	}	
 } 
 
