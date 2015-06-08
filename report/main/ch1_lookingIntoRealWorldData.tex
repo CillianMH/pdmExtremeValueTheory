@@ -227,25 +227,45 @@ A first observation that we could make is that as $x \longrightarrow \exp(\sigma
 		\caption{Log-gross returns on the stock, the $\mu$'s and the $\sigma^2$'s.}
 		\label{fig:LogGrossReturns}
 \end{figure}
-Now that we have the $\mu$'s and the $\sigma^2$'s for the stocks, we will simulate geometric Brownian motions with these parameters, and compare the results to the original data. Next page can be found :
-\begin{itemize}
-	\item \textbf{First} plotted the actual stock prices, each paired with the corresponding simulated geometric Brownian motion.
-	\item \textbf{Second} plotted the actual stock prices, each paired with an average of 100 corresponding simulated geometric Brownian motions.
-\end{itemize}
+Now that we have the $\mu$'s and the $\sigma^2$'s for the stocks, we will simulate geometric Brownian motions with these parameters, and compare the results to the original data. We will run several, say 5, simulations and make a few observations. Below the corresponding plots can be found with the \textbf{yellow line representing each time the simulated geometric Brownian motion} :
+%\begin{itemize}
+	%\item \textbf{First} plotted the actual stock prices, each paired with the corresponding simulated geometric Brownian motion.
+	%\item \textbf{Second} plotted the actual stock prices, each paired with an average of 100 corresponding simulated geometric Brownian motions.
+%\end{itemize}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled.png}
-	\caption{The actual stock prices and a simulation of the corresponding geometric Brownian motions.}
-	\label{fig:ActualAndSimulatedGeomBMs}
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled1.png}
+	\caption{The actual stock prices and a 1$^{st}$ simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndSimulatedGeomBMs1}
 \end{figure}
 \newpage
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulated-Averaged.png}
-	\caption{The actual stock prices and the averages of 100 simulations of the corresponding geometric Brownian motions.}
-	\label{fig:ActualAndManySimulatedGeomBMs}
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled2.png}
+	\caption{The actual stock prices and a 2$^{nd}$ simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndManySimulatedGeomBMs2}
 \end{figure}
-As we can see, the Black-Scholes model is not exactly a very satisfying approximation of the actual behaviour of the data. The approximation is even more than unsatisfying in the particular case of the Total stock, which varies widely and quickly over time from week 450 (or so) onwards !
-
-
-
+\newpage
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled3.png}
+	\caption{The actual stock prices and a 3$^{rd}$ simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndManySimulatedGeomBMs3}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled4.png}
+	\caption{The actual stock prices and a 4$^{th}$ simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndManySimulatedGeomBMs4}
+\end{figure}
+\newpage
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaled5.png}
+	\caption{The actual stock prices and a 5$^{th}$ simulation of the corresponding geometric Brownian motions.}
+	\label{fig:ActualAndManySimulatedGeomBMs5}
+\end{figure}
+\clearpage
+\subsection{Observations}
+As we can see, the geometric Brownian motion is not a satisfying model. The first two simulations are rather good\footnote{or more appropriately speaking, they are not as catastrophically bad as the latter three !} for the BNP, Carrefour, LVMH and Sanofi stocks. The third and fourth and fifth simulations are very poor : the prices are (vastly) overestimated. And this is not the only issue. If we have a look at the Total stock, we see that from week 500 or so the stock price varies quickly widely. The geometric Brownian motion is unable to cope with this behaviour, all five simulations are outright failures.
