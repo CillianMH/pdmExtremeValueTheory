@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  8 JUN 2015 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  8 JUN 2015 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2823,14 +2823,15 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 226--227
 [23 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
 rossReturns/logGrossReturns.jpeg>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulated.png, id=475, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled.png, id=475, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
-GrossReturns/actualAndSimulated.png Graphic file (type png)
+GrossReturns/actualAndSimulatedRescaled.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
-rossReturns/actualAndSimulated.png>
+rossReturns/actualAndSimulatedRescaled.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_logGrossReturns/actualAndSimulated.png used on input line 237.
+eTheory/r_files_logGrossReturns/actualAndSimulatedRescaled.png used on input li
+ne 237.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
 
 Overfull \hbox (64.11235pt too wide) in paragraph at lines 237--238
@@ -2838,7 +2839,7 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 237--238
  []
 
 [24 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
-rossReturns/actualAndSimulated.png>]
+rossReturns/actualAndSimulatedRescaled.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
 Returns/actualAndSimulated-Averaged.png, id=482, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
@@ -3204,7 +3205,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
  24033 strings out of 493117
- 434490 string characters out of 6135433
+ 434530 string characters out of 6135433
  640361 words of memory out of 5000000
  26455 multiletter control sequences out of 15000+600000
  142784 words of font info for 312 fonts, out of 8000000 for 9000
@@ -3291,7 +3292,7 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (55 pages, 1231417 bytes).
+Output written on my_thesis.pdf (55 pages, 1224133 bytes).
 PDF statistics:
  646 PDF objects out of 1000 (max. 8388607)
  542 compressed objects within 6 object streams

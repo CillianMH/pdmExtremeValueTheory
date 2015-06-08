@@ -89,6 +89,34 @@ lines(geomBMs[[5]], col = "yellow")
 dev.off()
 graphics.off()
 
+# Rescaling the y-axis by computing the maxima and minima
+# and adapting the y-min and y-max
+Ymaxima <- c(max(df_plain[[1]],geomBMs[[1]]), max(df_plain[[2]],geomBMs[[2]]),
+	max(df_plain[[3]],geomBMs[[3]]), max(df_plain[[4]],geomBMs[[4]]),
+	max(df_plain[[5]],geomBMs[[5]]))
+Yminima <- c(min(df_plain[[1]],geomBMs[[1]]), min(df_plain[[2]],geomBMs[[2]]),
+	min(df_plain[[3]],geomBMs[[3]]), min(df_plain[[4]],geomBMs[[4]]),
+	min(df_plain[[5]],geomBMs[[5]]))
+	
+# Plotting with the y-axes properly scaled
+quartz()
+png(file = "actualAndSimulatedRescaled.png")
+par(mfrow = c(3,2))
+plot(df_plain[[1]], pch = 1, col = "black", type = 'l', xlab = x_label, ylab = y_label, main = title1, ylim = c(Yminima[1], Ymaxima[1]))
+lines(geomBMs[[1]], col = 'yellow')
+plot(df_plain[[2]], pch = 1, col = "blue", type = 'l', xlab = x_label, ylab = y_label, main = title2, ylim = c(Yminima[2], Ymaxima[2]))
+lines(geomBMs[[2]], col = "yellow")
+plot(df_plain[[3]], pch = 1, col = "green", type = 'l', xlab = x_label, ylab = y_label, main = title3, ylim = c(Yminima[3], Ymaxima[3]))
+lines(geomBMs[[3]], col = "yellow")
+plot(df_plain[[4]], pch = 1, col = "purple", type = 'l', xlab = x_label, ylab = y_label, main = title4, ylim = c(Yminima[4], Ymaxima[4]))
+lines(geomBMs[[4]], col = "yellow")
+plot(df_plain[[5]], pch = 1, col = "red", type = 'l', xlab = x_label, ylab = y_label, main = title5,
+ylim = c(Yminima[5], Ymaxima[5]))
+lines(geomBMs[[5]], col = "yellow")
+dev.off()
+graphics.off()
+
+
 
 
 
