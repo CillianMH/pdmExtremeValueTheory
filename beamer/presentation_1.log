@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 JUN 2015 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  14 JUN 2015 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,39 +988,59 @@ Missing character: There is no ´ in font cmssi10!
 
 ] [8
 
-] [9
+] <plainData.png, id=281, 481.8pt x 481.8pt>
+File: plainData.png Graphic file (type png)
+ <use plainData.png>
+Package pdftex.def Info: plainData.png used on input line 179.
+(pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
-] [10
+Overfull \vbox (12.04178pt too high) detected at line 179
+ []
 
-] [11
+[9
 
-] [12
+ <./plainData.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[10
+
+] <dataPlusSimulation.png, id=341, 481.8pt x 481.8pt>
+File: dataPlusSimulation.png Graphic file (type png)
+
+<use dataPlusSimulation.png>
+Package pdftex.def Info: dataPlusSimulation.png used on input line 196.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+Overfull \vbox (10.804pt too high) detected at line 196
+ []
+
+[11
+
+ <./dataPlusSimulation.png>] [12
 
 ] [13
 
 ] [14
 
-] [15
-
-] [16
-
-]
-\openout4 = `presentation_1.vrb'.
-
- (./presentation_1.vrb)
-[17
-
-] [18
-
-]
-\openout4 = `presentation_1.vrb'.
-
- (./presentation_1.vrb) [19
-
-] [20
-
  </usr/local/texlive/2014/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
->] [21
+>] [15
 
 ]
 \tf@nav=\write6
@@ -1032,11 +1052,11 @@ Missing character: There is no ´ in font cmssi10!
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
  (./presentation_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
 (rerunfilecheck)             Checksum: 3A308B47B8953E5772BD0D7BDE721B34;246.
 
@@ -1044,35 +1064,36 @@ Package rerunfilecheck Info: File `presentation_1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 16935 strings out of 493117
- 327432 string characters out of 6135433
- 396987 words of memory out of 5000000
- 19937 multiletter control sequences out of 15000+600000
- 14116 words of font info for 51 fonts, out of 8000000 for 9000
+ 16852 strings out of 493117
+ 325598 string characters out of 6135433
+ 392987 words of memory out of 5000000
+ 19869 multiletter control sequences out of 15000+600000
+ 13643 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,18n,60p,419b,808s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation_1.pdf (21 pages, 202200 bytes).
+ 56i,18n,60p,394b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on presentation_1.pdf (15 pages, 264135 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 48 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 549 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

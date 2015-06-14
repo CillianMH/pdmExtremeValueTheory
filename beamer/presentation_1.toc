@@ -2,4 +2,4 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{The two extremal problems}{4}{0}{2}
 \beamer@sectionintoc {3}{Looking into financial data}{9}{0}{3}
-\beamer@sectionintoc {4}{Statistics of extremes \& financial data}{10}{0}{4}
+\beamer@sectionintoc {4}{Statistics of extremes \& financial data}{13}{0}{4}
