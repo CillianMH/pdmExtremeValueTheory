@@ -128,6 +128,51 @@ lines(1:index_total, B_total5, col = 'purple')
 dev.off()
 graphics.off()
 
+B_totalBeta1 <- rnorm(6*index_total,0,1/sqrt(6))
+B_totalBeta1 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_totalBeta1))
+
+B_totalBeta2 <- rnorm(6*index_total,0,1/sqrt(6))
+B_totalBeta2 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_totalBeta2))
+
+minima_total_Beta <- min(c(B_totalBeta1, B_totalBeta2))
+maxima_total_Beta <- max(c(B_totalBeta1, B_totalBeta2))
+
+
+quartz()
+dev.new(width = 7, heigth = 7)
+png(file = "cleanedTotal_better_simulation.png")
+plot(1:index_total, S_total[1:index_total], col = 'grey', lwd = 2,
+	type = 'l', main = 'Total Stock actual [weekly increment] & \n simulated [daily increment]', xlab =
+    'Time steps in weeks', ylab = 'Stock prices')#, ylim = 
+    #c(minima_total_Beta, maxima_total_Beta))
+lines(1:(6*index_total), B_totalBeta1, col = 'purple')
+lines(1:(6*index_total), B_totalBeta2, col = 'blue')
+
+dev.off()
+graphics.off()
+
+
+B_lvmhBeta1 <- rnorm(6*index_lvmh,0,1/sqrt(6))
+B_lvmhBeta1 <- S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmhBeta1))
+
+B_lvmhBeta2 <- rnorm(6*index_lvmh,0,1/sqrt(6))
+B_lvmhBeta2 <- S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmhBeta2))
+
+minima_lvmh_Beta <- min(c(B_lvmhBeta1, B_lvmhBeta2))
+maxima_lvmh_Beta <- max(c(B_lvmhBeta1, B_lvmhBeta2))
+
+quartz()
+dev.new(width = 7, heigth = 7)
+png(file = "cleanedLVMH_better_simulation.png")
+plot(1:index_lvmh, S_lvmh[1:index_lvmh], col = 'grey', lwd = 2,
+	type = 'l', main = 'LVMH Stock actual [weekly increment] & \n simulated [daily increment]', xlab =
+    'Time steps in weeks', ylab = 'Stock prices')#, ylim = 
+    #c(minima_total_Beta, maxima_total_Beta))
+lines(1:(6*index_lvmh), B_lvmhBeta1, col = 'purple')
+lines(1:(6*index_lvmh), B_lvmhBeta2, col = 'blue')
+
+dev.off()
+graphics.off()
 
 
 
