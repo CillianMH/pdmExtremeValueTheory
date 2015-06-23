@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  23 JUN 2015 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  23 JUN 2015 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,7 +1047,7 @@ Overfull \vbox (10.804pt too high) detected at line 211
 
 [13
 
- <./cleanedLVMH.png>] <cleanedTotal.png, id=427, 481.8pt x 481.8pt>
+ <./cleanedLVMH.png>] <cleanedTotal.png, id=428, 481.8pt x 481.8pt>
 File: cleanedTotal.png Graphic file (type png)
 
 <use cleanedTotal.png>
@@ -1060,7 +1060,7 @@ Overfull \vbox (28.804pt too high) detected at line 217
 [14
 
  <./cleanedTotal.png>]
-<cleanedLVMH_better_simulation.png, id=455, 481.8pt x 481.8pt>
+<cleanedLVMH_better_simulation.png, id=457, 481.8pt x 481.8pt>
 File: cleanedLVMH_better_simulation.png Graphic file (type png)
 
 <use cleanedLVMH_better_simulation.png>
@@ -1074,7 +1074,7 @@ Overfull \vbox (10.804pt too high) detected at line 223
 [15
 
  <./cleanedLVMH_better_simulation.png>]
-<cleanedTotal_better_simulation.png, id=485, 481.8pt x 481.8pt>
+<cleanedTotal_better_simulation.png, id=486, 481.8pt x 481.8pt>
 File: cleanedTotal_better_simulation.png Graphic file (type png)
 
 <use cleanedTotal_better_simulation.png>
@@ -1120,10 +1120,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 16884 strings out of 493117
- 326272 string characters out of 6135433
+ 16888 strings out of 493117
+ 326304 string characters out of 6135433
  392987 words of memory out of 5000000
- 19889 multiletter control sequences out of 15000+600000
+ 19893 multiletter control sequences out of 15000+600000
  13643 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,60p,394b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1143,7 +1143,7 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation_1.pdf (19 pages, 464739 bytes).
+Output written on presentation_1.pdf (19 pages, 474291 bytes).
 PDF statistics:
  671 PDF objects out of 1000 (max. 8388607)
  600 compressed objects within 6 object streams
