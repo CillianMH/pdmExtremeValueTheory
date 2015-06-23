@@ -32,145 +32,103 @@ source("Visualisation_StockPriceVariations.r")
 # By default, the highest price is used i.e. column 3.
 CHOICE <- 3
 
-# Loading the original data for the five stocks then
-# getting the LVMH and the Total data
+# Loading the original data for the LVMHH and Total
+# stocks and getting the indexes where to cut the 
+# data.
 df_plain <- loadStockData_plain(CHOICE)
-lvmhData <- df_plain[[3]]
-totalData <- df_plain[[5]]
 indexes <- Visualisation_StockPriceVariations()
+index_lvmh <- indexes[1]-1
+index_total <- indexes[2]-1
 
-# Building the Geometric Brownian motion 
-	N = max(indexes)-1
-	M = dim(df)[2]
-	simulationLVMH <- rep(0,indexes[1]-1)
-	simulationTotal <- rep(0,indexes[2]-1)
-	
-	# Computing the mean and Variances of the stocks
-	meanAndVarLVMH <- meanAndVariance(lvmhData[1:indexes[1]-1])
-	meanAndVarTotal <- meanAndVariance(totalData[1:indexes[2]-1])
-	
-	#######################################################################
-	# From experience we see that we need to rescale the time steps if we 
-	# want to be able not to go over the max and min values allowed by the
-	# computer
-	#######################################################################
-	
-	# Time component
-	timeSteps = 0:(N-1)
-	timeSteps = timeSteps/N ## RESCALING
-	  
-	# Brownian motion component
-    dis = (1/sqrt(N))*rnorm(N,0,1) ## DO NOT FORGET TO RESCALE HERE
-    dis = cumsum(dis)
-    
+S_lvmh <- df_plain[[3]]
+S_total <- df_plain[[5]]
 
-	# LVMH stock
-	coeff1 = meanAndVarLVMH[1] - 0.5*meanAndVarLVMH[2]
-	coeff1 = coeff1*(1/N) ## Rescale the mean
-	coeff2 = sqrt(meanAndVarLVMH[2]) ## The variance has already been rescaled
-	cat("****************************************************")
-	cat("\nDeterministic coefficient GBM - LVMH simulation:\n")
-	print(coeff1)
-	cat("\nStochastic coefficient GBM - LVMH simulation:\n")
-	print(coeff2)
-	exponentLVMH <- rep(0,(indexes[1]-1))
-	for (k in 2:(indexes[1] - 1)){
-		exponentLVMH[k] <- coeff1*timeSteps[k] + coeff2*dis[k]
-	}
-	#exponentLVMH[2:(indexes[1]-1)] <- coeff1*timeSteps[2:(indexes[1]-1)] + 
-		#coeff2*dis[2:(indexes[1]-1)]
-	lvmhT0 <- (df_plain[[3]])[1]
-	simulationLVMH <- lvmhT0*exp(exponentLVMH)
-	
-	# Total Stock
-	coeff1 = meanAndVarTotal[1] - 0.5*meanAndVarTotal[2]
-	coeff1 = coeff1*(1/N) ## Rescale the mean
-	coeff2 = sqrt(meanAndVarTotal[2]) ## The variance has already been rescaled
-	cat("\nDeterministic coefficient GBM - Total simulation:\n")
-	print(coeff1)
-	cat("\nStochastic coefficient GBM - Total simulation:\n")
-	print(coeff2)
-	cat("****************************************************\n")
-	cat("****************************************************\n")
-	exponentTotal <- rep(0,(indexes[2]-1))
-	for (k in 2:(indexes[2] - 1)){
-		exponentTotal[k] <- coeff1*timeSteps[k] + coeff2*dis[k]
-	}
-	#exponentTotal[2:(indexes[2]-1)] <- coeff1*timeSteps[2:(indexes[2]-1)] +
-		#coeff2*dis[2:(indexes[2]-1)]
-	totalT0 <- (df_plain[[5]])[1]
-	simulationTotal <- totalT0*exp(exponentTotal)
-	 
-	#######################################################################
-	# From experience again we see that we need to clean up a bit the data
-	# we have just simulated as there a few points for which the value is
-	# extremely high. We will replace them with the closest more 'reasonable'
-	# value
-	#######################################################################
-	# Using the median is a RUBBISH-grade idea
-	#simulationLVMH <- replaceExtremes(simulationLVMH,median(simulationLVMH))
-	#simulationTotal <- replaceExtremes(simulationTotal,median(simulationTotal))
-		 
-	 quartz()
-     par(mfrow = c(2,4))
-     
-	 plot(log(lvmhData[1:(indexes[1]-1)]), type = 'l', main = "LVMH - Actual",
-	 	ylab = "Log of the Stock price")
-	 plot(exponentLVMH + rep(log(lvmhT0),length(exponentLVMH)), type = 'l',
-	  main = "LVMH - simulation", ylab = "Log of the Stock price - simulated")
-	 plot(exp(exponentLVMH + rep(log(lvmhT0),length(exponentLVMH))), type = 'l',
-	  main = "LVMH - simulation", ylab = "Exp of the Log of the Stock price - simulated")
-	 plot(simulationLVMH, type = 'l', main = "LVMH - simulation")
-	 cat("\n \n \nMax simulation LVMH\n")
-	 print(max(simulationLVMH))
-	 
-	 plot(log(totalData[1:(indexes[2]-1)]), type = 'l', main = "Total - Actual",
-	 	ylab = "Log of the Stock price")
-	 plot(exponentTotal + rep(log(totalT0),length(exponentTotal)), type = 'l',
-	  main = "Total - simulation", ylab = "Log of the Stock price - simulated")
-	 plot(exp(exponentTotal + rep(log(totalT0),length(exponentTotal))), type = 'l',
-	  main = "Total - simulation", ylab = "Exp of the Log of the Stock price - simulated")
-	 plot(simulationTotal, type = 'l', main = "Total - simulation ")
-	 cat("\n \n \nMax simulation Total\n")
-	 print(max(simulationTotal))
+S_lvmh <- S_lvmh[1:index_lvmh]
+S_total <- S_total[1:index_total]
 
+LS_lvmh <- log(S_lvmh)
+LS_total <- log(S_total)
 
-# Plotting the actual stock prices and the corresponding simulations
-x_label <- "Weekly measurements"
-y_label1 <- "Log Prices : actual and simulation"
-y_label2 <- "Prices : actual and simulation"
-title1 <- "LVMH Stock"
-title2 <- "Total Stock"
+LR_lvmh <- diff(LS_lvmh)
+LR_total <- diff(LS_total)
 
-# Rescaling the y-axis by computing the maxima and minima
-# and adapting the y-min and y-max
-Ymaxima <- c(max((df_plain[[3]])[1:indexes[1]-1],simulationLVMH),
-				max((df_plain[[5]])[1:indexes[2]-1],simulationTotal))
-Yminima <- c(min((df_plain[[3]])[1:indexes[1]-1],simulationLVMH),
-				min((df_plain[[5]])[1:indexes[2]-1],simulationTotal))
-				
-quartz()
-png(file = "cleanedLVMH_Total_Log.png")
-par(mfrow = c(1,2))
-plot(log(lvmhData[1:(indexes[1]-1)]), pch = 1, col = "green", type = 'l', xlab = x_label, ylab = y_label1, main = title1, ylim = c(0,10))
-lines(exponentLVMH + rep(log(lvmhT0),length(exponentLVMH)), col = "yellow")
-print(length(exponentLVMH))
-print(length(log(lvmhData[1:(indexes[1]-1)])))
-plot(log(totalData[1:(indexes[2]-1)]), pch = 1, col = "red", type = 'l', xlab = x_label, ylab = y_label1, main = title2, ylim = c(0,10))
-lines(exponentTotal + rep(log(totalT0),length(exponentTotal)), col = "yellow")
-#dev.off()
-#graphics.off()
+index_lvmh <- length(LR_lvmh)
+index_total <- length(LR_total)
 
+m_lvmh <- mean(LR_lvmh)
+s2_lvmh <- var(LR_lvmh)
+
+m_total <- mean(LR_total)
+s2_total <- var(LR_total)
+
+# Building the Geometric Brownian motions 
+B_lvmh1 <- rnorm(index_lvmh,0,1)
+B_lvmh1 <- S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmh1))
+
+B_lvmh2 <- rnorm(index_lvmh,0,1)
+B_lvmh2 <-  S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmh2))
+
+B_lvmh3 <- rnorm(index_lvmh,0,1)
+B_lvmh3 <-  S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmh3))
+
+B_lvmh4 <- rnorm(index_lvmh,0,1)
+B_lvmh4 <-  S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmh4))
+
+B_lvmh5 <- rnorm(index_lvmh,0,1)
+B_lvmh5 <-  S_lvmh[1]*exp(cumsum((m_lvmh + 0.5*s2_lvmh) + sqrt(s2_lvmh)*B_lvmh5))
+
+minima_lvmh <- min(c(B_lvmh1, B_lvmh2, B_lvmh3, B_lvmh4, B_lvmh5))
+maxima_lvmh <- max(c(B_lvmh1, B_lvmh2, B_lvmh3, B_lvmh4, B_lvmh5))
+
+B_total1 <- rnorm(index_total,0,1)
+B_total1 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_total1))
+
+B_total2 <- rnorm(index_total,0,1)
+B_total2 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_total2))
+
+B_total3 <- rnorm(index_total,0,1)
+B_total3 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_total3))
+
+B_total4 <- rnorm(index_total,0,1)
+B_total4 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_total4))
+
+B_total5 <- rnorm(index_total,0,1)
+B_total5 <- S_total[1]*exp(cumsum((m_total + 0.5*s2_total) + sqrt(s2_total)*B_total5))
+
+minima_total <- min(c(B_total1, B_total2, B_total3, B_total4, B_total5))
+maxima_total <- max(c(B_total1, B_total2, B_total3, B_total4, B_total5))
 
 quartz()
-png(file = "cleanedLVMH_Total.png")
-par(mfrow = c(1,2))
-plot(exp(log((df_plain[[3]])[1:(indexes[1]-1)])), pch = 1, col = "green", type = 'l', xlab = x_label, ylab = y_label2, main = title1, ylim = c(Yminima[1],1000))
-lines(exp(exponentLVMH + rep(log(lvmhT0),length(exponentLVMH))), col = "yellow")
-plot(exp(log((df_plain[[5]])[1:(indexes[2]-1)])), pch = 1, col = "red", type = 'l', xlab = x_label, ylab = y_label2, main = title2, ylim = c(Yminima[2],1000))
-lines(exp(exponentTotal + rep(log(totalT0),length(exponentTotal))), col = "yellow")
+dev.new(width = 7, heigth = 7)
+png(file = "cleanedLVMH.png")
+plot(1:index_lvmh, S_lvmh[1:index_lvmh], col = 'grey', lwd = 2,
+	type = 'l', main = 'LVMH Stock actual & simulated', xlab =
+    'Time steps in weeks', ylab = 'Stock prices', ylim = 
+    c(minima_lvmh, maxima_lvmh))
+lines(1:index_lvmh, B_lvmh1, col = 'red')
+lines(1:index_lvmh, B_lvmh2, col = 'blue')
+lines(1:index_lvmh, B_lvmh3, col = 'green')
+lines(1:index_lvmh, B_lvmh4, col = 'yellow')
+lines(1:index_lvmh, B_lvmh5, col = 'purple')
+dev.off()
+graphics.off()
 
-	
+quartz()
+dev.new(width = 7, heigth = 7)
+png(file = "cleanedTotal.png")
+plot(1:index_total, S_total[1:index_total], col = 'grey', lwd = 2,
+	type = 'l', main = 'Total Stock actual & simulated', xlab =
+    'Time steps in weeks', ylab = 'Stock prices', ylim = 
+    c(minima_total, maxima_total))
+lines(1:index_total, B_total1, col = 'red')
+lines(1:index_total, B_total2, col = 'blue')
+lines(1:index_total, B_total3, col = 'green')
+lines(1:index_total, B_total4, col = 'yellow')
+lines(1:index_total, B_total5, col = 'purple')
+dev.off()
+graphics.off()
+
+
 
 
 
