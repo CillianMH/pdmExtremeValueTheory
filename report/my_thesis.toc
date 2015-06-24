@@ -21,7 +21,8 @@
 \contentsline {paragraph}{Computing the quantiles}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}Why does this work ?}{8}{section.2.5}
 \contentsline {paragraph}{(The underlying idea)}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}What are the limiting distributions in theses cases ?\let \reserved@d =[\def \def \def \par }{9}{section.2.6}
+\contentsline {section}{\numberline {2.6}What are the limiting distributions in theses cases ?}{9}{section.2.6}
+\contentsline {paragraph}{Preliminary remark}{9}{section.2.6}
 \contentsline {paragraph}{Gumbel limiting distribution}{9}{section.2.6}
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{9}{equation.2.6.8}
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution - bis}{10}{equation.2.6.11}

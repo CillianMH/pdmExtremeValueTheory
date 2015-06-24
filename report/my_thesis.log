@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  8 JUN 2015 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  24 JUN 2015 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1550,40 +1550,7 @@ l.25 \include{head/preface}
 
 
 ]
-(./my_thesis.toc
-Runaway argument?
-{\numberline {2.6}What are the limiting distributions in theses cases\ETC.
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.24 ...es ?\let \reserved@d =[\def \def \def \par
-                                                   }{9}{section.2.6}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.24 ... ?\let \reserved@d =[\def \def \def \par }
-                                                  {9}{section.2.6}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...}The two extremal problems}{13}{chapter.3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9])
+(./my_thesis.toc [9])
 \tf@toc=\write5
 \openout5 = `my_thesis.toc'.
 
@@ -1777,7 +1744,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=331, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=332, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1793,7 +1760,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=332, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=333, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1809,7 +1776,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=333, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=334, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -1820,7 +1787,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=334, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=335, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -1872,7 +1839,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=346, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=347, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1888,7 +1855,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=347, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=348, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1904,7 +1871,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=348, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=349, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -1983,7 +1950,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=354, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=355, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1999,7 +1966,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 119--120
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=355, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=356, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -2016,7 +1983,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 125--126
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=356, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=357, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -2069,120 +2036,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1
 /cauchyFitting.jpeg>]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 141.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 141.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 141.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 141.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 141.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 141.
-
-! Use of \reserved@a doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-{\ttl@assign@i {\@tempskipb }}\reserved@a {\stepcounter \@mpfn \protected@xdef 
-\ETC.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 141.
-
-! Use of \reserved@a doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-{\ttl@assign@i {\@tempskipb }}\reserved@a {\stepcounter \@mpfn \protected@xdef 
-\ETC.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.141 ...ibutions as well as Von Mises' theorem.}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (2.95894pt too wide) in paragraph at lines 143--144
-[] []\T1/futs/b/n/10.95 Gum-bel lim-it-ing dis-tri-bu-tion[] \T1/futs/m/n/10.95
- (-20) Let us as-sume that a ran-dom vari-able $\FML/futmi/m/it/10.95 X$ \T1/fu
-ts/m/n/10.95 (-20) fol-lows a $\FML/futmi/m/it/10.95 Cauchy\T1/futs/m/n/10.95 (
--20) (0\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 (-20) 1)$
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_
@@ -2190,6 +2043,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ex_template5_57/main/R_Files_1/exponentialMaximaAgainstSteps.jpeg> </Users/kima
 rtin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/exponentialFit
 ting.jpeg>]
+Overfull \hbox (2.95894pt too wide) in paragraph at lines 145--146
+[] []\T1/futs/b/n/10.95 Gum-bel lim-it-ing dis-tri-bu-tion[] \T1/futs/m/n/10.95
+ (-20) Let us as-sume that a ran-dom vari-able $\FML/futmi/m/it/10.95 X$ \T1/fu
+ts/m/n/10.95 (-20) fol-lows a $\FML/futmi/m/it/10.95 Cauchy\T1/futs/m/n/10.95 (
+-20) (0\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 (-20) 1)$
+ []
+
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2198,7 +2058,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 \end{alignat*}
+l.149 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2211,7 +2071,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \end{alignat*}
+l.154 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2224,7 +2084,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \end{alignat*}
+l.166 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2237,7 +2097,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{alignat*}
+l.184 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2250,47 +2110,10 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187 \end{alignat*}
+l.189 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Runaway argument?
-{\protect \bbl@restore@actives \protect \MakeUppercase  {2.6. \ What \ETC.
-! Paragraph ended before \foreignlanguage  was complete.
-<to be read again> 
-                   \par 
-l.188 \end{equation}
-                    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<argument> ...\reserved@d =[\def \def \def \par }}
-                                                  
-l.188 \end{equation}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-\nouppercase ...akeUppercase \endcsname \relax #1}
-                                                  
-l.188 \end{equation}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 [9]
 
@@ -2301,7 +2124,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \end{alignat*}
+l.198 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2314,7 +2137,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \end{alignat*}
+l.208 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2327,7 +2150,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 \end{alignat*}
+l.213 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2340,7 +2163,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.220 \end{alignat*}
+l.222 \end{alignat*}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2349,39 +2172,6 @@ If that doesn't work, type  X <return>  to quit.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10])
-Runaway argument?
-{\protect \bbl@restore@actives \protect \MakeUppercase  {2.6. \ What \ETC.
-! Paragraph ended before \foreignlanguage  was complete.
-<to be read again> 
-                   \par 
-l.52 ...in/ch4_investigatingLimitingDistributions}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<argument> ...\reserved@d =[\def \def \def \par }}
-                                                  
-l.52 ...in/ch4_investigatingLimitingDistributions}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-\nouppercase ...akeUppercase \endcsname \relax #1}
-                                                  
-l.52 ...in/ch4_investigatingLimitingDistributions}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 [11]
 \openout2 = `main/ch1_theExtremalProblems.aux'.
 
@@ -2417,7 +2207,7 @@ and I'll forget about whatever was undefined.
 Chapter 4.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=415, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=414, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2433,7 +2223,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=416, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=415, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2449,7 +2239,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=417, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=416, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2465,7 +2255,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=418, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=417, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2481,7 +2271,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=419, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=418, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2506,7 +2296,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=427, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=426, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2522,7 +2312,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 53--54
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=428, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=427, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2538,7 +2328,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 60--61
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=429, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=428, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2554,7 +2344,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 70--71
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=430, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=429, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2570,7 +2360,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 77--78
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=431, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=430, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2805,7 +2595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 [22]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/logGrossReturns.jpeg, id=484, 481.8pt x 481.8pt>
+Returns/logGrossReturns.jpeg, id=483, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/logGrossReturns.jpeg Graphic file (type jpg)
 
@@ -2821,7 +2611,7 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 226--227
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaled1.png, id=485, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled1.png, id=484, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaled1.png Graphic file (type png)
 
@@ -2842,7 +2632,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [23 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
 rossReturns/logGrossReturns.jpeg>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaled2.png, id=491, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled2.png, id=490, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaled2.png Graphic file (type png)
 
@@ -2862,7 +2652,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaled3.png, id=492, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled3.png, id=491, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaled3.png Graphic file (type png)
 
@@ -2882,7 +2672,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaled4.png, id=493, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled4.png, id=492, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaled4.png Graphic file (type png)
 
@@ -2902,7 +2692,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaled5.png, id=494, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaled5.png, id=493, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaled5.png Graphic file (type png)
 
@@ -3273,22 +3063,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CD76AC9A733946AB89F1BAE59E346975;2219.
+(rerunfilecheck)             Checksum: 76346C5C4D7FC39B9B9F73D323A4160A;2047.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 24066 strings out of 493117
- 436373 string characters out of 6135433
+ 24012 strings out of 493117
+ 435487 string characters out of 6135433
  640763 words of memory out of 5000000
- 26471 multiletter control sequences out of 15000+600000
- 143054 words of font info for 315 fonts, out of 8000000 for 9000
+ 26436 multiletter control sequences out of 15000+600000
+ 124448 words of font info for 287 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,77p,1168b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3371,10 +3158,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (59 pages, 1327375 bytes).
+Output written on my_thesis.pdf (59 pages, 1327524 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 573 compressed objects within 6 object streams
- 180 named destinations out of 1000 (max. 500000)
- 39284 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 32628 words of extra memory for PDF output out of 35830 (max. 10000000)
 
