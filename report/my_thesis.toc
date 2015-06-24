@@ -55,15 +55,15 @@
 \contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
 \contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Observations}{29}{subsection.4.3.1}
-\contentsline {paragraph}{Our approach}{31}{appendix*.31}
-\contentsline {paragraph}{Remark}{31}{appendix*.31}
-\contentsline {paragraph}{The answer to the extremal limit problem}{31}{appendix*.31}
-\contentsline {paragraph}{In the context of our problem}{32}{appendix*.31}
-\contentsline {paragraph}{A preparatory phase}{33}{equation.Alph0.0.10}
-\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{34}{equation.Alph0.0.19}
-\contentsline {paragraph}{Case $\gamma = 0$}{35}{equation.Alph0.0.20}
-\contentsline {paragraph}{Case $\gamma \not =0$}{35}{equation.Alph0.0.21}
-\contentsline {paragraph}{Chapter 4 : Looking into financial data}{37}{appendix*.32}
-\contentsline {chapter}{Bibliography}{39}{appendix*.33}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{41}{appendix*.34}
-\contentsline {paragraph}{\\[25 pt]}{41}{appendix*.34}
+\contentsline {paragraph}{Our approach}{35}{appendix*.35}
+\contentsline {paragraph}{Remark}{35}{appendix*.35}
+\contentsline {paragraph}{The answer to the extremal limit problem}{35}{appendix*.35}
+\contentsline {paragraph}{In the context of our problem}{36}{appendix*.35}
+\contentsline {paragraph}{A preparatory phase}{37}{equation.Alph0.0.10}
+\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{38}{equation.Alph0.0.19}
+\contentsline {paragraph}{Case $\gamma = 0$}{39}{equation.Alph0.0.20}
+\contentsline {paragraph}{Case $\gamma \not =0$}{39}{equation.Alph0.0.21}
+\contentsline {paragraph}{Chapter 4 : Looking into financial data}{41}{appendix*.36}
+\contentsline {chapter}{Bibliography}{43}{appendix*.37}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{45}{appendix*.38}
+\contentsline {paragraph}{\\[25 pt]}{45}{appendix*.38}

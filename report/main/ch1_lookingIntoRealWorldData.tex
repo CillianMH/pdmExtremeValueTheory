@@ -268,4 +268,31 @@ Now that we have the $\mu$'s and the $\sigma^2$'s for the stocks, we will simula
 \end{figure}
 \clearpage
 \subsection{Observations}
-As we can see, the geometric Brownian motion is not a satisfying model. The first two simulations are rather good\footnote{or more appropriately speaking, they are not as catastrophically bad as the latter three !} for the BNP, Carrefour, LVMH and Sanofi stocks. The third and fourth and fifth simulations are very poor : the prices are (vastly) overestimated. And this is not the only issue. If we have a look at the Total stock, we see that from week 500 or so the stock price varies quickly widely. The geometric Brownian motion is unable to cope with this behaviour, all five simulations are outright failures\footnote{There is a similar issue with the LVMH stock at the end of the series after a rather flat behaviour for most of the duration of the observations, which may explain why the simulations are poor in the case of that stock too.}.
+As we can see, the geometric Brownian motion is not a satisfying model. The first two simulations are rather good\footnote{or more appropriately speaking, they are not as catastrophically bad as the latter three !} for the BNP, Carrefour, LVMH and Sanofi stocks. The third and fourth and fifth simulations are very poor : the prices are (vastly) overestimated. And this is not the only issue. If we have a look at the Total stock, we see that from week 500 or so the stock price varies quickly widely. The geometric Brownian motion is unable to cope with this behaviour, all five simulations are outright failures\footnote{There is a similar issue with the LVMH stock at the end of the series after a rather flat behaviour for most of the duration of the observations, which may explain why the simulations are poor in the case of that stock too.}. \newline
+As a consequence, we have decided to cut the LVMH and Total data so as to keep only the part of the time series where the stock prices are not too volatile, and then apply our simulation to the cut time series. As we can see below, the result is better\footnote{The LVMH stock, though, is still more volatile than the Total stock. That explains why the simulation is poorer for the former than for the latter.}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png}
+	\caption{Cut LVMH stock price time series. In \textbf{grey} the actual prices, in colour five different runs of the simulation}
+	\label{fig:cutLVMH}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal.png}
+	\caption{Cut Total stock price time series. In \textbf{grey} the actual prices, in colour five different runs of the simulation}
+	\label{fig:cutTotal}
+\end{figure}
+\clearpage
+We can even get a better simulation if we choose a smaller time increment for it : the actual data is weekly, but in our simulation we can choose to take a daily time increment if we so desire. As shown below, it improves a bit the quality of the simulation.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.85]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH_better_simulation_copy.png}
+	\caption{Cut LVMH stock price time series. In \textbf{grey} the actual weekly prices, in colour two runs of the daily simulation}
+	\label{fig:cutLVMHbetter}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.85]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal_better_simulation.png}
+	\caption{Cut Total stock price time series. In \textbf{grey} the actual weekly prices, in colour two runs of the daily simulation}
+	\label{fig:cutTotalbetter}
+\end{figure}
