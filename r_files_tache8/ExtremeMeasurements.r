@@ -48,11 +48,6 @@ data_sanofi <- data_sanofi[data_sanofi > quantiles[4]]
 data_total <- df_plain[[5]]
 data_total <- data_total[data_total > quantiles[5]]
 
-print(length(data_total))
-print(length(data_sanofi))
-print(length(data_lvmh))
-print(length(data_carrefour))
-print(length(data_bnp))
 
 # Plotting the above-threshold data
 x_label <- ""
