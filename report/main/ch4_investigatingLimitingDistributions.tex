@@ -97,6 +97,8 @@ Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Cauchy(0,1)}. The distribut
     \label{fig:toyingLimitCauchyFitting}
  \end{figure}
 \newpage
+ \paragraph{}
+$n \rightarrow \tan(\pi \frac{2-n}{2 n})}$ is roughly linear in $n$. We know that if $\lvert x \rvert < \frac{\pi}{2}$, $\tan(x) = x + \frac{x^3}{3} + \frac{2 x^5}{15} + \cdots$ so if we take the first order approximation, we get $\tan(x) \approx x$ which confirms what the plot seems to suggest.\footnote{Of course the expansion is valid as for a number of observations $n$ greater than $1$, $ -1 < \frac{2}{n} - 1 < 1$ and thus $\lvert \frac{\pi}{2} \frac{2 - n}{n} \rvert = \vert \frac{\pi}{2} (\frac{2}{n} - 1) \rvert < \frac{\pi}{2}$.}
 \section{Sample following an Exponential Distribution}
 \paragraph{Computing the quantiles}
 \newline
@@ -141,7 +143,7 @@ The idea behind this is as follows, that the maxima will get closer to the upper
 \section{What are the limiting distributions in theses cases ?}
 \paragraph{Preliminary remark}
 In what follows we are using theoretical results exposed in the next chapter, chapter 3, concerning the three possible limiting distributions as well as Von Mises' theorem.
-\paragraph{Gumbel limiting distribution}
+\paragraph{Fr\'{e}chet limiting distribution}
 Let us assume that a random variable $X$ follows a $Cauchy(0,1)$ distribution, $x^+ = + \infty$. The limiting distribution can only be either a Gumbel or a Fréchet-type distribution.
 \begin{equation}
 \begin{alignat*}{2}
@@ -165,7 +167,7 @@ r(x) &= \frac{f_X(x)}{1 - F_X(x)} \\
 \implies x r(x) &\xrightarrow[x \rightarrow + \infty]{} 1
 \end{alignat*}
 \end{equation}
-Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of a $Cauchy(0,1)$ sample is a Gumbel distribution.
+Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of a $Cauchy(0,1)$ sample is a Fréchet distribution.
 %\paragraph{Fréchet distribution} 
 %Let $X_1, \cdots, X_n $ be i.i.d. RVs $\sim$ \textit{Exponential($\lambda$)}. Let us remember from the previous section the form of the $\frac{1}{n}$-quantile $q_n = \frac{1}{\lambda}\log(n)$. Let us evaluate $F_{M_n}$ in $q_\frac{1}{n}-t$ : \\
 %\begin{equation}
@@ -197,11 +199,35 @@ r(x) &= \frac{f_X(x)}{1 - F_X(x)} \\
 \implies \frac{\mathrm{d}r}{\mathrm{d}x}(x) &= 0
 \end{alignat*}
 \end{equation}
-Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of an $Exp(1)$ sample is a Fréchet distribution.
-\paragraph{Fréchet distribution - bis}
-Let us assume that a random variable $X$ follows a $\mathcal{N}(0,1)$ distribution, $x^+ = + \infty$. The limiting distribution here again can only be either a Gumbel or a Fréchet-type distribution. It turns out that in that case, the limiting distribution is a Fréchet-type distribution.\footnote{The computation is more involved in that case than with the $Exp(1)$ sample.}
+Finally, by Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of an $Exp(1)$ sample is a Gumbel distribution.
+\paragraph{Gumbel distribution - bis}
+Let us assume that a random variable $X$ follows a $\mathcal{N}(0,1)$ distribution, $x^+ = + \infty$. The limiting distribution here again can only be either a Gumbel or a Fréchet-type distribution. It turns out that in that case, the limiting distribution is a Gumbel-type distribution. The computation is simple, as shown below :
+\end{equation}
+\begin{equation}
+\begin{alignat*}{2}
+\frac{\mathrm{d}r}{\mathrm{d}x}(x) &= \frac{\frac{\mathrm{d}f}{\mathrm{d}x}(x) (1 - F_X(x)) - f(x) (-f(x))}{(1 - F_X(x))^2} \\
+&= \frac{f(x)^2 + \frac{\mathrm{d}f}{\mathrm{d}x}(x) (1 - F_X(x)) }{(1 - F_X(x))^2}
+\end{alignat*}
+\end{equation}
+It yields an indeterminate form. The key to solve the issue here is to use an expansion of the cumulative distribution function of a standard Gaussian random variable : \newline
+$\Phi(x) \approx \frac{1}{2} + \frac{1}{\sqrt{2 \pi}} \exp(\frac{-x^2}{2}) (x + \frac{x^3}{3} + \frac{x^5}{15})$ \newline
+\begin{equation}
+\begin{alignat*}{2}
+\frac{\mathrm{d}r}{\mathrm{d}x}(x) &= \frac{
+	\frac{\exp(- x^2)}{2 \pi} - \frac{x}{2 \sqrt{2 \pi}} \exp(\frac{-x^2}{2}) + \frac{x \exp(- x^2)}{2 \pi} (x + \frac{x^3}{3} + \frac{x^5}{15})
+	}{
+	(\frac{1}{2} - \frac{1}{\sqrt{2 \pi}} \exp(\frac{-x^2}{2}) (x + \frac{x^3}{3} + \frac{x^5}{15}))^2
+	} \\
+	&=  \frac{
+		\frac{\exp(- x^2)}{2 \pi} - \frac{x}{2 \sqrt{2 \pi}} \exp(\frac{-x^2}{2}) + \frac{x \exp(- x^2)}{2 \pi} (x + \frac{x^3}{3} + \frac{x^5}{15})
+	}{
+	\frac{1}{4} - \frac{\exp(\frac{-x^2}{2})}{\sqrt{2 \pi}} (x + \frac{x^3}{3} + \frac{x^5}{15}) + \frac{\exp(-x^2)}{2 \pi} (x + \frac{x^3}{3} + \frac{x^5}{15})^2 
+} \\
+\end{alignat*}
+\end{equation}
+Now we can see that if we take the limit when $x$ goes to $+ \infty$, we get a $0$. By Von Mises' theorem, we can conclude that the limiting distribution for the standardized maxima of a $\mathcal{N}(0,1)$ sample is a Gumbel distribution.
 \paragraph{Weibull distribution}
-Cauchy, Normal and Exponential distributions all have an infinite upper end-point, thus we will never get a Weibull distribution as limiting distribution. Let us assume that a random variable $X$ follows a $Unif([0,1])$ distribution, $x^+ = 1 < + \infty$.
+Cauchy, Normal and Exponential distributions all have an infinite upper end-point, thus we will never get a Weibull distribution as limiting distribution. Let us assume that a random variable $X$ follows a $Unif([0,1])$ distribution, $x^+ = 1 < + \infty$. 
 \begin{equation}
 \begin{alignat*}{2}
 f_X(x) = 1

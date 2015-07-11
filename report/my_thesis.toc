@@ -17,16 +17,17 @@
 \contentsline {paragraph}{Computing the quantiles}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Sample following a Cauchy distribution}{5}{section.2.3}
 \contentsline {paragraph}{Computing the quantiles}{5}{section.2.3}
+\contentsline {paragraph}{}{7}{figure.caption.16}
 \contentsline {section}{\numberline {2.4}Sample following an Exponential Distribution}{7}{section.2.4}
 \contentsline {paragraph}{Computing the quantiles}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}Why does this work ?}{8}{section.2.5}
 \contentsline {paragraph}{(The underlying idea)}{8}{section.2.5}
 \contentsline {section}{\numberline {2.6}What are the limiting distributions in theses cases ?}{9}{section.2.6}
 \contentsline {paragraph}{Preliminary remark}{9}{section.2.6}
-\contentsline {paragraph}{Gumbel limiting distribution}{9}{section.2.6}
+\contentsline {paragraph}{Fr\'{e}chet limiting distribution}{9}{section.2.6}
 \contentsline {paragraph}{Fr\IeC {\'e}chet distribution}{9}{equation.2.6.8}
-\contentsline {paragraph}{Fr\IeC {\'e}chet distribution - bis}{10}{equation.2.6.11}
-\contentsline {paragraph}{Weibull distribution}{10}{equation.2.6.11}
+\contentsline {paragraph}{Gumbel distribution - bis}{10}{equation.2.6.11}
+\contentsline {paragraph}{Weibull distribution}{11}{equation.2.6.13}
 \contentsline {chapter}{\numberline {3}The two extremal problems}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}The extremal limit problem}{13}{section.3.1}
 \contentsline {paragraph}{The answer to the extremal limit problem}{13}{section.3.1}
@@ -47,14 +48,14 @@
 \contentsline {paragraph}{Resolution - existence of a solution to the Black-Scholes SDE}{18}{equation.4.2.1}
 \contentsline {paragraph}{Resolution - step 1}{19}{equation.4.2.1}
 \contentsline {paragraph}{Resolution - step 2}{19}{equation.4.2.2}
-\contentsline {paragraph}{Resolution - step 3}{20}{equation.4.2.4}
-\contentsline {subsection}{\numberline {4.2.2}Black-Scholes SDE with time-dependent coefficients }{20}{subsection.4.2.2}
-\contentsline {paragraph}{Presentation}{20}{subsection.4.2.2}
+\contentsline {paragraph}{Resolution - step 3}{21}{equation.4.2.4}
+\contentsline {subsection}{\numberline {4.2.2}Black-Scholes SDE with time-dependent coefficients }{21}{subsection.4.2.2}
+\contentsline {paragraph}{Presentation}{21}{subsection.4.2.2}
 \contentsline {paragraph}{Resolution - existence of a solution to the generalized Black-Scholes SDE}{21}{subsection.4.2.2}
 \contentsline {paragraph}{Resolution}{21}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
 \contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Observations}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Observations}{30}{subsection.4.3.1}
 \contentsline {paragraph}{Our approach}{35}{appendix*.35}
 \contentsline {paragraph}{Remark}{35}{appendix*.35}
 \contentsline {paragraph}{The answer to the extremal limit problem}{35}{appendix*.35}

@@ -28,13 +28,13 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for LVMH Stock Price Data\relax }}{17}{figure.caption.23}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Sanofi Stock Price Data\relax }}{17}{figure.caption.23}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces $\qopname \relax o{exp}(R_t)$ and $1 + R_t$ for Total Stock Price Data\relax }}{18}{figure.caption.24}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Log-gross returns on the stock, the $\mu $'s and the $\sigma ^2$'s.\relax }}{23}{figure.caption.25}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces The actual stock prices and a 1$^{st}$ simulation of the corresponding geometric Brownian motions.\relax }}{24}{figure.caption.26}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The actual stock prices and a 2$^{nd}$ simulation of the corresponding geometric Brownian motions.\relax }}{25}{figure.caption.27}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces The actual stock prices and a 3$^{rd}$ simulation of the corresponding geometric Brownian motions.\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces The actual stock prices and a 4$^{th}$ simulation of the corresponding geometric Brownian motions.\relax }}{27}{figure.caption.29}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The actual stock prices and a 5$^{th}$ simulation of the corresponding geometric Brownian motions.\relax }}{28}{figure.caption.30}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Cut LVMH stock price time series. In \textbf {grey} the actual prices, in colour five different runs of the simulation\relax }}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Cut Total stock price time series. In \textbf {grey} the actual prices, in colour five different runs of the simulation\relax }}{31}{figure.caption.32}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Cut LVMH stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{32}{figure.caption.33}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Cut Total stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Log-gross returns on the stock, the $\mu $'s and the $\sigma ^2$'s.\relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The actual stock prices and a 1$^{st}$ simulation of the corresponding geometric Brownian motions.\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The actual stock prices and a 2$^{nd}$ simulation of the corresponding geometric Brownian motions.\relax }}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The actual stock prices and a 3$^{rd}$ simulation of the corresponding geometric Brownian motions.\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The actual stock prices and a 4$^{th}$ simulation of the corresponding geometric Brownian motions.\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The actual stock prices and a 5$^{th}$ simulation of the corresponding geometric Brownian motions.\relax }}{29}{figure.caption.30}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Cut LVMH stock price time series. In \textbf {grey} the actual prices, in colour five different runs of the simulation\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Cut Total stock price time series. In \textbf {grey} the actual prices, in colour five different runs of the simulation\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Cut LVMH stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Cut Total stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{34}{figure.caption.34}
