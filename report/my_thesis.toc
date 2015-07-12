@@ -78,6 +78,9 @@
 \contentsline {paragraph}{LVMH stock - 97.5 \% quantile}{38}{figure.caption.40}
 \contentsline {paragraph}{}{38}{figure.caption.41}
 \contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
+\contentsline {paragraph}{}{39}{chapter.5}
+\contentsline {paragraph}{}{39}{chapter.5}
+\contentsline {paragraph}{}{39}{chapter.5}
 \contentsline {paragraph}{Our approach}{41}{appendix*.42}
 \contentsline {paragraph}{Remark}{41}{appendix*.42}
 \contentsline {paragraph}{The answer to the extremal limit problem}{41}{appendix*.42}
