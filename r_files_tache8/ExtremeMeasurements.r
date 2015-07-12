@@ -97,7 +97,14 @@ gev.diag(gev.fit(data_total))
 dev.off()
 graphics.off()
 
+data_lvmh <- df_plain[[3]]
+data_lvmh <- data_lvmh[data_lvmh > quantile(df_plain[[3]],0.975)]
 
+quartz()
+png(file = "gev.diag LVMH2")
+gev.diag(gev.fit(data_lvmh))
+dev.off()
+graphics.off()
 	
 
 

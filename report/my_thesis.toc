@@ -67,16 +67,22 @@
 \contentsline {section}{\numberline {4.3}Back to the data}{22}{section.4.3}
 \contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Observations}{30}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Conclusion}{35}{chapter.5}
-\contentsline {paragraph}{Our approach}{37}{appendix*.35}
-\contentsline {paragraph}{Remark}{37}{appendix*.35}
-\contentsline {paragraph}{The answer to the extremal limit problem}{37}{appendix*.35}
-\contentsline {paragraph}{In the context of our problem}{38}{appendix*.35}
-\contentsline {paragraph}{A preparatory phase}{39}{equation.Alph0.0.2}
-\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{40}{equation.Alph0.0.11}
-\contentsline {paragraph}{Case $\gamma = 0$}{41}{equation.Alph0.0.12}
-\contentsline {paragraph}{Case $\gamma \not =0$}{41}{equation.Alph0.0.13}
-\contentsline {paragraph}{Chapter 4 : Looking into financial data}{43}{appendix*.36}
-\contentsline {chapter}{Bibliography}{45}{appendix*.37}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{47}{appendix*.38}
-\contentsline {paragraph}{\\[25 pt]}{47}{appendix*.38}
+\contentsline {section}{\numberline {4.4}Fitting data above a threshold}{35}{section.4.4}
+\contentsline {paragraph}{BNP Paribas stock }{36}{figure.caption.35}
+\contentsline {paragraph}{Carrefour stock }{36}{figure.caption.36}
+\contentsline {paragraph}{Sanofi stock}{37}{figure.caption.37}
+\contentsline {paragraph}{Total stock}{37}{figure.caption.38}
+\contentsline {paragraph}{LVMH stock}{38}{figure.caption.39}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
+\contentsline {paragraph}{Our approach}{41}{appendix*.41}
+\contentsline {paragraph}{Remark}{41}{appendix*.41}
+\contentsline {paragraph}{The answer to the extremal limit problem}{41}{appendix*.41}
+\contentsline {paragraph}{In the context of our problem}{42}{appendix*.41}
+\contentsline {paragraph}{A preparatory phase}{43}{equation.Alph0.0.2}
+\contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{44}{equation.Alph0.0.11}
+\contentsline {paragraph}{Case $\gamma = 0$}{45}{equation.Alph0.0.12}
+\contentsline {paragraph}{Case $\gamma \not =0$}{45}{equation.Alph0.0.13}
+\contentsline {paragraph}{Chapter 4 : Looking into financial data}{47}{appendix*.42}
+\contentsline {chapter}{Bibliography}{49}{appendix*.43}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{51}{appendix*.44}
+\contentsline {paragraph}{\\[25 pt]}{51}{appendix*.44}
