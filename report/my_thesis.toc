@@ -9,8 +9,10 @@
 \contentsline {paragraph}{}{iii}{chapter*.2}
 \contentsline {paragraph}{}{iii}{chapter*.2}
 \contentsline {chapter}{Abstract (English/Fran\IeC {\c c}ais)}{v}{chapter*.3}
+\contentsline {paragraph}{}{v}{chapter*.3}
+\contentsline {paragraph}{}{v}{chapter*.3}
+\contentsline {paragraph}{}{v}{chapter*.3}
 \select@language {french}
-\contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}

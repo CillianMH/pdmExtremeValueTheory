@@ -298,19 +298,20 @@ We can even get a better simulation if we choose a smaller time increment for it
 \end{figure}
 \clearpage
 \section{Fitting data above a threshold}
-Finally, we are going to try and fit a generalised extreme value distribution to our data. For each stock, we keep only the data that is above the empirical $95$ \%-quantile. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}. We are particularly interested in the density plot thus obtained, as they will allow to conclude as to the distribution fitting the data.
+Finally, we are going to try and fit a generalised extreme value distribution to our data. For each stock, we keep only the data that is above the empirical $95$ \%-quantile. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}\footnote{It is based on maximum-likelihood fitting for the extreme value distribution. We have to rely on numerical resolution as there is no explicit solution to the system of maximum likelihood equations.}. We are particularly interested in the density plot thus obtained, as they will allow us to conclude as to the distribution fitting the data.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 1]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/aboveThresholdData.png}
+	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/aboveThresholdData.png}
 	\caption{Data above the  $95$ \%-quantile for the BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.}
 	\label{fig:dataAboveThreshold}
 \end{figure}
+
+The pattern followed by the LVMH data is most dissimilar to that followed by the other stocks. It suggests that the fitting may yield poor results in that case.
 \clearpage
-The pattern followed by the LVMH data is most dissimilar to that followed by the other stocks. It suggests that the fitting may yield poor results. 
 \paragraph{BNP Paribas stock }
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/BNP_Paribas_fitted}
+	\includegraphics[scale = 0.9]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/BNP_Paribas_fitted}
 	\caption{Density fitting for the BNP Paribas data \\}
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
@@ -322,24 +323,24 @@ The pattern followed by the LVMH data is most dissimilar to that followed by the
 	\label{fig:dataAboveThresholdSanofiFitted}
 \end{figure}
 \paragraph{}
-The curves are skewed to the right (it is particularly obvious in the case of the Sanofi stock). It corresponds to the case $\xi > 0$ in the generalised extreme value distribution representation or, equivalently, to a Fréchet-type distribution.
+The curves are skewed to the right (it is particularly obvious in the case of the Sanofi stock). It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution.
 \clearpage
 \paragraph{Carrefour stock }
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Carrefour_fitted}
-	\caption{Density fitting for the Carrefour data \\}
+	\caption{Density fitting for the Carrefour data }
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
 \paragraph{Total stock}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Total_fitted}
-	\caption{Density fitting for the Total data \\}
+	\caption{Density fitting for the Total data }
 	\label{fig:dataAboveThresholdtotalFitted}
 \end{figure}
 \paragraph{}
-The data-above-threshold plots for the Carrefour and Total stocks show that the data seems to fit a Gumbel distribution (corresponds to the case $\xi = 0$ in the generalised extreme value distribution representation).
+The data-above-threshold plots for the Carrefour and Total stocks show that the data seems to fit a Gumbel distribution (corresponds to the case $\gamma = 0$ in the generalised extreme value distribution representation $G_\gamma$).
 \clearpage
 \paragraph{LVMH stock - 95 \% quantile}
 \begin{figure}[h!]
@@ -356,4 +357,4 @@ The data-above-threshold plots for the Carrefour and Total stocks show that the 
 	\label{fig:dataAboveThresholdLVMHFitted}
 \end{figure}
 \paragraph{}
-As we suspected the structure of the above the 95 \%-quantile data for the LVMH stock makes the fitting arduous. To say the least, it is hard to recognize an extreme value distribution. If we take the data above the 97.5 \%-quantile, however, the shape of the curve is that of a generalised extreme value distribution with $\xi < 0$ that is a Weibull-type distribution.
+As we suspected the structure of the above the 95 \%-quantile data for the LVMH stock makes the fitting arduous. To say the least, it is hard to recognize an extreme value distribution. If we take the data above the 97.5 \%-quantile, however, the shape of the curve is that of a generalised extreme value distribution with $\gamma < 0$ that is a Weibull-type distribution.

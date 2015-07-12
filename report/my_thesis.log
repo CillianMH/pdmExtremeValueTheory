@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  12 JUL 2015 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  12 JUL 2015 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2886,7 +2886,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 .png>] [34 </Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal_better_simu
 lation.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/a
-boveThresholdData.png, id=597, 481.8pt x 481.8pt>
+boveThresholdData.png, id=598, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/aboveThresholdData.png Graphic file (type png)
 
@@ -2894,36 +2894,31 @@ he8/aboveThresholdData.png Graphic file (type png)
 e8/aboveThresholdData.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
 eTheory/r_files_tache8/aboveThresholdData.png used on input line 304.
-(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
-
-Overfull \hbox (64.11235pt too wide) in paragraph at lines 304--305
- [][] 
- []
-
-[35
+(pdftex.def)             Requested size: 385.4405pt x 385.4405pt.
+ [35
 
  </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/
 aboveThresholdData.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/B
-NP_Paribas_fitted.png, id=603, 255.95625pt x 239.89626pt>
+NP_Paribas_fitted.png, id=605, 255.95625pt x 239.89626pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/BNP_Paribas_fitted.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/BNP_Paribas_fitted.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/BNP_Paribas_fitted.png used on input line 313.
-(pdftex.def)             Requested size: 204.76526pt x 191.91725pt.
+eTheory/r_files_tache8/BNP_Paribas_fitted.png used on input line 314.
+(pdftex.def)             Requested size: 230.35847pt x 215.90462pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/S
-anofi_fitted.png, id=604, 253.94875pt x 226.8475pt>
+anofi_fitted.png, id=606, 253.94875pt x 226.8475pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Sanofi_fitted.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/Sanofi_fitted.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/Sanofi_fitted.png used on input line 320.
+eTheory/r_files_tache8/Sanofi_fitted.png used on input line 321.
 (pdftex.def)             Requested size: 203.15926pt x 181.47824pt.
  [36
 
@@ -2931,25 +2926,25 @@ eTheory/r_files_tache8/Sanofi_fitted.png used on input line 320.
 BNP_Paribas_fitted.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
 eTheory/r_files_tache8/Sanofi_fitted.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/C
-arrefour_fitted.png, id=611, 252.945pt x 231.86626pt>
+arrefour_fitted.png, id=613, 252.945pt x 231.86626pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Carrefour_fitted.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/Carrefour_fitted.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/Carrefour_fitted.png used on input line 330.
+eTheory/r_files_tache8/Carrefour_fitted.png used on input line 331.
 (pdftex.def)             Requested size: 202.35626pt x 185.49324pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/T
-otal_fitted.png, id=612, 246.9225pt x 229.85875pt>
+otal_fitted.png, id=614, 246.9225pt x 229.85875pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Total_fitted.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/Total_fitted.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/Total_fitted.png used on input line 337.
+eTheory/r_files_tache8/Total_fitted.png used on input line 338.
 (pdftex.def)             Requested size: 197.53824pt x 183.88722pt.
  [37
 
@@ -2957,25 +2952,25 @@ eTheory/r_files_tache8/Total_fitted.png used on input line 337.
 Carrefour_fitted.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueT
 heory/r_files_tache8/Total_fitted.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/L
-VMH_fitted.png, id=620, 253.94875pt x 230.8625pt>
+VMH_fitted.png, id=622, 253.94875pt x 230.8625pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/LVMH_fitted.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/LVMH_fitted.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/LVMH_fitted.png used on input line 347.
+eTheory/r_files_tache8/LVMH_fitted.png used on input line 348.
 (pdftex.def)             Requested size: 203.15926pt x 184.69023pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/L
-VMH_fitted2.png, id=621, 247.92625pt x 236.885pt>
+VMH_fitted2.png, id=623, 247.92625pt x 236.885pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/LVMH_fitted2.png Graphic file (type png)
 
 <use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
 e8/LVMH_fitted2.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
-eTheory/r_files_tache8/LVMH_fitted2.png used on input line 354.
+eTheory/r_files_tache8/LVMH_fitted2.png used on input line 355.
 (pdftex.def)             Requested size: 198.34126pt x 189.50824pt.
 ) [38
 
@@ -3343,15 +3338,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 24147 strings out of 493117
- 440896 string characters out of 6135433
- 645452 words of memory out of 5000000
+ 24152 strings out of 493117
+ 440949 string characters out of 6135433
+ 645450 words of memory out of 5000000
  26494 multiletter control sequences out of 15000+600000
- 126860 words of font info for 311 fonts, out of 8000000 for 9000
+ 127130 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,19n,77p,1229b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
+ 57i,19n,77p,1229b,1322s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3434,10 +3432,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (69 pages, 1666965 bytes).
+Output written on my_thesis.pdf (69 pages, 1648916 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 648 compressed objects within 7 object streams
- 204 named destinations out of 1000 (max. 500000)
+ 798 PDF objects out of 1000 (max. 8388607)
+ 651 compressed objects within 7 object streams
+ 205 named destinations out of 1000 (max. 500000)
  32699 words of extra memory for PDF output out of 35830 (max. 10000000)
 
