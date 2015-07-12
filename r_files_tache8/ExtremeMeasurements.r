@@ -48,7 +48,6 @@ data_sanofi <- data_sanofi[data_sanofi > quantiles[4]]
 data_total <- df_plain[[5]]
 data_total <- data_total[data_total > quantiles[5]]
 
-
 # Plotting the above-threshold data
 x_label <- ""
 y_label <- "Stock price"
@@ -66,12 +65,37 @@ plot(data_lvmh, pch = 1, col = "green", type = 'p', xlab = x_label, ylab = y_lab
 plot(data_sanofi, pch = 1, col = "purple", type = 'p', xlab = x_label, ylab = y_label, main = title4)
 plot(data_total, pch = 1, col = "red", type = 'p', xlab = x_label, ylab = y_label, main = title5)
 dev.off()
-graphics.off()					
-	
+graphics.off()		
+			
+quartz()
+png(file = "gev.diag BNP Paribas")
+gev.diag(gev.fit(data_bnp))
+dev.off()
+graphics.off()
 
+quartz()
+png(file = "gev.diag Carrefour")
+gev.diag(gev.fit(data_carrefour))
+dev.off()
+graphics.off()
 
+quartz()
+png(file = "gev.diag LVMH")
+gev.diag(gev.fit(data_lvmh))
+dev.off()
+graphics.off()
 
+quartz()
+png(file = "gev.diag Sanofi")
+gev.diag(gev.fit(data_sanofi))
+dev.off()
+graphics.off()
 
+quartz()
+png(file = "gev.diag Total")
+gev.diag(gev.fit(data_total))
+dev.off()
+graphics.off()
 
 
 	
