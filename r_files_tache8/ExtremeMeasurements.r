@@ -105,7 +105,29 @@ png(file = "gev.diag LVMH2")
 gev.diag(gev.fit(data_lvmh))
 dev.off()
 graphics.off()
-	
+
+data_lvmh <- as.numeric((read.csv("daily_LVMH_table.csv", header = FALSE))[[3]])
+quartz()
+png(file = "LVMH_daily.png")
+plot(1:length(data_lvmh), data_lvmh)
+dev.off()
+graphics.off()
+
+lvmh_quant <- quantile(data_lvmh, 0.99)
+data_lvmh <- data_lvmh[data_lvmh > lvmh_quant]
+
+
+quartz()
+png(file = "LVMH_daily_99quant.png")
+plot(1:length(data_lvmh), data_lvmh)
+dev.off()
+graphics.off()
+
+quartz()
+png(file = "gev.diag LVMH3")
+gev.diag(gev.fit(data_lvmh))
+dev.off()
+graphics.off()	
 
 
 
