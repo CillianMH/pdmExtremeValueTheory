@@ -312,35 +312,35 @@ The pattern followed by the LVMH data is most dissimilar to that followed by the
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.9]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/BNP_Paribas_fitted}
-	\caption{Density fitting for the BNP Paribas data \\}
+	\caption{Density fitting for the BNP Paribas data - $\hat{\gamma}_{MLE} = 0.052$ \\}
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
 \paragraph{Sanofi stock}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Sanofi_fitted}
-	\caption{Density fitting for the Sanofi data \\}
+	\caption{Density fitting for the Sanofi data - $\hat{\gamma}_{MLE} = 0.48$ \\}
 	\label{fig:dataAboveThresholdSanofiFitted}
 \end{figure}
 \paragraph{}
-The curves are skewed to the right (it is particularly obvious in the case of the Sanofi stock). It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution.
+The curves are skewed to the right (it is particularly obvious in the case of the Sanofi stock). It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution. The values of the estimate of $\gamma$ are in both cases positive, which confirms that which a naked-eye observation seemed to suggest.
 \clearpage
 \paragraph{Carrefour stock }
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Carrefour_fitted}
-	\caption{Density fitting for the Carrefour data }
+	\caption{Density fitting for the Carrefour data - $\hat{\gamma}_{MLE} = -0.16$ }
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
 \paragraph{Total stock}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Total_fitted}
-	\caption{Density fitting for the Total data }
+	\caption{Density fitting for the Total data - $\hat{\gamma}_{MLE} = -0.34$}
 	\label{fig:dataAboveThresholdtotalFitted}
 \end{figure}
 \paragraph{}
-The data-above-threshold plots for the Carrefour and Total stocks show that the data seems to fit a Gumbel distribution (corresponds to the case $\gamma = 0$ in the generalised extreme value distribution representation $G_\gamma$).
+ The values of the estimate of $\gamma$ are in both cases negative here. Both the Carrefour and the Total above-the-threshold data thus fit a Weibull distribution (corresponds to the case $\gamma < 0$ in the generalised extreme value distribution representation $G_\gamma$). Let us note that the shapes of the curves alone might have been misleading !
 \clearpage
 \paragraph{LVMH stock - 95 \% quantile}
 \begin{figure}[h!]
@@ -353,8 +353,8 @@ The data-above-threshold plots for the Carrefour and Total stocks show that the 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/LVMH_fitted2}
-	\caption{Density fitting for the LVMH data - 97.5 \% quantile \\}
+	\caption{Density fitting for the LVMH data - 97.5 \% quantile - $\hat{\gamma}_{MLE} = -0.71$\\}
 	\label{fig:dataAboveThresholdLVMHFitted}
 \end{figure}
 \paragraph{}
-As we suspected the structure of the above the 95 \%-quantile data for the LVMH stock makes the fitting arduous. To say the least, it is hard to recognize an extreme value distribution. If we take the data above the 97.5 \%-quantile, however, the shape of the curve is that of a generalised extreme value distribution with $\gamma < 0$ that is a Weibull-type distribution.
+As we suspected the structure of the above the 95 \%-quantile data for the LVMH stock makes the fitting arduous. To say the least, it is hard to recognize an extreme value distribution. If we take the data above the 97.5 \%-quantile, however, the shape of the curve is that of a generalised extreme value distribution with $\gamma < 0$ that is a Weibull-type distribution. The estimate $\hat{\gamma}_{MLE} = -0.71$ supports that observation.
