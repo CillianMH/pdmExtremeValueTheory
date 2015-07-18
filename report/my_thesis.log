@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  13 JUL 2015 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.29)  18 JUL 2015 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1471,7 +1471,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 13.
 
-<images/epfl.pdf, id=127, 574.94798pt x 275.429pt>
+<images/epfl.pdf, id=131, 574.94798pt x 275.429pt>
 File: images/epfl.pdf Graphic file (type pdf)
  <use images/epfl.pdf>
 Package pdftex.def Info: images/epfl.pdf used on input line 14.
@@ -1751,7 +1751,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianScatterMaxima.jpeg, id=369, 481.8pt x 481.8pt>
+ussianScatterMaxima.jpeg, id=384, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1767,7 +1767,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 39--40
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianMaximaAgainstSteps.jpeg, id=370, 481.8pt x 481.8pt>
+ussianMaximaAgainstSteps.jpeg, id=385, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1783,7 +1783,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 45--46
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ga
-ussianFitting.jpeg, id=371, 481.8pt x 481.8pt>
+ussianFitting.jpeg, id=386, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/gaussianFitting.jpeg Graphic file (type jpg)
 
@@ -1794,7 +1794,7 @@ te5_57/main/R_Files_1/gaussianFitting.jpeg used on input line 52.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/co
-rrApproxQuantileGaussian.jpeg, id=372, 481.8pt x 481.8pt>
+rrApproxQuantileGaussian.jpeg, id=387, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/corrApproxQuantileGaussian.jpeg Graphic file (type jpg)
 
@@ -1846,7 +1846,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 1/gaussianFitting.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_templa
 te5_57/main/R_Files_3/corrApproxQuantileGaussian.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyScatterMaxima.jpeg, id=384, 481.8pt x 481.8pt>
+uchyScatterMaxima.jpeg, id=399, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1862,7 +1862,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 82--83
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyMaximaAgainstSteps.jpeg, id=385, 481.8pt x 481.8pt>
+uchyMaximaAgainstSteps.jpeg, id=400, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1878,7 +1878,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 88--89
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ca
-uchyFitting.jpeg, id=386, 481.8pt x 481.8pt>
+uchyFitting.jpeg, id=401, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/cauchyFitting.jpeg Graphic file (type jpg)
 
@@ -1966,7 +1966,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialScatterMaxima.jpeg, id=393, 481.8pt x 481.8pt>
+ponentialScatterMaxima.jpeg, id=408, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialScatterMaxima.jpeg Graphic file (type jpg)
 
@@ -1982,7 +1982,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 121--122
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialMaximaAgainstSteps.jpeg, id=394, 481.8pt x 481.8pt>
+ponentialMaximaAgainstSteps.jpeg, id=409, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialMaximaAgainstSteps.jpeg Graphic file (type jpg)
 
@@ -1999,7 +1999,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 127--128
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_1/ex
-ponentialFitting.jpeg, id=395, 481.8pt x 481.8pt>
+ponentialFitting.jpeg, id=410, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _1/exponentialFitting.jpeg Graphic file (type jpg)
 
@@ -2304,7 +2304,7 @@ and I'll forget about whatever was undefined.
 Chapter 4.
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP.jpeg, id=454, 481.8pt x 481.8pt>
+eklyBNP.jpeg, id=469, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP.jpeg Graphic file (type jpg)
 
@@ -2320,7 +2320,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 9--10
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour.jpeg, id=455, 481.8pt x 481.8pt>
+eklyCarrefour.jpeg, id=470, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour.jpeg Graphic file (type jpg)
 
@@ -2336,7 +2336,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 16--17
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH.jpeg, id=456, 481.8pt x 481.8pt>
+eklyLVMH.jpeg, id=471, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH.jpeg Graphic file (type jpg)
 
@@ -2352,7 +2352,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 25--26
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi.jpeg, id=457, 481.8pt x 481.8pt>
+eklySanofi.jpeg, id=472, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi.jpeg Graphic file (type jpg)
 
@@ -2368,7 +2368,7 @@ Overfull \hbox (25.64456pt too wide) in paragraph at lines 32--33
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal.jpeg, id=458, 481.8pt x 481.8pt>
+eklyTotal.jpeg, id=473, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal.jpeg Graphic file (type jpg)
 
@@ -2393,7 +2393,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 eeklyBNP.jpeg> </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/ma
 in/R_Files_3/WeeklyCarrefour.jpeg>]
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyBNP_1+Rt_eRt.jpeg, id=466, 481.8pt x 481.8pt>
+eklyBNP_1+Rt_eRt.jpeg, id=481, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyBNP_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2409,7 +2409,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 53--54
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyCarrefour_1+Rt_eRt.jpeg, id=467, 481.8pt x 481.8pt>
+eklyCarrefour_1+Rt_eRt.jpeg, id=482, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyCarrefour_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2425,7 +2425,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 60--61
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyLVMH_1+Rt_eRt.jpeg, id=468, 481.8pt x 481.8pt>
+eklyLVMH_1+Rt_eRt.jpeg, id=483, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyLVMH_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2441,7 +2441,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 70--71
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklySanofi_1+Rt_eRt.jpeg, id=469, 481.8pt x 481.8pt>
+eklySanofi_1+Rt_eRt.jpeg, id=484, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklySanofi_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2457,7 +2457,7 @@ Overfull \hbox (37.69394pt too wide) in paragraph at lines 77--78
 
 
 </Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files_3/We
-eklyTotal_1+Rt_eRt.jpeg, id=470, 481.8pt x 481.8pt>
+eklyTotal_1+Rt_eRt.jpeg, id=485, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_thesis_report/latex_template5_57/main/R_Files
 _3/WeeklyTotal_1+Rt_eRt.jpeg Graphic file (type jpg)
 
@@ -2695,7 +2695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 [23]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/logGrossReturns.jpeg, id=528, 481.8pt x 481.8pt>
+Returns/logGrossReturns.jpeg, id=543, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/logGrossReturns.jpeg Graphic file (type jpg)
 
@@ -2711,7 +2711,7 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 226--227
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaledA.png, id=529, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaledA.png, id=544, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaledA.png Graphic file (type png)
 
@@ -2732,7 +2732,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [24 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logG
 rossReturns/logGrossReturns.jpeg>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaledB.png, id=535, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaledB.png, id=550, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaledB.png Graphic file (type png)
 
@@ -2752,7 +2752,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaledC.png, id=536, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaledC.png, id=551, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaledC.png Graphic file (type png)
 
@@ -2772,7 +2772,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaledD.png, id=537, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaledD.png, id=552, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaledD.png Graphic file (type png)
 
@@ -2792,7 +2792,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGross
-Returns/actualAndSimulatedRescaledE.png, id=538, 481.8pt x 481.8pt>
+Returns/actualAndSimulatedRescaledE.png, id=553, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_log
 GrossReturns/actualAndSimulatedRescaledE.png Graphic file (type png)
 
@@ -2818,7 +2818,7 @@ caledB.png>] [27 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory
 /Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_logGrossReturns/actualAn
 dSimulatedRescaledD.png>] [29 </Users/kimartin/Desktop/PDM_github_repo/pdmExtre
 meValueTheory/r_files_logGrossReturns/actualAndSimulatedRescaledE.png>]
-</Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png, id=566, 481.8pt x 
+</Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png, id=581, 481.8pt x 
 481.8pt>
 File: /Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png Graphic file (
 type png)
@@ -2832,7 +2832,7 @@ Overfull \hbox (64.11235pt too wide) in paragraph at lines 275--276
  []
 
 
-</Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal.png, id=567, 481.8pt x
+</Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal.png, id=582, 481.8pt x
  481.8pt>
 File: /Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal.png Graphic file 
 (type png)
@@ -2856,7 +2856,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ] [31 </Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png>] [32 </Users
 /kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal.png>]
 </Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH_better_simulation_copy.
-png, id=585, 481.8pt x 481.8pt>
+png, id=600, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH_better_simulation_
 copy.png Graphic file (type png)
 
@@ -2867,7 +2867,7 @@ _better_simulation_copy.png used on input line 289.
 (pdftex.def)             Requested size: 409.53192pt x 409.53192pt.
 
 </Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal_better_simulation.png,
- id=586, 481.8pt x 481.8pt>
+ id=601, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal_better_simulation
 .png Graphic file (type png)
 
@@ -2886,7 +2886,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 .png>] [34 </Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedTotal_better_simu
 lation.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/a
-boveThresholdData.png, id=598, 481.8pt x 481.8pt>
+boveThresholdData.png, id=613, 481.8pt x 481.8pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/aboveThresholdData.png Graphic file (type png)
 
@@ -2900,7 +2900,7 @@ eTheory/r_files_tache8/aboveThresholdData.png used on input line 304.
  </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/
 aboveThresholdData.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/B
-NP_Paribas_fitted.png, id=605, 255.95625pt x 239.89626pt>
+NP_Paribas_fitted.png, id=620, 255.95625pt x 239.89626pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/BNP_Paribas_fitted.png Graphic file (type png)
 
@@ -2911,7 +2911,7 @@ eTheory/r_files_tache8/BNP_Paribas_fitted.png used on input line 314.
 (pdftex.def)             Requested size: 230.35847pt x 215.90462pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/S
-anofi_fitted.png, id=606, 253.94875pt x 226.8475pt>
+anofi_fitted.png, id=621, 253.94875pt x 226.8475pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Sanofi_fitted.png Graphic file (type png)
 
@@ -2926,7 +2926,7 @@ eTheory/r_files_tache8/Sanofi_fitted.png used on input line 321.
 BNP_Paribas_fitted.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
 eTheory/r_files_tache8/Sanofi_fitted.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/C
-arrefour_fitted.png, id=613, 252.945pt x 231.86626pt>
+arrefour_fitted.png, id=628, 252.945pt x 231.86626pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Carrefour_fitted.png Graphic file (type png)
 
@@ -2937,7 +2937,7 @@ eTheory/r_files_tache8/Carrefour_fitted.png used on input line 331.
 (pdftex.def)             Requested size: 202.35626pt x 185.49324pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/T
-otal_fitted.png, id=614, 246.9225pt x 229.85875pt>
+otal_fitted.png, id=629, 246.9225pt x 229.85875pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/Total_fitted.png Graphic file (type png)
 
@@ -2952,7 +2952,7 @@ eTheory/r_files_tache8/Total_fitted.png used on input line 338.
 Carrefour_fitted.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueT
 heory/r_files_tache8/Total_fitted.png>]
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/L
-VMH_fitted.png, id=622, 253.94875pt x 230.8625pt>
+VMH_fitted.png, id=637, 253.94875pt x 230.8625pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/LVMH_fitted.png Graphic file (type png)
 
@@ -2963,7 +2963,7 @@ eTheory/r_files_tache8/LVMH_fitted.png used on input line 348.
 (pdftex.def)             Requested size: 203.15926pt x 184.69023pt.
 
 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/L
-VMH_fitted2.png, id=623, 247.92625pt x 236.885pt>
+VMH_fitted2.png, id=638, 247.92625pt x 236.885pt>
 File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
 he8/LVMH_fitted2.png Graphic file (type png)
 
@@ -2972,24 +2972,219 @@ e8/LVMH_fitted2.png>
 Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
 eTheory/r_files_tache8/LVMH_fitted2.png used on input line 355.
 (pdftex.def)             Requested size: 198.34126pt x 189.50824pt.
-) [38
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_BNP.png, id=640, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_BNP.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_BNP.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_BNP.png used on input line 367.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 367--369
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_BNP2.png, id=641, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_BNP2.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_BNP2.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_BNP2.png used on input line 373.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 373--375
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Carrefour.png, id=642, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Carrefour.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Carrefour.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Carrefour.png used on input line 383.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 383--385
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Carrefour2.png, id=643, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Carrefour2.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Carrefour2.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Carrefour2.png used on input line 389.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 389--391
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_LVMH.png, id=644, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_LVMH.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_LVMH.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_LVMH.png used on input line 399.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 399--401
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_LVMH2.png, id=645, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_LVMH2.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_LVMH2.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_LVMH2.png used on input line 405.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 405--407
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Sanofi.png, id=646, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Sanofi.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Sanofi.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Sanofi.png used on input line 415.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 415--417
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Sanofi2.png, id=647, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Sanofi2.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Sanofi2.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Sanofi2.png used on input line 421.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 421--423
+ [][] 
+ []
+
+[38
 
  </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/
 LVMH_fitted.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory
 /r_files_tache8/LVMH_fitted2.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_BNP.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r
+_files_tache8/QQ_BNP2.png>] [40 </Users/kimartin/Desktop/PDM_github_repo/pdmExt
+remeValueTheory/r_files_tache8/QQ_Carrefour.png> </Users/kimartin/Desktop/PDM_g
+ithub_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Carrefour2.png> </Users/kima
+rtin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_LVMH.png> 
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_LVMH2.png>] [41 </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheor
+y/r_files_tache8/QQ_Sanofi.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExt
+remeValueTheory/r_files_tache8/QQ_Sanofi2.png>]
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Total.png, id=675, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Total.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Total.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Total.png used on input line 431.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 431--433
+ [][] 
+ []
+
+
+</Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Q
+Q_Total2.png, id=676, 481.8pt x 481.8pt>
+File: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tac
+he8/QQ_Total2.png Graphic file (type png)
+
+<use /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tach
+e8/QQ_Total2.png>
+Package pdftex.def Info: /Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValu
+eTheory/r_files_tache8/QQ_Total2.png used on input line 437.
+(pdftex.def)             Requested size: 168.63252pt x 168.63252pt.
+
+Overfull \hbox (1.5605pt too wide) in paragraph at lines 437--439
+ [][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 \paragraph
+                {}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [42
+
+ </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/
+QQ_Total.png> </Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_
+files_tache8/QQ_Total2.png>]
 \openout2 = `main/conclusion.aux'.
 
-
-(./main/conclusion.tex
+ (./main/conclusion.tex
 Chapter 5.
-) [39
+) [43
 
 
 
 ]
 \openout2 = `tail/appendixDerivations.aux'.
 
- (./tail/appendixDerivations.tex [40
+ (./tail/appendixDerivations.tex [44
 
 
 
@@ -3003,7 +3198,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[41]
+[45]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3063,7 +3258,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[42]
+[46]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3134,7 +3329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[43]
+[47]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3216,7 +3411,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [48]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -3256,7 +3451,7 @@ l.142 \end{alignat*}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[45]) [46]
+[49]) [50]
 \openout2 = `tail/additionalFigures.aux'.
 
  (./tail/additionalFigures.tex
@@ -3284,21 +3479,21 @@ l.6 	\begin{tabular}[]{ | p{3cm} || m{9cm} ||}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [47
+) [51
 
 
 
 
-] [48
+] [52
 
 
 ]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex) [49
+ (./tail/appendix.tex) [53
 
 
-] [50
+] [54
 
 
 ]
@@ -3314,7 +3509,7 @@ Overfull \hbox (15.08403pt too wide) in paragraph at lines 10--11
 []$[]$\T1/futs/m/n/10.95 (-20) , by Beir-lant, Goege-beur, Segers and Teugels
  []
 
-) [51
+) [55
 
 
 ]
@@ -3330,7 +3525,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 30A3B83CD3C9A80CE25599BE29201040;2170.
+(rerunfilecheck)             Checksum: B998099928D1922102AE5B1F05AF4838;2239.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3338,15 +3533,21 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 24152 strings out of 493117
- 440949 string characters out of 6135433
- 645539 words of memory out of 5000000
- 26494 multiletter control sequences out of 15000+600000
+ 24225 strings out of 493117
+ 445179 string characters out of 6135433
+ 646353 words of memory out of 5000000
+ 26545 multiletter control sequences out of 15000+600000
  127130 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,19n,77p,1229b,1322s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not ex
+ 57i,19n,77p,1229b,1324s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3432,10 +3633,10 @@ ts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss2074.pfb>
-Output written on my_thesis.pdf (69 pages, 1671425 bytes).
+Output written on my_thesis.pdf (73 pages, 1817605 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 651 compressed objects within 7 object streams
- 205 named destinations out of 1000 (max. 500000)
- 32699 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 860 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 32757 words of extra memory for PDF output out of 35830 (max. 10000000)
 
