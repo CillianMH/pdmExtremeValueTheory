@@ -19,11 +19,11 @@
 
 loadStockData_plain <- function(CHOICE = 3) {
 	
-	STOCK1 <- read.csv("WeeklyBNP.csv", header = FALSE)
-	STOCK2 <- read.csv("WeeklyCarrefour.csv", header = FALSE)
-	STOCK3 <- read.csv("WeeklyLVMH.csv", header = FALSE)
-	STOCK4 <- read.csv("WeeklySanofi.csv", header = FALSE)
-	STOCK5 <- read.csv("WeeklyTotal.csv", header = FALSE)
+	STOCK1 <- read.csv("DailyBNP.csv", header = FALSE)
+	STOCK2 <- read.csv("DailyCarrefour.csv", header = FALSE)
+	STOCK3 <- read.csv("DailyLVMH.csv", header = FALSE)
+	STOCK4 <- read.csv("DailySanofi.csv", header = FALSE)
+	STOCK5 <- read.csv("DailyTotal.csv", header = FALSE)
 	
 	V1 <- rev(STOCK1[[CHOICE]])
 	V2 <- rev(STOCK2[[CHOICE]])

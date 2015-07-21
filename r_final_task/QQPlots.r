@@ -30,56 +30,50 @@ CHOICE <- 3
 df_plain <- loadStockData_plain(CHOICE)
 
 # Fitting
+
+	data_bnp <- diff(log(df_plain[[1]]))
+	data_carrefour <- diff(log(df_plain[[2]]))
+	data_lvmh <- diff(log(df_plain[[3]]))
+	data_sanofi <- diff(log(df_plain[[4]]))
+	data_total <- diff(log(df_plain[[5]]))
+	
 	# Computing the 95 % - quantiles  [97.5 % - quantile in the case of the LVMH stock]
 	# and the 5 % quantiles for each of the stocks
-	highQuantiles <- c(quantile(df_plain[[1]],0.95), quantile(df_plain[[2]],0.95), quantile(df_plain[[3]],0.975),
-					quantile(df_plain[[4]],0.95), quantile(df_plain[[5]],0.95))
-	lowQuantiles <- c(quantile(df_plain[[1]],0.05), quantile(df_plain[[2]],0.05), quantile(df_plain[[3]],0.05),
-					quantile(df_plain[[4]],0.05), quantile(df_plain[[5]],0.05))	
+	highQuantiles <- c(quantile(data_bnp,0.99), quantile(data_carrefour,0.995), quantile(data_lvmh,0.995),
+					quantile(data_sanofi,0.995), quantile(data_total,0.995))
+	lowQuantiles <- c(quantile(-data_bnp,0.01), quantile(-data_carrefour,0.005), quantile(-data_lvmh,0.005),
+					quantile(-data_sanofi,0.005), quantile(-data_total,0.005))
 									
 	# Getting the data above the high threshold and below the low threshold
-	data_bnp_H <- df_plain[[1]]
+	data_bnp_H <- diff(log(df_plain[[1]]))
 	data_bnp_H <- data_bnp_H[data_bnp_H > highQuantiles[1]]
 	
-	data_bnp_L <- df_plain[[1]]
+	data_bnp_L <- -diff(log(df_plain[[1]]))
 	data_bnp_L <- data_bnp_L[data_bnp_L < lowQuantiles[1]]
 
-	data_carrefour_H <- df_plain[[2]]
+	data_carrefour_H <- diff(log(df_plain[[2]]))
 	data_carrefour_H <- data_carrefour_H[data_carrefour_H > highQuantiles[2]]
 
-	data_carrefour_L <- df_plain[[2]]
+	data_carrefour_L <- -diff(log(df_plain[[2]]))
 	data_carrefour_L <- data_carrefour_L[data_carrefour_L < lowQuantiles[2]]
 	
-	data_lvmh_H <- df_plain[[3]]
+	data_lvmh_H <- diff(log(df_plain[[3]]))
 	data_lvmh_H <- data_lvmh_H[data_lvmh_H > highQuantiles[3]]
 	
-	data_lvmh_L <- df_plain[[3]]
+	data_lvmh_L <- -diff(log(df_plain[[3]]))
 	data_lvmh_L <- data_lvmh_L[data_lvmh_L < lowQuantiles[3]]
 
-	data_sanofi_H <- df_plain[[4]]
+	data_sanofi_H <- diff(log(df_plain[[4]]))
 	data_sanofi_H <- data_sanofi_H[data_sanofi_H > highQuantiles[4]]
 
-	data_sanofi_L <- df_plain[[4]]
+	data_sanofi_L <- -diff(log(df_plain[[4]]))
 	data_sanofi_L <- data_sanofi_L[data_sanofi_L < lowQuantiles[4]]
 
-	data_total_H <- df_plain[[5]]
+	data_total_H <- diff(log(df_plain[[5]]))
 	data_total_H <- data_total_H[data_total_H > highQuantiles[5]]
 
-	data_total_L <- df_plain[[5]]
+	data_total_L <- -diff(log(df_plain[[5]]))
 	data_total_L <- data_total_L[data_total_L < lowQuantiles[5]]
-	
-	# Computing the log returns for the abive-high-threshold data
-	data_bnp_H <- diff(log(data_bnp_H))
-	data_carrefour_H <- diff(log(data_carrefour_H))
-	data_lvmh_H <- diff(log(data_lvmh_H))
-	data_sanofi_H <- diff(log(data_sanofi_H))
-	data_total_H <- diff(log(data_total_H))
-	# Computing the minus log returns for the below-low-threshold data
-	data_bnp_L <- diff(-log(data_bnp_L))
-	data_carrefour_L <- diff(-log(data_carrefour_L))
-	data_lvmh_L <- diff(-log(data_lvmh_L))
-	data_sanofi_L <- diff(-log(data_sanofi_L))
-	data_total_L <- diff(-log(data_total_L))
 
 	# Fitting the data, and getting the corresponding location, scale and 
 	# shape parameters respectively, for each stock

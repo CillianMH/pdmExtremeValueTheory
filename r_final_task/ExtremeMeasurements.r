@@ -27,31 +27,32 @@ CHOICE <- 3
 # getting the LVMH and the Total data
 df_plain <- loadStockData_plain(CHOICE)
 
-# Computing the 95 % - quantiles for each of the stocks
-quantiles <- c(quantile(df_plain[[1]],0.95), quantile(df_plain[[2]],0.95), quantile(df_plain[[3]],0.95),
-					quantile(df_plain[[4]],0.95), quantile(df_plain[[5]],0.95))
-					
-# Getting the data above the threshold
-
+# Getting the log-returns
 data_bnp <- df_plain[[1]]
-data_bnp <- data_bnp[data_bnp > quantiles[1]]
 data_bnp <- diff(log(data_bnp))
 
 data_carrefour <- df_plain[[2]]
-data_carrefour <- data_carrefour[data_carrefour > quantiles[2]]
 data_carrefour <- diff(log(data_carrefour))
 
 data_lvmh <- df_plain[[3]]
-data_lvmh <- data_lvmh[data_lvmh > quantiles[3]]
 data_lvmh <- diff(log(data_lvmh))
 
 data_sanofi <- df_plain[[4]]
-data_sanofi <- data_sanofi[data_sanofi > quantiles[4]]
 data_sanofi <- diff(log(data_sanofi))
 
 data_total <- df_plain[[5]]
-data_total <- data_total[data_total > quantiles[5]]
 data_total <- diff(log(data_total))
+
+# Computing the 95 % - quantiles for each of the stocks
+quantiles <- c(quantile(data_bnp,0.99), quantile(data_carrefour,0.995), quantile(data_lvmh,0.995),
+					quantile(data_sanofi,0.995), quantile(data_total,0.995))
+					
+# Getting the data above the threshold
+data_bnp <- data_bnp[data_bnp > quantiles[1]]
+data_carrefour <- data_carrefour[data_carrefour > quantiles[2]]
+data_lvmh <- data_lvmh[data_lvmh > quantiles[3]]
+data_sanofi <- data_sanofi[data_sanofi > quantiles[4]]
+data_total <- data_total[data_total > quantiles[5]]
 
 # Plotting the above-threshold data
 x_label <- ""
@@ -107,12 +108,9 @@ gev.diag(gev.fit(data_total))
 dev.off()
 graphics.off()
 
-print("#################################################")
-print("#################################################")		
-print("#################################################")		
-data_lvmh <- df_plain[[3]]
-data_lvmh <- data_lvmh[data_lvmh > quantile(df_plain[[3]],0.975)]
-data_lvmh <- diff(log(data_lvmh))
+print("##################### LVMH 2 #####################")			
+data_lvmh <- diff(log(df_plain[[3]]))
+data_lvmh <- data_lvmh[data_lvmh > quantile(data_lvmh,0.95)]
 
 quartz()
 png(file = "gev.diag LVMH2")
@@ -120,6 +118,19 @@ gev.diag(gev.fit(data_lvmh))
 dev.off()
 graphics.off()
 
+print("##################### BNP 2 #####################")		
+data_bnp <- diff(log(df_plain[[1]]))
+data_bnp <- data_bnp[data_bnp > quantile(data_bnp,0.99)]
+
+quartz()
+png(file = "gev.diag BNP2")
+gev.diag(gev.fit(data_total))
+dev.off()
+graphics.off()
+
+print("#################################################")
+print("#################################################")		
+print("#################################################")	
 data_lvmh <- as.numeric((read.csv("daily_LVMH_table.csv", header = FALSE))[[3]])
 quartz()
 png(file = "LVMH_daily.png")
