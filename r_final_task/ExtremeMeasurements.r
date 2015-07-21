@@ -35,27 +35,32 @@ quantiles <- c(quantile(df_plain[[1]],0.95), quantile(df_plain[[2]],0.95), quant
 
 data_bnp <- df_plain[[1]]
 data_bnp <- data_bnp[data_bnp > quantiles[1]]
+data_bnp <- diff(log(data_bnp))
 
 data_carrefour <- df_plain[[2]]
 data_carrefour <- data_carrefour[data_carrefour > quantiles[2]]
+data_carrefour <- diff(log(data_carrefour))
 
 data_lvmh <- df_plain[[3]]
 data_lvmh <- data_lvmh[data_lvmh > quantiles[3]]
+data_lvmh <- diff(log(data_lvmh))
 
 data_sanofi <- df_plain[[4]]
 data_sanofi <- data_sanofi[data_sanofi > quantiles[4]]
+data_sanofi <- diff(log(data_sanofi))
 
 data_total <- df_plain[[5]]
 data_total <- data_total[data_total > quantiles[5]]
+data_total <- diff(log(data_total))
 
 # Plotting the above-threshold data
 x_label <- ""
 y_label <- "Stock price"
-title1 <- "BNP Paribas stock"
-title2 <- "Carrefour stock"
-title3 <- "LVMH stock"
-title4 <- "Sanofi stock"
-title5 <- "Total stock"
+title1 <- "BNP Paribas log-returns"
+title2 <- "Carrefour log-returns"
+title3 <- "LVMH  log-returns"
+title4 <- "Sanofi  log-returns"
+title5 <- "Total  log-returns"
 quartz()
 png(file = "aboveThresholdData.png")
 par(mfrow = c(3,2))
@@ -99,6 +104,7 @@ graphics.off()
 
 data_lvmh <- df_plain[[3]]
 data_lvmh <- data_lvmh[data_lvmh > quantile(df_plain[[3]],0.975)]
+data_lvmh <- diff(log(data_lvmh))
 
 quartz()
 png(file = "gev.diag LVMH2")
@@ -115,6 +121,7 @@ graphics.off()
 
 lvmh_quant <- quantile(data_lvmh, 0.99)
 data_lvmh <- data_lvmh[data_lvmh > lvmh_quant]
+data_lvmh <- diff(log(data_lvmh))
 
 
 quartz()

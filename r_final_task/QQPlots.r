@@ -75,11 +75,11 @@ df_plain <- loadStockData_plain(CHOICE)
 	data_sanofi_H <- diff(log(data_sanofi_H))
 	data_total_H <- diff(log(data_total_H))
 	# Computing the minus log returns for the below-low-threshold data
-	data_bnp_L <- diff(log(data_bnp_L))
-	data_carrefour_L <- diff(log(data_carrefour_L))
-	data_lvmh_L <- diff(log(data_lvmh_L))
-	data_sanofi_L <- diff(log(data_sanofi_L))
-	data_total_L <- diff(log(data_total_L))
+	data_bnp_L <- diff(-log(data_bnp_L))
+	data_carrefour_L <- diff(-log(data_carrefour_L))
+	data_lvmh_L <- diff(-log(data_lvmh_L))
+	data_sanofi_L <- diff(-log(data_sanofi_L))
+	data_total_L <- diff(-log(data_total_L))
 
 	# Fitting the data, and getting the corresponding location, scale and 
 	# shape parameters respectively, for each stock
@@ -259,3 +259,4 @@ df_plain <- loadStockData_plain(CHOICE)
 		abline(lm(gev_total_L~qVect_total_L), col = "blue")
 		dev.off()
 		graphics.off()	
+		
