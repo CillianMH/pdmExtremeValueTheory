@@ -298,149 +298,137 @@ We can even get a better simulation if we choose a smaller time increment for it
 \end{figure}
 \clearpage
 \section{Fitting data above a threshold}
-Finally, we are going to try and fit a generalised extreme value distribution to our data. For each stock, we keep only the data that is above the empirical $95$ \%-quantile. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}\footnote{It is based on maximum-likelihood fitting for the extreme value distribution. We have to rely on numerical resolution as there is no explicit solution to the system of maximum likelihood equations.}. We are particularly interested in the density plot thus obtained, as they will allow us to conclude as to the distribution fitting the data.
+Finally, we are going to try and fit a generalised extreme value distribution to the log-returns of the prices of the five stocks. For each stock, we keep only the data that is above a very high quantile. We do not consider the same quantile for all five stocks ; $99$ \%-quantile for the LVMH stock, and $99.5$ \%-quantile for the BNP Paribas, Carrefour, Sanofi and Total stocks. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}\footnote{It is based on maximum-likelihood fitting for the extreme value distribution. We have to rely on numerical resolution as there is no explicit solution to the system of maximum likelihood equations.}. We are particularly interested in the density plot thus obtained, as they will allow us to conclude as to the distribution fitting the data.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/aboveThresholdData.png}
-	\caption{Data above the  $95$ \%-quantile for the BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.}
+	\includegraphics[scale = 0.75]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/aboveThresholdData.png}
+	\caption{Data above high quantiles for the BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.}
 	\label{fig:dataAboveThreshold}
 \end{figure}
-
 The pattern followed by the LVMH data is most dissimilar to that followed by the other stocks. It suggests that the fitting may yield poor results in that case.
-\clearpage
-\paragraph{BNP Paribas stock }
+\paragraph{Remark on the quantiles chosen}
+We have tried several quantiles for our stocks and then settled, in each case, for the lowest one that yielded exploitable results\footnote{While allowing us to retain enough data points of course ! Fitting a sample of less than twenty data points would not have made much sense.}. That has not made much of a difference in the cases of the BNP Paribas and the LVMH stocks due to the sheer structure of the data ; however, considering the $99.5$ \%-quantiles instead of, say, the $99$ \%-quantiles in the cases of the Carrefour, Sanofi and Total stocks has yielded substantial improvement in terms of the goodness of fit.
+\paragraph{BNP Paribas stock - $99$ \%-quantile}
+\newline
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.9]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/BNP_Paribas_fitted}
-	\caption{Density fitting for the BNP Paribas data - $\hat{\gamma}_{MLE} = 0.052$ \\}
+	\includegraphics[scale = 0.9]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/BNP_fitted}
+	\caption{Density fitting for the BNP Paribas data - $\hat{\gamma}_{MLE} = 1.64$ \\}
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
-\paragraph{Sanofi stock}
+\paragraph{Carrefour stock - $99.5$ \%-quantile}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Sanofi_fitted}
-	\caption{Density fitting for the Sanofi data - $\hat{\gamma}_{MLE} = 0.48$ \\}
+	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Carrefour_fitted}
+	\caption{Density fitting for the Carrefour data - $\hat{\gamma}_{MLE} = 0.54$ \\}
+	\label{fig:dataAboveThresholdCarrefourFitted}
+\end{figure}
+\clearpage
+\paragraph{Sanofi stock - $99.5$ \%-quantile}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Sanofi_fitted}
+	\caption{Density fitting for the Sanofi data - $\hat{\gamma}_{MLE} = 0.19$}
 	\label{fig:dataAboveThresholdSanofiFitted}
 \end{figure}
-\paragraph{}
-The curves are skewed to the right (it is particularly obvious in the case of the Sanofi stock). It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution. The values of the estimate of $\gamma$ are in both cases positive, which confirms that which a naked-eye observation seemed to suggest.
-\clearpage
-\paragraph{Carrefour stock }
+\paragraph{LVMH stock - $99.5$ \%-quantile}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Carrefour_fitted}
-	\caption{Density fitting for the Carrefour data - $\hat{\gamma}_{MLE} = -0.16$ }
-	\label{fig:dataAboveThresholdBNPFitted}
-\end{figure}
-\paragraph{Total stock}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/Total_fitted}
-	\caption{Density fitting for the Total data - $\hat{\gamma}_{MLE} = -0.34$}
-	\label{fig:dataAboveThresholdtotalFitted}
-\end{figure}
-\paragraph{}
- The values of the estimate of $\gamma$ are in both cases negative here. Both the Carrefour and the Total above-the-threshold data thus fit a Weibull distribution (corresponds to the case $\gamma < 0$ in the generalised extreme value distribution representation $G_\gamma$). Let us note that the shapes of the curves alone might have been misleading !
-\clearpage
-\paragraph{LVMH stock - 95 \% quantile}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/LVMH_fitted}
-	\caption{Density fitting for the LVMH data - 95 \% quantile \\}
-	\label{fig:dataAboveThresholdLVMHFitted}
-\end{figure}
-\paragraph{LVMH stock - 97.5 \% quantile}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/LVMH_fitted2}
-	\caption{Density fitting for the LVMH data - 97.5 \% quantile - $\hat{\gamma}_{MLE} = -0.71$\\}
+	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/LVMH_fitted}
+	\caption{Density fitting for the LVMH data - $\hat{\gamma}_{MLE} = 3.32$}
 	\label{fig:dataAboveThresholdLVMHFitted}
 \end{figure}
 \paragraph{}
-As we suspected the structure of the above the 95 \%-quantile data for the LVMH stock makes the fitting arduous. To say the least, it is hard to recognize an extreme value distribution. If we take the data above the 97.5 \%-quantile, however, the shape of the curve is that of a generalised extreme value distribution with $\gamma < 0$ that is a Weibull-type distribution. The estimate $\hat{\gamma}_{MLE} = -0.71$ supports that observation.
+The structure of the LVMH data suggested it would be hard to exploit, and the density fitting is of dubious relevance\footnote{It just takes looking at the curve to reach that conclusion.} and thus it stands apart. The density fitting is more relevant in the cases of the BNP Paribas, Carrefour and Sanofi stocks. The curves are skewed to the right. It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution. The values of the estimate of $\gamma$ are in all four cases positive, which confirms that which a naked-eye observation seemed to suggest.
+\clearpage
+\paragraph{Total stock - $99.5$ \%-quantile}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Total_fitted}
+	\caption{Density fitting for the Total data - $\hat{\gamma}_{MLE} = -0.35$}
+	\label{fig:dataAboveThresholdTotalFitted}
+\end{figure}
+\paragraph{}
+Here, the shape parameter is negative : $\gamma < 0$. It corresponds to a Weibull-type distribution. 
 \subsection{Goodness of fit}
-When assessing the goodness of fit of a cumulative distribution function to the data, in extreme value settings, it is customary to use Quantile-Quantile plots\footnote{First we sort the data into the $X_{(i)}$ so as to order the sample, and then we plot the points of coordinates $(X_{(i)}, \frac{n - i + 1}{n + 1})$ where n is the size of the sample.} also called QQ-plots. We expect to see a straight line if the cumulative distribution function we have computed fits the data well. In practice, we have plotted regression lines to make appear those "straight lines", and the closer the actual data is to those lines, the better the fit. Below are the QQ-plots for the fitting cumulative distribution functions previously computed. For each stock, two QQ-plots have been plotted, one for the entire set of data and the other for the data above a high quantile.
+When assessing the goodness of fit of a cumulative distribution function to the data, in extreme value settings, it is customary to use Quantile-Quantile plots\footnote{First we sort the data into the $X_{(i)}$ so as to order the sample, and then we plot the points of coordinates $(X_{(i)}, \frac{n - i + 1}{n + 1})$ where n is the size of the sample.} also called QQ-plots. We expect to see a straight line if the cumulative distribution function we have computed fits the data well. In practice, we have plotted regression lines to make appear those "straight lines", and the closer the actual data to those lines, the better the fit. Below are the QQ-plots for the fitting cumulative distribution functions previously computed. There are actually two plots for each stock. One corresponds to fitting the log-return data that is above a high quantile to an extreme value distribution ; the regression line is in red. The other corresponds to fitting the minus log-return data that is below a low quantile to an extreme value distribution ; the regression line is in blue.
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_BNP.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_BNP_High.png}
 		\label{fig:QQBNP1}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_BNP2.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_BNP_Low.png}
 		\label{fig:QQBNP2}
 	\end{minipage}
-	\caption{QQ-plots for the BNP Paribas data, in \textbf{red} the regression lines.}
+	\caption{QQ-plots for the BNP Paribas data, in \textbf{red} and \textbf{blue} the regression lines.}
 \end{figure}
 \\
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Carrefour.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Carrefour_High.png}
 		\label{fig:QQCarrefour1}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Carrefour2.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Carrefour_Low.png}
 		\label{fig:QQCarrefour2}
 	\end{minipage}
-	\caption{QQ-plots for the Carrefour data, in \textbf{red} the regression lines.}
+	\caption{QQ-plots for the Carrefour data, in \textbf{red} and \textbf{blue} the regression lines.}
 \end{figure}
 \\
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_LVMH.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_LVMH_High.png}
 		\label{fig:QQLVMH1}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_LVMH2.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_LVMH_Low.png}
 		\label{fig:QQLVMH2}
 	\end{minipage}
-	\caption{QQ-plots for the LVMH data, in \textbf{red} the regression lines.}
+	\caption{QQ-plots for the LVMH data, in \textbf{red} and \textbf{blue} the regression lines.}
 \end{figure}
 \\
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Sanofi.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Sanofi_High.png}
 		\label{fig:QQSanofi1}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Sanofi2.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Sanofi_Low.png}
 		\label{fig:QQSanofi2}
 	\end{minipage}
-	\caption{QQ-plots for the Sanofi data, in \textbf{red} the regression lines.}
+	\caption{QQ-plots for the Sanofi data, in \textbf{red} and \textbf{blue} the regression lines.}
 \end{figure}
-\\
+\clearpage
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Total.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Total_High.png}
 		\label{fig:QQTotal1}
 	\end{minipage}
 	~
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-		\includegraphics[scale = 0.35]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_files_tache8/QQ_Total2.png}
+		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_Total_Low.png}
 		\label{fig:QQTotal2}
 	\end{minipage}
-	\caption{QQ-plots for the Total data, in \textbf{red} the regression lines.}
+	\caption{QQ-plots for the Total data, in \textbf{red} and \textbf{blue} the regression lines. \\}
 \end{figure}
-\clearpage
 \paragraph{}
-For each stock, when we consider the QQ-plot for the whole of the data set, the fit is rather poor\footnote{Though the "poorness of fit" is not the same for all the stocks : the fit is better for the BNP Paribas, Carrefour and Total stocks than for the LVMH and Sanofi stocks.}. However, when we consider the QQ-plots for the data taken only above a high quantile, the goodness of fit is much higher, something which is particularly obvious in the case of the BNP Paribas, Carrefour, LVMH and Total stocks though it is a bit less so for the Sanofi stock.
-\paragraph{}
-The important lesson to be drawn here is that we were right to try and fit the data above a high quantile with extreme values distributions, something which the use of QQ-plots has confirmed.

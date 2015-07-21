@@ -12,7 +12,9 @@
 \contentsline {paragraph}{}{v}{chapter*.3}
 \contentsline {paragraph}{}{v}{chapter*.3}
 \contentsline {paragraph}{}{v}{chapter*.3}
+\contentsline {paragraph}{}{v}{chapter*.3}
 \select@language {french}
+\contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}
 \contentsline {paragraph}{}{vii}{chapter*.4}
@@ -70,31 +72,29 @@
 \contentsline {paragraph}{Fitting the data to the model}{22}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Observations}{30}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}Fitting data above a threshold}{35}{section.4.4}
-\contentsline {paragraph}{BNP Paribas stock }{36}{figure.caption.35}
-\contentsline {paragraph}{Sanofi stock}{36}{figure.caption.36}
-\contentsline {paragraph}{}{36}{figure.caption.37}
-\contentsline {paragraph}{Carrefour stock }{37}{figure.caption.37}
-\contentsline {paragraph}{Total stock}{37}{figure.caption.38}
+\contentsline {paragraph}{Remark on the quantiles chosen}{36}{figure.caption.35}
+\contentsline {paragraph}{BNP Paribas stock - $99$ \%-quantile}{36}{figure.caption.35}
+\contentsline {paragraph}{Carrefour stock - $99.5$ \%-quantile}{36}{figure.caption.36}
+\contentsline {paragraph}{Sanofi stock - $99.5$ \%-quantile}{37}{figure.caption.37}
+\contentsline {paragraph}{LVMH stock - $99.5$ \%-quantile}{37}{figure.caption.38}
 \contentsline {paragraph}{}{37}{figure.caption.39}
-\contentsline {paragraph}{LVMH stock - 95 \% quantile}{38}{figure.caption.39}
-\contentsline {paragraph}{LVMH stock - 97.5 \% quantile}{38}{figure.caption.40}
-\contentsline {paragraph}{}{38}{figure.caption.41}
-\contentsline {subsection}{\numberline {4.4.1}Goodness of fit}{39}{subsection.4.4.1}
-\contentsline {paragraph}{}{42}{figure.caption.46}
-\contentsline {paragraph}{}{42}{figure.caption.46}
+\contentsline {paragraph}{Total stock - $99.5$ \%-quantile}{38}{figure.caption.39}
+\contentsline {paragraph}{}{38}{figure.caption.40}
+\contentsline {subsection}{\numberline {4.4.1}Goodness of fit}{38}{subsection.4.4.1}
+\contentsline {paragraph}{}{41}{figure.caption.45}
 \contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
 \contentsline {paragraph}{}{43}{chapter.5}
 \contentsline {paragraph}{}{43}{chapter.5}
 \contentsline {paragraph}{}{43}{chapter.5}
-\contentsline {paragraph}{Our approach}{45}{appendix*.47}
-\contentsline {paragraph}{Remark}{45}{appendix*.47}
-\contentsline {paragraph}{The answer to the extremal limit problem}{45}{appendix*.47}
-\contentsline {paragraph}{In the context of our problem}{46}{appendix*.47}
+\contentsline {paragraph}{Our approach}{45}{appendix*.46}
+\contentsline {paragraph}{Remark}{45}{appendix*.46}
+\contentsline {paragraph}{The answer to the extremal limit problem}{45}{appendix*.46}
+\contentsline {paragraph}{In the context of our problem}{46}{appendix*.46}
 \contentsline {paragraph}{A preparatory phase}{47}{equation.Alph0.0.2}
 \contentsline {paragraph}{Back to the search of an explicit form for the limiting distributions}{48}{equation.Alph0.0.11}
 \contentsline {paragraph}{Case $\gamma = 0$}{49}{equation.Alph0.0.12}
 \contentsline {paragraph}{Case $\gamma \not =0$}{49}{equation.Alph0.0.13}
-\contentsline {paragraph}{Chapter 4 : Looking into financial data}{51}{appendix*.48}
-\contentsline {chapter}{Bibliography}{53}{appendix*.49}
-\contentsline {chapter}{Recommendations on the use of the bibliography}{55}{appendix*.50}
-\contentsline {paragraph}{\\[25 pt]}{55}{appendix*.50}
+\contentsline {paragraph}{Chapter 4 : Looking into financial data}{51}{appendix*.47}
+\contentsline {chapter}{Bibliography}{53}{appendix*.48}
+\contentsline {chapter}{Recommendations on the use of the bibliography}{55}{appendix*.49}
+\contentsline {paragraph}{\\[25 pt]}{55}{appendix*.49}
