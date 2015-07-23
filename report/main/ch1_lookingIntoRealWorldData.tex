@@ -269,7 +269,7 @@ Now that we have the $\mu$'s and the $\sigma^2$'s for the stocks, we will simula
 \clearpage
 \subsection{Observations}
 As we can see, using a geometric Brownian motion to model stock prices yields rather good results though the last simulation displays a case of (gross) overestimation of the prices. However, let us note that this true for the BNP, Carrefour and Sanofi stocks. If we have a look at the Total stock, we see that from week 500 or so the stock price varies quickly widely. The geometric Brownian motion is unable to cope with this behaviour, all five simulations are outright failures. There is a similar issue with the LVMH stock at the end of the series after a rather flat behaviour for most of the duration of the observations, which may explain why the simulations are poor in the case of that stock too. \newline
-As a consequence, we have decided to cut the LVMH and Total data so as to keep only the part of the time series where the stock prices are not too volatile, and then apply our simulation to the cut time series. As we can see below, the result is better\footnote{The LVMH stock, though, is still more volatile than the Total stock. That explains why the simulation is poorer for the former than for the latter.}
+As a consequence, we have decided to cut the LVMH and Total data so as to keep only the part of the time series where the stock prices are not too volatile, and then apply our simulation to the cut time series. As we can see below, the result is better. It should be noted though that it still possible to tell the simulations from the actual data, for the LVMH stock at least.\footnote{The LVMH stock remains more volatile than the Total stock, even after cutting the data. That explains why the simulation is poorer for the former than for the latter.}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 1]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH.png}
@@ -283,7 +283,7 @@ As a consequence, we have decided to cut the LVMH and Total data so as to keep o
 	\label{fig:cutTotal}
 \end{figure}
 \clearpage
-We can even get a better simulation if we choose a smaller time increment for it : the actual data is weekly, but in our simulation we can choose to take a daily time increment if we so desire. As shown below, it improves a bit the quality of the simulation.
+We can even get a better simulation if we choose a smaller time increment for it : the actual data is weekly, but in our simulation we can choose to take a daily time increment if we so desire. As shown below, it improves the quality of the simulation : now it would be hard to tell the actual data from the simulations, for both LVMH and Total stocks.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.85]{/Users/kimartin/Desktop/R_files_pdm/Tache7/cleanedLVMH_better_simulation_copy.png}
@@ -298,29 +298,30 @@ We can even get a better simulation if we choose a smaller time increment for it
 \end{figure}
 \clearpage
 \section{Fitting data above a threshold}
-Finally, we are going to try and fit a generalised extreme value distribution to the log-returns of the prices of the five stocks. For each stock, we keep only the data that is above a very high quantile. We do not consider the same quantile for all five stocks ; $99$ \%-quantile for the LVMH stock, and $99.5$ \%-quantile for the BNP Paribas, Carrefour, Sanofi and Total stocks. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}\footnote{It is based on maximum-likelihood fitting for the extreme value distribution. We have to rely on numerical resolution as there is no explicit solution to the system of maximum likelihood equations.}. We are particularly interested in the density plot thus obtained, as they will allow us to conclude as to the distribution fitting the data.
+Finally, we are going to try and fit a generalised extreme value distribution to the log-returns of the prices of the five stocks. For each stock, we keep only the data that is above a very high quantile. We do not consider the same quantile for all five stocks ; the $99$ \%-quantile for the LVMH stock, and the $99.5$ \%-quantiles for the BNP Paribas, Carrefour, Sanofi and Total stocks. We then call the function \textit{gev.fit} and \textit{gev.diag} from the R package \textit{ismev}\footnote{It is based on maximum-likelihood fitting for the extreme value distribution. We have to rely on numerical resolution as there is no explicit solution to the system of maximum likelihood equations.}. We are particularly interested in the density plot thus obtained, as they will allow us to conclude as to the distribution fitting the data.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.75]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/aboveThresholdData.png}
 	\caption{Data above high quantiles for the BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.}
 	\label{fig:dataAboveThreshold}
 \end{figure}
-The pattern followed by the LVMH data is most dissimilar to that followed by the other stocks. It suggests that the fitting may yield poor results in that case.
+\paragraph{}
+The structure of the data for the BNP Paribas and the LVMH stocks suggest the fitting may yield poor results in those cases.
 \paragraph{Remark on the quantiles chosen}
-We have tried several quantiles for our stocks and then settled, in each case, for the lowest one that yielded exploitable results\footnote{While allowing us to retain enough data points of course ! Fitting a sample of less than twenty data points would not have made much sense.}. That has not made much of a difference in the cases of the BNP Paribas and the LVMH stocks due to the sheer structure of the data ; however, considering the $99.5$ \%-quantiles instead of, say, the $99$ \%-quantiles in the cases of the Carrefour, Sanofi and Total stocks has yielded substantial improvement in terms of the goodness of fit.
+We have tried several quantiles for our stocks and then settled, in each case, for the lowest one that yields exploitable results\footnote{While allowing us to retain enough data points, of course ! Fitting a sample containing less than twenty data points would not have made much sense.}. That has not made much of a difference in the cases of the BNP Paribas and the LVMH stocks due to the sheer structure of the data ; however, considering the $99.5$ \%-quantiles instead of, say, the $99$ \%-quantiles for the Carrefour, Sanofi and Total stocks has yielded substantial improvement in terms of goodness of fit.
 \paragraph{BNP Paribas stock - $99$ \%-quantile}
 \newline
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.9]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/BNP_fitted}
-	\caption{Density fitting for the BNP Paribas data - $\hat{\gamma}_{MLE} = 1.64$ \\}
+	\caption{Density fitting for the BNP Paribas data - $\hat{\gamma}_{MLE} = 1.64$, standard error for  $\hat{\gamma}_{MLE}$ : $0.32$.\\}
 	\label{fig:dataAboveThresholdBNPFitted}
 \end{figure}
 \paragraph{Carrefour stock - $99.5$ \%-quantile}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Carrefour_fitted}
-	\caption{Density fitting for the Carrefour data - $\hat{\gamma}_{MLE} = 0.54$ \\}
+	\caption{Density fitting for the Carrefour data - $\hat{\gamma}_{MLE} = 0.54$, standard error for  $\hat{\gamma}_{MLE}$ : $0.49$. \\}
 	\label{fig:dataAboveThresholdCarrefourFitted}
 \end{figure}
 \clearpage
@@ -328,46 +329,32 @@ We have tried several quantiles for our stocks and then settled, in each case, f
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Sanofi_fitted}
-	\caption{Density fitting for the Sanofi data - $\hat{\gamma}_{MLE} = 0.19$}
+	\caption{Density fitting for the Sanofi data - $\hat{\gamma}_{MLE} = 0.19$, standard error for  $\hat{\gamma}_{MLE}$ : $0.27$.}
 	\label{fig:dataAboveThresholdSanofiFitted}
 \end{figure}
 \paragraph{LVMH stock - $99.5$ \%-quantile}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/LVMH_fitted}
-	\caption{Density fitting for the LVMH data - $\hat{\gamma}_{MLE} = 3.32$}
+	\caption{Density fitting for the LVMH data - $\hat{\gamma}_{MLE} = 3.32$, standard error for  $\hat{\gamma}_{MLE}$ : $0.02$.}
 	\label{fig:dataAboveThresholdLVMHFitted}
 \end{figure}
 \paragraph{}
-The structure of the LVMH data suggested it would be hard to exploit, and the density fitting is of dubious relevance\footnote{It just takes looking at the curve to reach that conclusion.} and thus it stands apart. The density fitting is more relevant in the cases of the BNP Paribas, Carrefour and Sanofi stocks. The curves are skewed to the right. It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$ or, equivalently, to a Fréchet-type distribution. The values of the estimate of $\gamma$ are in all four cases positive, which confirms that which a naked-eye observation seemed to suggest.
+All those curves are skewed to the right, and the shape parameter is negative in each case. It corresponds to the case $\gamma > 0$ in the generalised extreme value distribution representation $G_\gamma$, or equivalently, to a Fréchet-type distribution.
 \clearpage
 \paragraph{Total stock - $99.5$ \%-quantile}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.8]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/Total_fitted}
-	\caption{Density fitting for the Total data - $\hat{\gamma}_{MLE} = -0.35$}
+	\caption{Density fitting for the Total data - $\hat{\gamma}_{MLE} = -0.35$, standard error for  $\hat{\gamma}_{MLE}$ : $0.23$.}
 	\label{fig:dataAboveThresholdTotalFitted}
 \end{figure}
 \paragraph{}
 Here, the shape parameter is negative : $\gamma < 0$. It corresponds to a Weibull-type distribution. 
+\paragraph{Remark on the BNP Paribas and LVMH data}
+As we suspected, the data fitting is of dubious relevance for the BNP Paribas and LVMH stocks\footnote{It just takes looking at the curves to see that.}. As a consequence, we will focus on the Carrefour, Sanofi and Total stocks only in what follows.
 \subsection{Goodness of fit}
 When assessing the goodness of fit of a cumulative distribution function to the data, in extreme value settings, it is customary to use Quantile-Quantile plots\footnote{First we sort the data into the $X_{(i)}$ so as to order the sample, and then we plot the points of coordinates $(X_{(i)}, \frac{n - i + 1}{n + 1})$ where n is the size of the sample.} also called QQ-plots. We expect to see a straight line if the cumulative distribution function we have computed fits the data well. In practice, we have plotted regression lines to make appear those "straight lines", and the closer the actual data to those lines, the better the fit. Below are the QQ-plots for the fitting cumulative distribution functions previously computed. There are actually two plots for each stock. One corresponds to fitting the log-return data that is above a high quantile to an extreme value distribution ; the regression line is in red. The other corresponds to fitting the minus log-return data that is below a low quantile to an extreme value distribution ; the regression line is in blue.
-\begin{figure}[h!]
-	\centering
-	\begin{minipage}[b]{0.4\textwidth}
-		\centering
-		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_BNP_High.png}
-		\label{fig:QQBNP1}
-	\end{minipage}
-	~
-	\begin{minipage}[b]{0.4\textwidth}
-		\centering
-		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_BNP_Low.png}
-		\label{fig:QQBNP2}
-	\end{minipage}
-	\caption{QQ-plots for the BNP Paribas data, in \textbf{red} and \textbf{blue} the regression lines.}
-\end{figure}
-\\
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.4\textwidth}
@@ -382,22 +369,6 @@ When assessing the goodness of fit of a cumulative distribution function to the 
 		\label{fig:QQCarrefour2}
 	\end{minipage}
 	\caption{QQ-plots for the Carrefour data, in \textbf{red} and \textbf{blue} the regression lines.}
-\end{figure}
-\\
-\begin{figure}[h!]
-	\centering
-	\begin{minipage}[b]{0.4\textwidth}
-		\centering
-		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_LVMH_High.png}
-		\label{fig:QQLVMH1}
-	\end{minipage}
-	~
-	\begin{minipage}[b]{0.4\textwidth}
-		\centering
-		\includegraphics[scale = 0.375]{/Users/kimartin/Desktop/PDM_github_repo/pdmExtremeValueTheory/r_final_task/QQ_LVMH_Low.png}
-		\label{fig:QQLVMH2}
-	\end{minipage}
-	\caption{QQ-plots for the LVMH data, in \textbf{red} and \textbf{blue} the regression lines.}
 \end{figure}
 \\
 \begin{figure}[h!]
@@ -432,3 +403,6 @@ When assessing the goodness of fit of a cumulative distribution function to the 
 	\caption{QQ-plots for the Total data, in \textbf{red} and \textbf{blue} the regression lines. \\}
 \end{figure}
 \paragraph{}
+As we can see from the QQ-plots above, fitting extreme value distributions to our data makes sense. That is particularly obvious in the case of the Total data : the data and the regression lines coincide almost perfectly. Thus, taking extreme value distributions as approximations for the above-high-threshold log-returns and the below-low-threshold minus log-returns in the case of the Total stock is a very good model.
+\paragraph{}
+As we saw in section \textbf{4.3.1}, it is possible to simulate very well the Total stock prices using a geometric Brownian motion. Therefore, we can safely expect the log-returns to make up a sequence of independent Gaussian random variables\footnote{The same can be said about the minus-log returns, as if $X$ follows a Gaussian distribution, so does $-X$.}. Therefore, the extreme value distribution fitting the log-returns above a high quantile should be a Gumbel distribution\footnote{As seen in section \textbf{2.6}, in the case of a standard Gaussian sample the limiting distribution is Gumbel-type (the fact that $\mu \neq 0$ and $\sigma \neq 1$ does not change much to the computation).}. However, the distribution fitting the Total data is a Weibull-type distribution ($\gamma = -0.35$ $<$ $0$). \textbf{Hence, the important lesson that we can draw from these observations is that the Black-Scholes model is not valid in extreme value context}.

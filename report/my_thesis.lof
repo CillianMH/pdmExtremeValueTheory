@@ -39,14 +39,12 @@
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Cut LVMH stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{33}{figure.caption.33}
 \contentsline {figure}{\numberline {4.20}{\ignorespaces Cut Total stock price time series. In \textbf {grey} the actual weekly prices, in colour two runs of the daily simulation\relax }}{34}{figure.caption.34}
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Data above high quantiles for the BNP Paribas, Carrefour, LVMH, Sanofi and Total stocks.\relax }}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Density fitting for the BNP Paribas data - $\mathaccentV {hat}002{\gamma }_{MLE} = 1.64$ \relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Density fitting for the Carrefour data - $\mathaccentV {hat}002{\gamma }_{MLE} = 0.54$ \relax }}{36}{figure.caption.37}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Density fitting for the Sanofi data - $\mathaccentV {hat}002{\gamma }_{MLE} = 0.19$\relax }}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Density fitting for the LVMH data - $\mathaccentV {hat}002{\gamma }_{MLE} = 3.32$\relax }}{37}{figure.caption.39}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Density fitting for the Total data - $\mathaccentV {hat}002{\gamma }_{MLE} = -0.35$\relax }}{38}{figure.caption.40}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces QQ-plots for the BNP Paribas data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{39}{figure.caption.41}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces QQ-plots for the Carrefour data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{39}{figure.caption.42}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces QQ-plots for the LVMH data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{40}{figure.caption.43}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces QQ-plots for the Sanofi data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{40}{figure.caption.44}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces QQ-plots for the Total data, in \textbf {red} and \textbf {blue} the regression lines. \relax }}{41}{figure.caption.45}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Density fitting for the BNP Paribas data - $\mathaccentV {hat}002{\gamma }_{MLE} = 1.64$, standard error for $\mathaccentV {hat}002{\gamma }_{MLE}$ : $0.32$. \relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Density fitting for the Carrefour data - $\mathaccentV {hat}002{\gamma }_{MLE} = 0.54$, standard error for $\mathaccentV {hat}002{\gamma }_{MLE}$ : $0.49$. \relax }}{36}{figure.caption.37}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Density fitting for the Sanofi data - $\mathaccentV {hat}002{\gamma }_{MLE} = 0.19$, standard error for $\mathaccentV {hat}002{\gamma }_{MLE}$ : $0.27$.\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Density fitting for the LVMH data - $\mathaccentV {hat}002{\gamma }_{MLE} = 3.32$, standard error for $\mathaccentV {hat}002{\gamma }_{MLE}$ : $0.02$.\relax }}{37}{figure.caption.39}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Density fitting for the Total data - $\mathaccentV {hat}002{\gamma }_{MLE} = -0.35$, standard error for $\mathaccentV {hat}002{\gamma }_{MLE}$ : $0.23$.\relax }}{38}{figure.caption.40}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces QQ-plots for the Carrefour data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{39}{figure.caption.41}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces QQ-plots for the Sanofi data, in \textbf {red} and \textbf {blue} the regression lines.\relax }}{39}{figure.caption.42}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces QQ-plots for the Total data, in \textbf {red} and \textbf {blue} the regression lines. \relax }}{40}{figure.caption.43}
 \addvspace {10\p@ }
